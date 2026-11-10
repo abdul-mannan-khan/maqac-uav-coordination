@@ -1,17 +1,14 @@
-<section id="takeaways" data-transition="fade" style="background:#14213D;color:#F7F5EF;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
-<div style="display:flex;flex-direction:column;gap:16px">
-<p style="font-size:26px;color:#F2A65A;letter-spacing:3px;text-transform:uppercase;font-weight:600">Takeaways</p>
-<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1">Judge UAV coordination by what it needs from the network</h2>
+<section id="takeaways" data-transition="fade" style="background:#14213D;color:#F7F5EF;font-family:'IBM Plex Sans', Arial, sans-serif;padding:110px 128px 150px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:14px">
+<p style="font-size:26px;color:#F2B880;letter-spacing:3px;text-transform:uppercase;font-weight:600">Takeaways</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:66px;font-weight:600;line-height:1.1">MAQAC is better, and certifiable</h2>
 </div>
-<ol style="font-size:34px;line-height:1.5;color:#F7F5EF;padding:0px 0px 0px 48px">
-<li>Time-stamped service events give urgency-aware coordination a guarantee that holds for simultaneous choice.</li>
-<li>The bound shows its own price: observed overlap, perception error and backhaul delay.</li>
-<li>A Learn-then-Test certificate held on test missions and chose where perception runs.</li>
-<li>One announcement per UAV matches a multi-round method on a reliable backhaul and beats it when messages are lost.</li>
-</ol>
-<div style="display:flex;flex-direction:column;gap:8px">
-<p style="font-size:30px;color:#C9D3E3">Code, results and demo video: <span style="color:#F2A65A">github.com/abdul-mannan-khan/maqac-uav-coordination</span></p>
-<p style="font-size:26px;color:#9AA6BA">Data deposit: Zenodo (DOI in the paper’s Data Availability statement)</p>
+<div style="display:flex;flex-direction:column;gap:22px;font-size:32px;line-height:1.4">
+<p><b style="color:#7FCFB4">Better:</b> 4–7% more urgent sessions than RAG and 8–13% more than MAPPO where UAVs compete for users, because it values waiting time.</p>
+<p><b style="color:#F2B880">Robust:</b> up to 22% ahead of RAG when 40% of messages are lost, with 5–8× fewer messages, because it shares records instead of negotiating.</p>
+<p><b style="color:#9DC8F0">Certifiable:</b> a per-round bound for the rule actually run, and a mission certificate that held in all 20 flown missions.</p>
+<p><b style="color:#E8B8D6">Real:</b> PX4 flight in a city and a Pixhawk in the loop changed the score by less than 5%; decisions took 17–33&#160;ms on a Jetson.</p>
 </div>
-<aside>Questions are welcome. The repository holds the simulator, all methods and baselines, the AirSim/PX4 bridge, the hardware-in-the-loop scripts and every per-mission result behind the tables.</aside>
+<p style="position:absolute;left:128px;bottom:56px;width:1664px;font-size:24px;color:#C9CFDB">Code, results and videos: github.com/abdul-mannan-khan/maqac-uav-coordination · doi.org/10.5281/zenodo.24113000</p>
+<aside>Each claim on this slide is backed by the results shown before: the main grid for the first, the message-loss study for the second, the certificate test and the flown missions for the third, and the AirSim and hardware-in-the-loop missions for the fourth.</aside>
 </section>

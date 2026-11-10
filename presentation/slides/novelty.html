@@ -1,0 +1,25 @@
+<section id="novelty" data-transition="fade" style="background:#F7F5EF;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:110px 128px 150px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:14px">
+<p style="font-size:26px;color:#B4570F;letter-spacing:3px;text-transform:uppercase;font-weight:600">What is new</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:66px;font-weight:600;line-height:1.1">Three ideas, and why each makes MAQAC better</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;padding:36px;border-top:10px solid #0072B2;border-radius:16px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">1 · Urgency without a fixed order</h3>
+<p style="font-size:25px;color:#3F4A5C;line-height:1.4">Users are valued by how long they have waited, through time-stamped service events, so the objective stays submodular when all UAVs choose at once.</p>
+<p style="font-size:27px;line-height:1.35;background:#E3EEF7;padding:16px;border-radius:10px"><b>Why it wins:</b> urgent users are reached first. <b>+4–7%</b> over RAG, <b>+7–13%</b> over interference-aware methods that ignore waiting time.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;padding:36px;border-top:10px solid #E69F00;border-radius:16px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">2 · One exchange of service records</h3>
+<p style="font-size:25px;color:#3F4A5C;line-height:1.4">UAVs share short records of who was served, instead of negotiating choices. MAQAC sends no message inside a round; MAQAC-S one announcement per UAV.</p>
+<p style="font-size:27px;line-height:1.35;background:#FBEFD6;padding:16px;border-radius:10px"><b>Why it wins:</b> a lost message costs little. Up to <b>+22%</b> over RAG at 40% message loss, with <b>5–8× fewer</b> messages.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;padding:36px;border-top:10px solid #009E73;border-radius:16px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">3 · Guarantee and certificate</h3>
+<p style="font-size:25px;color:#3F4A5C;line-height:1.4">A per-round bound for the rule the UAVs run, with perception error and backhaul delay as separate terms, and a Learn-then-Test certificate for each mission.</p>
+<p style="font-size:27px;line-height:1.35;background:#D9F0E7;padding:16px;border-radius:10px"><b>Why it wins:</b> the operator knows the service level in advance. It held in <b>&gt;97%</b> of test missions and in <b>all 20</b> flown missions.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:56px;width:1664px;font-size:22px;color:#6A7180">Numbers: main grid (9,180 missions), message-loss study on 3 km areas, certificate test and PX4-flown missions; Sections 7.2–7.6 of the paper.</p>
+<aside>The three ideas work together. Urgency weighting decides what is worth serving, record sharing coordinates without negotiation, and the guarantee and certificate say how good the result is.</aside>
+</section>
