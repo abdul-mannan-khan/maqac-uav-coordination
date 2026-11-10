@@ -2,7 +2,7 @@
 
 Companion deposit of the article "Certified coordination of UAV aerial base stations under imperfect perception and
 backhaul delay" (Vehicular Communications, submitted). Authors: Abdul-Manan Khan (University of West London),
-Vishwanath Bijalwan (Amity University Punjab), Venkatesan Vellaiyan (BITS Pilani Dubai Campus).
+Vishwanath Bijalwan (Amity University Punjab), Venkatesan Vellaiyan (BITS Pilani Dubai Campus), Rabia Nazir (University of Engineering and Technology Lahore).
 
 | Folder | Content |
 |---|---|
