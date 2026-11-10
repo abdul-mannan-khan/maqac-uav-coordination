@@ -1,0 +1,1120 @@
+{
+ "note": "When do close approaches between UAVs happen in the network-level simulator?",
+ "summary": {
+  "maqac_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "maqac_8": {
+   "coll_takeoff": 25,
+   "coll_after": 0,
+   "near_takeoff": 17,
+   "near_after": 1,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "maqac_10": {
+   "coll_takeoff": 52,
+   "coll_after": 0,
+   "near_takeoff": 55,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "rag_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "rag_8": {
+   "coll_takeoff": 25,
+   "coll_after": 0,
+   "near_takeoff": 21,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "rag_10": {
+   "coll_takeoff": 52,
+   "coll_after": 0,
+   "near_takeoff": 55,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "iad_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "iad_8": {
+   "coll_takeoff": 29,
+   "coll_after": 0,
+   "near_takeoff": 16,
+   "near_after": 5,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "iad_10": {
+   "coll_takeoff": 50,
+   "coll_after": 0,
+   "near_takeoff": 60,
+   "near_after": 6,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "potgame_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 4,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "potgame_8": {
+   "coll_takeoff": 29,
+   "coll_after": 0,
+   "near_takeoff": 15,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "potgame_10": {
+   "coll_takeoff": 50,
+   "coll_after": 0,
+   "near_takeoff": 60,
+   "near_after": 5,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "central_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 6,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "central_8": {
+   "coll_takeoff": 25,
+   "coll_after": 1,
+   "near_takeoff": 19,
+   "near_after": 3,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 1
+  },
+  "central_10": {
+   "coll_takeoff": 52,
+   "coll_after": 0,
+   "near_takeoff": 57,
+   "near_after": 7,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "greedy_info_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 6,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "greedy_info_8": {
+   "coll_takeoff": 24,
+   "coll_after": 4,
+   "near_takeoff": 17,
+   "near_after": 21,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 1
+  },
+  "greedy_info_10": {
+   "coll_takeoff": 51,
+   "coll_after": 15,
+   "near_takeoff": 59,
+   "near_after": 56,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 3
+  },
+  "systematic_6": {
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "systematic_8": {
+   "coll_takeoff": 25,
+   "coll_after": 0,
+   "near_takeoff": 30,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  },
+  "systematic_10": {
+   "coll_takeoff": 50,
+   "coll_after": 0,
+   "near_takeoff": 65,
+   "near_after": 0,
+   "missions": 5,
+   "missions_with_contact_after_takeoff": 0
+  }
+ },
+ "rows": [
+  {
+   "method": "maqac",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 4,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 1
+  },
+  {
+   "method": "maqac",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 4,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 4,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "maqac",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 5,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 4,
+   "coll_after": 0,
+   "near_takeoff": 5,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 5,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "rag",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1
+  },
+  {
+   "method": "iad",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 1
+  },
+  {
+   "method": "iad",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 4,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 2
+  },
+  {
+   "method": "iad",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 2
+  },
+  {
+   "method": "iad",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 0
+  },
+  {
+   "method": "iad",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 1
+  },
+  {
+   "method": "iad",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 1
+  },
+  {
+   "method": "iad",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 3
+  },
+  {
+   "method": "iad",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 1
+  },
+  {
+   "method": "potgame",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1
+  },
+  {
+   "method": "potgame",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 2
+  },
+  {
+   "method": "potgame",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1
+  },
+  {
+   "method": "potgame",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 6,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 1
+  },
+  {
+   "method": "potgame",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 1
+  },
+  {
+   "method": "potgame",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 0
+  },
+  {
+   "method": "potgame",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 3
+  },
+  {
+   "method": "potgame",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 4
+  },
+  {
+   "method": "central",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 2
+  },
+  {
+   "method": "central",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 1
+  },
+  {
+   "method": "central",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 4,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 5,
+   "coll_after": 1,
+   "near_takeoff": 4,
+   "near_after": 1
+  },
+  {
+   "method": "central",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 5,
+   "near_after": 1
+  },
+  {
+   "method": "central",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 1
+  },
+  {
+   "method": "central",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 13,
+   "near_after": 1
+  },
+  {
+   "method": "central",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 3
+  },
+  {
+   "method": "central",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 0
+  },
+  {
+   "method": "central",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 11,
+   "near_after": 2
+  },
+  {
+   "method": "greedy_info",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "greedy_info",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1
+  },
+  {
+   "method": "greedy_info",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 3
+  },
+  {
+   "method": "greedy_info",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1
+  },
+  {
+   "method": "greedy_info",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 1
+  },
+  {
+   "method": "greedy_info",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 7
+  },
+  {
+   "method": "greedy_info",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 5,
+   "coll_after": 4,
+   "near_takeoff": 4,
+   "near_after": 5
+  },
+  {
+   "method": "greedy_info",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 0
+  },
+  {
+   "method": "greedy_info",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 4,
+   "near_after": 6
+  },
+  {
+   "method": "greedy_info",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 4,
+   "coll_after": 0,
+   "near_takeoff": 3,
+   "near_after": 3
+  },
+  {
+   "method": "greedy_info",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 10,
+   "coll_after": 3,
+   "near_takeoff": 11,
+   "near_after": 14
+  },
+  {
+   "method": "greedy_info",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 10,
+   "near_takeoff": 11,
+   "near_after": 31
+  },
+  {
+   "method": "greedy_info",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 2,
+   "near_takeoff": 11,
+   "near_after": 8
+  },
+  {
+   "method": "greedy_info",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 14,
+   "near_after": 1
+  },
+  {
+   "method": "greedy_info",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 11,
+   "coll_after": 0,
+   "near_takeoff": 12,
+   "near_after": 2
+  },
+  {
+   "method": "systematic",
+   "n": 6,
+   "seed": 30100,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 6,
+   "seed": 30101,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 6,
+   "seed": 30102,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 6,
+   "seed": 30103,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 6,
+   "seed": 30104,
+   "coll_takeoff": 1,
+   "coll_after": 0,
+   "near_takeoff": 0,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 8,
+   "seed": 30100,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 6,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 8,
+   "seed": 30101,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 6,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 8,
+   "seed": 30102,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 6,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 8,
+   "seed": 30103,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 6,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 8,
+   "seed": 30104,
+   "coll_takeoff": 5,
+   "coll_after": 0,
+   "near_takeoff": 6,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 10,
+   "seed": 30100,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 13,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 10,
+   "seed": 30101,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 13,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 10,
+   "seed": 30102,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 13,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 10,
+   "seed": 30103,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 13,
+   "near_after": 0
+  },
+  {
+   "method": "systematic",
+   "n": 10,
+   "seed": 30104,
+   "coll_takeoff": 10,
+   "coll_after": 0,
+   "near_takeoff": 13,
+   "near_after": 0
+  }
+ ]
+}

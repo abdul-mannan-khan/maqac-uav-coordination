@@ -1,0 +1,30 @@
+{
+ "eta": 0.1,
+ "delta": 0.1,
+ "n_cal": 80,
+ "q": 0.39566180479825513,
+ "cal_rho_hat": 0.6512595480250846,
+ "cal_R": 0.3133262337145896,
+ "px4": {
+  "missions": 20,
+  "rho_hat": 0.6350834791603335,
+  "R": 0.3069822779800717,
+  "certified": 0.23942167436207834,
+  "misses": 0,
+  "miss_rate": 0.0,
+  "cp95_upper": 0.13910834066826516,
+  "slack_min": 0.013436797606072859,
+  "building_contact_missions": 0
+ },
+ "kinematic": {
+  "missions": 20,
+  "rho_hat": 0.65223756478982,
+  "R": 0.3153954520420208,
+  "certified": 0.25657575999156496,
+  "misses": 1,
+  "miss_rate": 0.05,
+  "cp95_upper": 0.2161061642068473,
+  "slack_min": -0.02796725796529853,
+  "building_contact_missions": null
+ }
+}

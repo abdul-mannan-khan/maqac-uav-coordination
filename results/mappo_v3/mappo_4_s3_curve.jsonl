@@ -1,0 +1,1500 @@
+{"it": 0, "J_train": 86.89, "samples": 10216, "t": 20}
+{"it": 1, "J_train": 79.56, "samples": 10220, "t": 37}
+{"it": 2, "J_train": 89.84, "samples": 10223, "t": 53}
+{"it": 3, "J_train": 90.06, "samples": 10210, "t": 73}
+{"it": 4, "J_train": 86.66, "samples": 10226, "t": 89}
+{"it": 5, "J_train": 88.72, "samples": 10230, "t": 106}
+{"it": 6, "J_train": 90.4, "samples": 10222, "t": 126}
+{"it": 7, "J_train": 79.7, "samples": 10200, "t": 142}
+{"it": 8, "J_train": 84.47, "samples": 10219, "t": 159}
+{"it": 9, "J_train": 79.67, "samples": 10212, "t": 177, "J_val": 68.13, "best_val": 68.13, "plateau_gain": null, "plateau_2se": null}
+{"it": 10, "J_train": 79.6, "samples": 10224, "t": 224}
+{"it": 11, "J_train": 90.76, "samples": 10208, "t": 241}
+{"it": 12, "J_train": 94.75, "samples": 10217, "t": 260}
+{"it": 13, "J_train": 88.82, "samples": 10203, "t": 276}
+{"it": 14, "J_train": 84.28, "samples": 10208, "t": 295}
+{"it": 15, "J_train": 88.0, "samples": 10198, "t": 312}
+{"it": 16, "J_train": 93.94, "samples": 10209, "t": 331}
+{"it": 17, "J_train": 87.05, "samples": 10209, "t": 348}
+{"it": 18, "J_train": 96.89, "samples": 10212, "t": 365}
+{"it": 19, "J_train": 94.29, "samples": 10200, "t": 382, "J_val": 42.18, "best_val": 68.13, "plateau_gain": null, "plateau_2se": null}
+{"it": 20, "J_train": 91.36, "samples": 10210, "t": 435}
+{"it": 21, "J_train": 86.16, "samples": 10211, "t": 454}
+{"it": 22, "J_train": 94.55, "samples": 10224, "t": 471}
+{"it": 23, "J_train": 101.22, "samples": 10214, "t": 489}
+{"it": 24, "J_train": 104.4, "samples": 10207, "t": 508}
+{"it": 25, "J_train": 104.25, "samples": 10199, "t": 526}
+{"it": 26, "J_train": 109.72, "samples": 10190, "t": 542}
+{"it": 27, "J_train": 112.47, "samples": 10189, "t": 561}
+{"it": 28, "J_train": 110.89, "samples": 10149, "t": 579}
+{"it": 29, "J_train": 115.1, "samples": 10167, "t": 597, "J_val": 97.05, "best_val": 97.05, "plateau_gain": null, "plateau_2se": null}
+{"it": 30, "J_train": 118.6, "samples": 10163, "t": 649}
+{"it": 31, "J_train": 118.14, "samples": 10158, "t": 666}
+{"it": 32, "J_train": 124.21, "samples": 10159, "t": 684}
+{"it": 33, "J_train": 129.6, "samples": 10149, "t": 702}
+{"it": 34, "J_train": 132.73, "samples": 10160, "t": 721}
+{"it": 35, "J_train": 135.65, "samples": 10141, "t": 741}
+{"it": 36, "J_train": 141.79, "samples": 10121, "t": 759}
+{"it": 37, "J_train": 134.75, "samples": 10123, "t": 776}
+{"it": 38, "J_train": 144.05, "samples": 10135, "t": 793}
+{"it": 39, "J_train": 142.16, "samples": 10143, "t": 812, "J_val": 115.32, "best_val": 115.32, "plateau_gain": null, "plateau_2se": null}
+{"it": 40, "J_train": 139.93, "samples": 10123, "t": 865}
+{"it": 41, "J_train": 150.79, "samples": 10122, "t": 883}
+{"it": 42, "J_train": 144.18, "samples": 10106, "t": 902}
+{"it": 43, "J_train": 143.35, "samples": 10124, "t": 920}
+{"it": 44, "J_train": 146.74, "samples": 10101, "t": 940}
+{"it": 45, "J_train": 147.41, "samples": 10098, "t": 957}
+{"it": 46, "J_train": 149.73, "samples": 10099, "t": 974}
+{"it": 47, "J_train": 154.6, "samples": 10099, "t": 993}
+{"it": 48, "J_train": 153.85, "samples": 10105, "t": 1013}
+{"it": 49, "J_train": 156.73, "samples": 10062, "t": 1031, "J_val": 103.3, "best_val": 115.32, "plateau_gain": null, "plateau_2se": null}
+{"it": 50, "J_train": 156.19, "samples": 10101, "t": 1079}
+{"it": 51, "J_train": 159.13, "samples": 10105, "t": 1097}
+{"it": 52, "J_train": 155.73, "samples": 10089, "t": 1114}
+{"it": 53, "J_train": 149.62, "samples": 10085, "t": 1134}
+{"it": 54, "J_train": 158.19, "samples": 10095, "t": 1151}
+{"it": 55, "J_train": 155.41, "samples": 10101, "t": 1168}
+{"it": 56, "J_train": 154.74, "samples": 10092, "t": 1187}
+{"it": 57, "J_train": 148.37, "samples": 10112, "t": 1204}
+{"it": 58, "J_train": 158.74, "samples": 10092, "t": 1225}
+{"it": 59, "J_train": 148.89, "samples": 10099, "t": 1240, "J_val": 137.3, "best_val": 137.3, "plateau_gain": null, "plateau_2se": null}
+{"it": 60, "J_train": 159.68, "samples": 10086, "t": 1290}
+{"it": 61, "J_train": 155.39, "samples": 10082, "t": 1308}
+{"it": 62, "J_train": 165.77, "samples": 10113, "t": 1325}
+{"it": 63, "J_train": 150.96, "samples": 10107, "t": 1344}
+{"it": 64, "J_train": 154.28, "samples": 10081, "t": 1364}
+{"it": 65, "J_train": 156.33, "samples": 10080, "t": 1382}
+{"it": 66, "J_train": 151.93, "samples": 10100, "t": 1401}
+{"it": 67, "J_train": 150.87, "samples": 10094, "t": 1420}
+{"it": 68, "J_train": 158.1, "samples": 10100, "t": 1437}
+{"it": 69, "J_train": 157.09, "samples": 10093, "t": 1455, "J_val": 119.44, "best_val": 137.3, "plateau_gain": null, "plateau_2se": null}
+{"it": 70, "J_train": 159.05, "samples": 10096, "t": 1503}
+{"it": 71, "J_train": 156.34, "samples": 10086, "t": 1519}
+{"it": 72, "J_train": 156.13, "samples": 10086, "t": 1537}
+{"it": 73, "J_train": 151.27, "samples": 10079, "t": 1556}
+{"it": 74, "J_train": 162.69, "samples": 10103, "t": 1575}
+{"it": 75, "J_train": 157.0, "samples": 10090, "t": 1592}
+{"it": 76, "J_train": 165.69, "samples": 10082, "t": 1609}
+{"it": 77, "J_train": 159.5, "samples": 10089, "t": 1624}
+{"it": 78, "J_train": 157.51, "samples": 10100, "t": 1642}
+{"it": 79, "J_train": 164.95, "samples": 10096, "t": 1661, "J_val": 141.84, "best_val": 141.84, "plateau_gain": null, "plateau_2se": null}
+{"it": 80, "J_train": 160.56, "samples": 10090, "t": 1713}
+{"it": 81, "J_train": 157.6, "samples": 10121, "t": 1730}
+{"it": 82, "J_train": 159.38, "samples": 10083, "t": 1748}
+{"it": 83, "J_train": 162.88, "samples": 10093, "t": 1766}
+{"it": 84, "J_train": 161.69, "samples": 10091, "t": 1781}
+{"it": 85, "J_train": 152.23, "samples": 10095, "t": 1799}
+{"it": 86, "J_train": 165.51, "samples": 10078, "t": 1817}
+{"it": 87, "J_train": 167.25, "samples": 10112, "t": 1836}
+{"it": 88, "J_train": 157.85, "samples": 10105, "t": 1854}
+{"it": 89, "J_train": 160.94, "samples": 10087, "t": 1872, "J_val": 139.22, "best_val": 141.84, "plateau_gain": null, "plateau_2se": null}
+{"it": 90, "J_train": 157.17, "samples": 10073, "t": 1920}
+{"it": 91, "J_train": 162.89, "samples": 10093, "t": 1937}
+{"it": 92, "J_train": 152.5, "samples": 10092, "t": 1954}
+{"it": 93, "J_train": 164.35, "samples": 10106, "t": 1971}
+{"it": 94, "J_train": 165.28, "samples": 10073, "t": 1989}
+{"it": 95, "J_train": 158.48, "samples": 10077, "t": 2008}
+{"it": 96, "J_train": 168.37, "samples": 10083, "t": 2024}
+{"it": 97, "J_train": 161.47, "samples": 10076, "t": 2043}
+{"it": 98, "J_train": 169.01, "samples": 10095, "t": 2061}
+{"it": 99, "J_train": 159.05, "samples": 10103, "t": 2079, "J_val": 141.24, "best_val": 141.84, "plateau_gain": null, "plateau_2se": null}
+{"it": 100, "J_train": 160.33, "samples": 10096, "t": 2129}
+{"it": 101, "J_train": 159.34, "samples": 10076, "t": 2146}
+{"it": 102, "J_train": 164.39, "samples": 10081, "t": 2163}
+{"it": 103, "J_train": 162.57, "samples": 10097, "t": 2180}
+{"it": 104, "J_train": 164.29, "samples": 10105, "t": 2200}
+{"it": 105, "J_train": 162.77, "samples": 10102, "t": 2218}
+{"it": 106, "J_train": 163.56, "samples": 10096, "t": 2234}
+{"it": 107, "J_train": 162.35, "samples": 10095, "t": 2253}
+{"it": 108, "J_train": 162.52, "samples": 10086, "t": 2270}
+{"it": 109, "J_train": 159.2, "samples": 10105, "t": 2285, "J_val": 142.74, "best_val": 142.74, "plateau_gain": null, "plateau_2se": null}
+{"it": 110, "J_train": 170.87, "samples": 10110, "t": 2336}
+{"it": 111, "J_train": 157.13, "samples": 10063, "t": 2354}
+{"it": 112, "J_train": 166.32, "samples": 10090, "t": 2370}
+{"it": 113, "J_train": 161.81, "samples": 10094, "t": 2389}
+{"it": 114, "J_train": 162.19, "samples": 10087, "t": 2407}
+{"it": 115, "J_train": 164.97, "samples": 10094, "t": 2424}
+{"it": 116, "J_train": 160.79, "samples": 10095, "t": 2442}
+{"it": 117, "J_train": 158.8, "samples": 10104, "t": 2459}
+{"it": 118, "J_train": 163.17, "samples": 10091, "t": 2477}
+{"it": 119, "J_train": 166.01, "samples": 10101, "t": 2496, "J_val": 151.2, "best_val": 151.2, "plateau_gain": null, "plateau_2se": null}
+{"it": 120, "J_train": 166.5, "samples": 10111, "t": 2545}
+{"it": 121, "J_train": 162.4, "samples": 10089, "t": 2565}
+{"it": 122, "J_train": 166.8, "samples": 10071, "t": 2583}
+{"it": 123, "J_train": 172.34, "samples": 10098, "t": 2601}
+{"it": 124, "J_train": 162.09, "samples": 10121, "t": 2618}
+{"it": 125, "J_train": 167.44, "samples": 10100, "t": 2637}
+{"it": 126, "J_train": 175.0, "samples": 10099, "t": 2654}
+{"it": 127, "J_train": 165.7, "samples": 10091, "t": 2673}
+{"it": 128, "J_train": 166.43, "samples": 10099, "t": 2689}
+{"it": 129, "J_train": 168.33, "samples": 10096, "t": 2706, "J_val": 155.03, "best_val": 155.03, "plateau_gain": null, "plateau_2se": null}
+{"it": 130, "J_train": 167.93, "samples": 10114, "t": 2758}
+{"it": 131, "J_train": 163.27, "samples": 10102, "t": 2776}
+{"it": 132, "J_train": 167.22, "samples": 10104, "t": 2795}
+{"it": 133, "J_train": 167.8, "samples": 10092, "t": 2815}
+{"it": 134, "J_train": 168.47, "samples": 10101, "t": 2834}
+{"it": 135, "J_train": 157.38, "samples": 10114, "t": 2852}
+{"it": 136, "J_train": 163.57, "samples": 10109, "t": 2871}
+{"it": 137, "J_train": 163.51, "samples": 10096, "t": 2887}
+{"it": 138, "J_train": 171.91, "samples": 10112, "t": 2907}
+{"it": 139, "J_train": 160.56, "samples": 10100, "t": 2924, "J_val": 156.41, "best_val": 156.41, "plateau_gain": null, "plateau_2se": null}
+{"it": 140, "J_train": 163.55, "samples": 10091, "t": 2977}
+{"it": 141, "J_train": 165.88, "samples": 10103, "t": 2996}
+{"it": 142, "J_train": 158.31, "samples": 10099, "t": 3015}
+{"it": 143, "J_train": 163.35, "samples": 10109, "t": 3035}
+{"it": 144, "J_train": 162.34, "samples": 10110, "t": 3052}
+{"it": 145, "J_train": 167.11, "samples": 10099, "t": 3070}
+{"it": 146, "J_train": 162.26, "samples": 10099, "t": 3089}
+{"it": 147, "J_train": 170.1, "samples": 10108, "t": 3107}
+{"it": 148, "J_train": 167.97, "samples": 10111, "t": 3123}
+{"it": 149, "J_train": 159.51, "samples": 10070, "t": 3140, "J_val": 144.61, "best_val": 156.41, "plateau_gain": null, "plateau_2se": null}
+{"it": 150, "J_train": 157.5, "samples": 10088, "t": 3186}
+{"it": 151, "J_train": 164.93, "samples": 10092, "t": 3205}
+{"it": 152, "J_train": 159.63, "samples": 10082, "t": 3223}
+{"it": 153, "J_train": 163.91, "samples": 10071, "t": 3240}
+{"it": 154, "J_train": 171.73, "samples": 10082, "t": 3258}
+{"it": 155, "J_train": 177.21, "samples": 10087, "t": 3277}
+{"it": 156, "J_train": 171.53, "samples": 10083, "t": 3294}
+{"it": 157, "J_train": 166.13, "samples": 10078, "t": 3312}
+{"it": 158, "J_train": 158.08, "samples": 10094, "t": 3329}
+{"it": 159, "J_train": 167.84, "samples": 10107, "t": 3349, "J_val": 164.42, "best_val": 164.42, "plateau_gain": null, "plateau_2se": null}
+{"it": 160, "J_train": 164.54, "samples": 10111, "t": 3398}
+{"it": 161, "J_train": 162.85, "samples": 10083, "t": 3415}
+{"it": 162, "J_train": 159.26, "samples": 10099, "t": 3433}
+{"it": 163, "J_train": 164.09, "samples": 10083, "t": 3453}
+{"it": 164, "J_train": 168.39, "samples": 10077, "t": 3473}
+{"it": 165, "J_train": 170.02, "samples": 10072, "t": 3492}
+{"it": 166, "J_train": 164.84, "samples": 10119, "t": 3510}
+{"it": 167, "J_train": 156.62, "samples": 10111, "t": 3528}
+{"it": 168, "J_train": 166.95, "samples": 10099, "t": 3547}
+{"it": 169, "J_train": 164.97, "samples": 10077, "t": 3564, "J_val": 164.73, "best_val": 164.73, "plateau_gain": null, "plateau_2se": null}
+{"it": 170, "J_train": 160.01, "samples": 10085, "t": 3619}
+{"it": 171, "J_train": 173.79, "samples": 10094, "t": 3637}
+{"it": 172, "J_train": 168.96, "samples": 10093, "t": 3655}
+{"it": 173, "J_train": 165.15, "samples": 10105, "t": 3671}
+{"it": 174, "J_train": 165.54, "samples": 10092, "t": 3688}
+{"it": 175, "J_train": 174.89, "samples": 10054, "t": 3708}
+{"it": 176, "J_train": 171.14, "samples": 10084, "t": 3726}
+{"it": 177, "J_train": 159.1, "samples": 10105, "t": 3742}
+{"it": 178, "J_train": 176.67, "samples": 10062, "t": 3762}
+{"it": 179, "J_train": 163.57, "samples": 10086, "t": 3780, "J_val": 172.69, "best_val": 172.69, "plateau_gain": null, "plateau_2se": null}
+{"it": 180, "J_train": 170.05, "samples": 10108, "t": 3834}
+{"it": 181, "J_train": 170.57, "samples": 10084, "t": 3850}
+{"it": 182, "J_train": 170.63, "samples": 10084, "t": 3868}
+{"it": 183, "J_train": 167.12, "samples": 10084, "t": 3886}
+{"it": 184, "J_train": 171.85, "samples": 10080, "t": 3903}
+{"it": 185, "J_train": 170.51, "samples": 10082, "t": 3921}
+{"it": 186, "J_train": 171.43, "samples": 10107, "t": 3939}
+{"it": 187, "J_train": 165.19, "samples": 10083, "t": 3956}
+{"it": 188, "J_train": 177.38, "samples": 10074, "t": 3973}
+{"it": 189, "J_train": 170.0, "samples": 10102, "t": 3991, "J_val": 161.9, "best_val": 172.69, "plateau_gain": null, "plateau_2se": null}
+{"it": 190, "J_train": 168.72, "samples": 10078, "t": 4041}
+{"it": 191, "J_train": 164.29, "samples": 10079, "t": 4056}
+{"it": 192, "J_train": 170.0, "samples": 10066, "t": 4074}
+{"it": 193, "J_train": 161.99, "samples": 10091, "t": 4090}
+{"it": 194, "J_train": 168.11, "samples": 10084, "t": 4110}
+{"it": 195, "J_train": 164.79, "samples": 10081, "t": 4128}
+{"it": 196, "J_train": 166.87, "samples": 10079, "t": 4144}
+{"it": 197, "J_train": 161.22, "samples": 10100, "t": 4163}
+{"it": 198, "J_train": 168.96, "samples": 10081, "t": 4182}
+{"it": 199, "J_train": 169.27, "samples": 10097, "t": 4198, "J_val": 165.66, "best_val": 172.69, "plateau_gain": 47.43479385115148, "plateau_2se": 22.22527373952582}
+{"it": 200, "J_train": 174.14, "samples": 10080, "t": 4249}
+{"it": 201, "J_train": 164.55, "samples": 10104, "t": 4267}
+{"it": 202, "J_train": 169.62, "samples": 10079, "t": 4284}
+{"it": 203, "J_train": 168.28, "samples": 10099, "t": 4302}
+{"it": 204, "J_train": 164.23, "samples": 10097, "t": 4321}
+{"it": 205, "J_train": 170.13, "samples": 10110, "t": 4338}
+{"it": 206, "J_train": 163.05, "samples": 10086, "t": 4356}
+{"it": 207, "J_train": 174.32, "samples": 10097, "t": 4373}
+{"it": 208, "J_train": 167.15, "samples": 10091, "t": 4390}
+{"it": 209, "J_train": 176.7, "samples": 10112, "t": 4407, "J_val": 166.93, "best_val": 172.69, "plateau_gain": 42.39272850488041, "plateau_2se": 20.64887754665162}
+{"it": 210, "J_train": 169.32, "samples": 10091, "t": 4458}
+{"it": 211, "J_train": 167.25, "samples": 10112, "t": 4477}
+{"it": 212, "J_train": 166.96, "samples": 10118, "t": 4495}
+{"it": 213, "J_train": 171.85, "samples": 10093, "t": 4511}
+{"it": 214, "J_train": 173.53, "samples": 10109, "t": 4529}
+{"it": 215, "J_train": 167.81, "samples": 10092, "t": 4547}
+{"it": 216, "J_train": 173.27, "samples": 10094, "t": 4563}
+{"it": 217, "J_train": 177.24, "samples": 10085, "t": 4582}
+{"it": 218, "J_train": 175.87, "samples": 10086, "t": 4601}
+{"it": 219, "J_train": 173.39, "samples": 10120, "t": 4616, "J_val": 165.48, "best_val": 172.69, "plateau_gain": 32.919619411676024, "plateau_2se": 12.803510433116093}
+{"it": 220, "J_train": 170.59, "samples": 10085, "t": 4666}
+{"it": 221, "J_train": 180.61, "samples": 10085, "t": 4682}
+{"it": 222, "J_train": 173.95, "samples": 10106, "t": 4701}
+{"it": 223, "J_train": 163.09, "samples": 10122, "t": 4716}
+{"it": 224, "J_train": 166.46, "samples": 10103, "t": 4735}
+{"it": 225, "J_train": 176.36, "samples": 10111, "t": 4751}
+{"it": 226, "J_train": 163.25, "samples": 10091, "t": 4771}
+{"it": 227, "J_train": 169.71, "samples": 10101, "t": 4785}
+{"it": 228, "J_train": 172.42, "samples": 10085, "t": 4805}
+{"it": 229, "J_train": 174.37, "samples": 10087, "t": 4821, "J_val": 174.72, "best_val": 174.72, "plateau_gain": 29.091714000730036, "plateau_2se": 11.751729079993073}
+{"it": 230, "J_train": 175.67, "samples": 10101, "t": 4869}
+{"it": 231, "J_train": 162.06, "samples": 10105, "t": 4888}
+{"it": 232, "J_train": 170.88, "samples": 10105, "t": 4905}
+{"it": 233, "J_train": 179.8, "samples": 10094, "t": 4923}
+{"it": 234, "J_train": 166.43, "samples": 10112, "t": 4940}
+{"it": 235, "J_train": 176.64, "samples": 10090, "t": 4957}
+{"it": 236, "J_train": 173.05, "samples": 10087, "t": 4972}
+{"it": 237, "J_train": 174.72, "samples": 10100, "t": 4989}
+{"it": 238, "J_train": 180.08, "samples": 10103, "t": 5007}
+{"it": 239, "J_train": 181.86, "samples": 10096, "t": 5024, "J_val": 175.03, "best_val": 175.03, "plateau_gain": 26.845588730137678, "plateau_2se": 11.691987339679299}
+{"it": 240, "J_train": 169.7, "samples": 10097, "t": 5074}
+{"it": 241, "J_train": 168.02, "samples": 10112, "t": 5091}
+{"it": 242, "J_train": 169.58, "samples": 10114, "t": 5109}
+{"it": 243, "J_train": 178.97, "samples": 10105, "t": 5127}
+{"it": 244, "J_train": 174.63, "samples": 10100, "t": 5143}
+{"it": 245, "J_train": 176.88, "samples": 10113, "t": 5161}
+{"it": 246, "J_train": 172.05, "samples": 10098, "t": 5181}
+{"it": 247, "J_train": 173.06, "samples": 10106, "t": 5198}
+{"it": 248, "J_train": 181.65, "samples": 10093, "t": 5215}
+{"it": 249, "J_train": 172.54, "samples": 10090, "t": 5233, "J_val": 178.44, "best_val": 178.44, "plateau_gain": 26.098794125492248, "plateau_2se": 7.571724350867326}
+{"it": 250, "J_train": 176.47, "samples": 10107, "t": 5283}
+{"it": 251, "J_train": 176.51, "samples": 10089, "t": 5299}
+{"it": 252, "J_train": 172.25, "samples": 10091, "t": 5315}
+{"it": 253, "J_train": 174.24, "samples": 10121, "t": 5332}
+{"it": 254, "J_train": 173.17, "samples": 10098, "t": 5349}
+{"it": 255, "J_train": 175.7, "samples": 10089, "t": 5364}
+{"it": 256, "J_train": 178.1, "samples": 10089, "t": 5381}
+{"it": 257, "J_train": 174.93, "samples": 10090, "t": 5401}
+{"it": 258, "J_train": 176.83, "samples": 10100, "t": 5419}
+{"it": 259, "J_train": 158.04, "samples": 10099, "t": 5436, "J_val": 170.76, "best_val": 178.44, "plateau_gain": 24.021530126031166, "plateau_2se": 8.501082758685595}
+{"it": 260, "J_train": 176.09, "samples": 10092, "t": 5488}
+{"it": 261, "J_train": 175.19, "samples": 10104, "t": 5504}
+{"it": 262, "J_train": 169.24, "samples": 10060, "t": 5523}
+{"it": 263, "J_train": 163.22, "samples": 10096, "t": 5542}
+{"it": 264, "J_train": 176.6, "samples": 10078, "t": 5559}
+{"it": 265, "J_train": 176.26, "samples": 10102, "t": 5576}
+{"it": 266, "J_train": 173.2, "samples": 10075, "t": 5595}
+{"it": 267, "J_train": 166.2, "samples": 10083, "t": 5613}
+{"it": 268, "J_train": 177.35, "samples": 10093, "t": 5630}
+{"it": 269, "J_train": 182.28, "samples": 10045, "t": 5647, "J_val": 174.29, "best_val": 178.44, "plateau_gain": 20.44811338132419, "plateau_2se": 6.958766041163863}
+{"it": 270, "J_train": 172.54, "samples": 10110, "t": 5700}
+{"it": 271, "J_train": 175.85, "samples": 10099, "t": 5717}
+{"it": 272, "J_train": 180.3, "samples": 10114, "t": 5735}
+{"it": 273, "J_train": 181.54, "samples": 10075, "t": 5753}
+{"it": 274, "J_train": 168.25, "samples": 10091, "t": 5770}
+{"it": 275, "J_train": 169.84, "samples": 10102, "t": 5787}
+{"it": 276, "J_train": 175.1, "samples": 10091, "t": 5806}
+{"it": 277, "J_train": 178.89, "samples": 10091, "t": 5824}
+{"it": 278, "J_train": 179.12, "samples": 10109, "t": 5842}
+{"it": 279, "J_train": 172.54, "samples": 10091, "t": 5859, "J_val": 179.32, "best_val": 179.32, "plateau_gain": 18.02629145394843, "plateau_2se": 8.1682191772162}
+{"it": 280, "J_train": 173.85, "samples": 10096, "t": 5914}
+{"it": 281, "J_train": 173.24, "samples": 10102, "t": 5932}
+{"it": 282, "J_train": 172.68, "samples": 10095, "t": 5948}
+{"it": 283, "J_train": 171.51, "samples": 10080, "t": 5969}
+{"it": 284, "J_train": 176.0, "samples": 10091, "t": 5983}
+{"it": 285, "J_train": 174.82, "samples": 10106, "t": 6002}
+{"it": 286, "J_train": 168.59, "samples": 10110, "t": 6021}
+{"it": 287, "J_train": 184.49, "samples": 10098, "t": 6039}
+{"it": 288, "J_train": 172.64, "samples": 10113, "t": 6058}
+{"it": 289, "J_train": 174.22, "samples": 10107, "t": 6074, "J_val": 179.33, "best_val": 179.33, "plateau_gain": 17.50171085352912, "plateau_2se": 7.530456035780331}
+{"it": 290, "J_train": 170.71, "samples": 10126, "t": 6127}
+{"it": 291, "J_train": 177.35, "samples": 10114, "t": 6144}
+{"it": 292, "J_train": 180.33, "samples": 10100, "t": 6160}
+{"it": 293, "J_train": 175.38, "samples": 10097, "t": 6178}
+{"it": 294, "J_train": 176.85, "samples": 10098, "t": 6194}
+{"it": 295, "J_train": 175.99, "samples": 10083, "t": 6212}
+{"it": 296, "J_train": 174.13, "samples": 10091, "t": 6230}
+{"it": 297, "J_train": 165.07, "samples": 10083, "t": 6248}
+{"it": 298, "J_train": 182.12, "samples": 10117, "t": 6265}
+{"it": 299, "J_train": 174.69, "samples": 10088, "t": 6283, "J_val": 180.73, "best_val": 180.73, "plateau_gain": 16.56585321280889, "plateau_2se": 6.990825990081481}
+{"it": 300, "J_train": 176.33, "samples": 10092, "t": 6332}
+{"it": 301, "J_train": 173.66, "samples": 10090, "t": 6349}
+{"it": 302, "J_train": 176.12, "samples": 10117, "t": 6368}
+{"it": 303, "J_train": 178.34, "samples": 10097, "t": 6387}
+{"it": 304, "J_train": 176.93, "samples": 10089, "t": 6402}
+{"it": 305, "J_train": 174.03, "samples": 10097, "t": 6418}
+{"it": 306, "J_train": 179.29, "samples": 10100, "t": 6435}
+{"it": 307, "J_train": 181.3, "samples": 10124, "t": 6451}
+{"it": 308, "J_train": 168.15, "samples": 10112, "t": 6470}
+{"it": 309, "J_train": 175.15, "samples": 10091, "t": 6486, "J_val": 171.36, "best_val": 180.73, "plateau_gain": 14.58983822964268, "plateau_2se": 6.116662673056982}
+{"it": 310, "J_train": 175.35, "samples": 10117, "t": 6535}
+{"it": 311, "J_train": 175.91, "samples": 10107, "t": 6554}
+{"it": 312, "J_train": 174.5, "samples": 10102, "t": 6570}
+{"it": 313, "J_train": 180.77, "samples": 10109, "t": 6586}
+{"it": 314, "J_train": 177.18, "samples": 10102, "t": 6605}
+{"it": 315, "J_train": 165.2, "samples": 10128, "t": 6620}
+{"it": 316, "J_train": 176.76, "samples": 10115, "t": 6638}
+{"it": 317, "J_train": 167.72, "samples": 10091, "t": 6656}
+{"it": 318, "J_train": 190.42, "samples": 10099, "t": 6675}
+{"it": 319, "J_train": 168.06, "samples": 10119, "t": 6691, "J_val": 181.22, "best_val": 181.22, "plateau_gain": 14.734619292940835, "plateau_2se": 5.532780884476006}
+{"it": 320, "J_train": 167.78, "samples": 10123, "t": 6743}
+{"it": 321, "J_train": 170.06, "samples": 10092, "t": 6762}
+{"it": 322, "J_train": 176.82, "samples": 10100, "t": 6779}
+{"it": 323, "J_train": 175.6, "samples": 10091, "t": 6797}
+{"it": 324, "J_train": 173.38, "samples": 10096, "t": 6816}
+{"it": 325, "J_train": 181.81, "samples": 10102, "t": 6831}
+{"it": 326, "J_train": 178.01, "samples": 10105, "t": 6850}
+{"it": 327, "J_train": 183.31, "samples": 10090, "t": 6869}
+{"it": 328, "J_train": 174.89, "samples": 10090, "t": 6886}
+{"it": 329, "J_train": 175.04, "samples": 10109, "t": 6904, "J_val": 181.76, "best_val": 181.76, "plateau_gain": 13.468817315907529, "plateau_2se": 5.9284951059472295}
+{"it": 330, "J_train": 170.56, "samples": 10090, "t": 6957}
+{"it": 331, "J_train": 180.29, "samples": 10092, "t": 6977}
+{"it": 332, "J_train": 162.83, "samples": 10091, "t": 6994}
+{"it": 333, "J_train": 174.52, "samples": 10097, "t": 7011}
+{"it": 334, "J_train": 177.73, "samples": 10094, "t": 7030}
+{"it": 335, "J_train": 180.16, "samples": 10103, "t": 7049}
+{"it": 336, "J_train": 174.01, "samples": 10100, "t": 7066}
+{"it": 337, "J_train": 178.32, "samples": 10081, "t": 7084}
+{"it": 338, "J_train": 180.7, "samples": 10080, "t": 7103}
+{"it": 339, "J_train": 181.96, "samples": 10086, "t": 7120, "J_val": 186.66, "best_val": 186.66, "plateau_gain": 12.769758556270602, "plateau_2se": 6.324676739811936}
+{"it": 340, "J_train": 168.86, "samples": 10089, "t": 7170}
+{"it": 341, "J_train": 178.39, "samples": 10095, "t": 7190}
+{"it": 342, "J_train": 177.38, "samples": 10091, "t": 7208}
+{"it": 343, "J_train": 175.24, "samples": 10095, "t": 7224}
+{"it": 344, "J_train": 177.82, "samples": 10101, "t": 7243}
+{"it": 345, "J_train": 174.65, "samples": 10099, "t": 7261}
+{"it": 346, "J_train": 170.98, "samples": 10093, "t": 7279}
+{"it": 347, "J_train": 176.81, "samples": 10090, "t": 7295}
+{"it": 348, "J_train": 180.5, "samples": 10118, "t": 7315}
+{"it": 349, "J_train": 172.77, "samples": 10086, "t": 7332, "J_val": 178.48, "best_val": 186.66, "plateau_gain": 9.389801658619234, "plateau_2se": 4.754928366346317}
+{"it": 350, "J_train": 176.11, "samples": 10098, "t": 7381}
+{"it": 351, "J_train": 178.12, "samples": 10104, "t": 7401}
+{"it": 352, "J_train": 176.07, "samples": 10097, "t": 7421}
+{"it": 353, "J_train": 174.44, "samples": 10097, "t": 7436}
+{"it": 354, "J_train": 187.17, "samples": 10099, "t": 7454}
+{"it": 355, "J_train": 173.96, "samples": 10088, "t": 7472}
+{"it": 356, "J_train": 180.11, "samples": 10089, "t": 7487}
+{"it": 357, "J_train": 170.31, "samples": 10082, "t": 7507}
+{"it": 358, "J_train": 183.16, "samples": 10109, "t": 7525}
+{"it": 359, "J_train": 182.5, "samples": 10091, "t": 7539, "J_val": 176.48, "best_val": 186.66, "plateau_gain": 9.327480450558397, "plateau_2se": 4.366222973506535}
+{"it": 360, "J_train": 183.58, "samples": 10104, "t": 7593}
+{"it": 361, "J_train": 181.58, "samples": 10099, "t": 7610}
+{"it": 362, "J_train": 178.89, "samples": 10099, "t": 7627}
+{"it": 363, "J_train": 182.56, "samples": 10087, "t": 7642}
+{"it": 364, "J_train": 182.69, "samples": 10089, "t": 7660}
+{"it": 365, "J_train": 176.17, "samples": 10100, "t": 7678}
+{"it": 366, "J_train": 175.9, "samples": 10084, "t": 7695}
+{"it": 367, "J_train": 183.14, "samples": 10065, "t": 7715}
+{"it": 368, "J_train": 179.59, "samples": 10102, "t": 7733}
+{"it": 369, "J_train": 178.7, "samples": 10082, "t": 7751, "J_val": 181.55, "best_val": 186.66, "plateau_gain": 9.097933458795637, "plateau_2se": 4.200501038293617}
+{"it": 370, "J_train": 188.04, "samples": 10089, "t": 7803}
+{"it": 371, "J_train": 179.52, "samples": 10077, "t": 7822}
+{"it": 372, "J_train": 173.75, "samples": 10094, "t": 7841}
+{"it": 373, "J_train": 184.05, "samples": 10094, "t": 7859}
+{"it": 374, "J_train": 178.84, "samples": 10083, "t": 7876}
+{"it": 375, "J_train": 183.62, "samples": 10090, "t": 7895}
+{"it": 376, "J_train": 184.69, "samples": 10110, "t": 7914}
+{"it": 377, "J_train": 173.84, "samples": 10096, "t": 7931}
+{"it": 378, "J_train": 185.84, "samples": 10093, "t": 7948}
+{"it": 379, "J_train": 173.68, "samples": 10079, "t": 7967, "J_val": 190.2, "best_val": 190.2, "plateau_gain": 9.523391555393772, "plateau_2se": 5.00119937062926}
+{"it": 380, "J_train": 182.96, "samples": 10092, "t": 8017}
+{"it": 381, "J_train": 177.93, "samples": 10094, "t": 8035}
+{"it": 382, "J_train": 185.05, "samples": 10098, "t": 8051}
+{"it": 383, "J_train": 181.13, "samples": 10087, "t": 8071}
+{"it": 384, "J_train": 182.45, "samples": 10103, "t": 8089}
+{"it": 385, "J_train": 183.23, "samples": 10104, "t": 8106}
+{"it": 386, "J_train": 170.17, "samples": 10112, "t": 8124}
+{"it": 387, "J_train": 184.21, "samples": 10103, "t": 8143}
+{"it": 388, "J_train": 181.55, "samples": 10112, "t": 8160}
+{"it": 389, "J_train": 180.58, "samples": 10097, "t": 8178, "J_val": 190.49, "best_val": 190.49, "plateau_gain": 8.896013484990277, "plateau_2se": 5.120306157747429}
+{"it": 390, "J_train": 179.7, "samples": 10082, "t": 8229}
+{"it": 391, "J_train": 185.24, "samples": 10103, "t": 8244}
+{"it": 392, "J_train": 181.98, "samples": 10119, "t": 8260}
+{"it": 393, "J_train": 176.98, "samples": 10091, "t": 8276}
+{"it": 394, "J_train": 174.59, "samples": 10103, "t": 8293}
+{"it": 395, "J_train": 179.17, "samples": 10095, "t": 8311}
+{"it": 396, "J_train": 187.73, "samples": 10098, "t": 8328}
+{"it": 397, "J_train": 181.85, "samples": 10084, "t": 8346}
+{"it": 398, "J_train": 180.21, "samples": 10097, "t": 8364}
+{"it": 399, "J_train": 183.27, "samples": 10099, "t": 8382, "J_val": 185.9, "best_val": 190.49, "plateau_gain": 7.906429451439834, "plateau_2se": 5.0997423728425}
+{"it": 400, "J_train": 178.25, "samples": 10085, "t": 8434}
+{"it": 401, "J_train": 177.55, "samples": 10092, "t": 8450}
+{"it": 402, "J_train": 181.37, "samples": 10103, "t": 8468}
+{"it": 403, "J_train": 181.92, "samples": 10098, "t": 8487}
+{"it": 404, "J_train": 180.86, "samples": 10066, "t": 8504}
+{"it": 405, "J_train": 178.7, "samples": 10086, "t": 8521}
+{"it": 406, "J_train": 177.89, "samples": 10098, "t": 8536}
+{"it": 407, "J_train": 178.29, "samples": 10085, "t": 8555}
+{"it": 408, "J_train": 179.12, "samples": 10108, "t": 8574}
+{"it": 409, "J_train": 182.63, "samples": 10075, "t": 8592, "J_val": 182.74, "best_val": 190.49, "plateau_gain": 8.600987078243577, "plateau_2se": 4.221255933772434}
+{"it": 410, "J_train": 173.36, "samples": 10104, "t": 8642}
+{"it": 411, "J_train": 175.84, "samples": 10100, "t": 8656}
+{"it": 412, "J_train": 181.79, "samples": 10092, "t": 8675}
+{"it": 413, "J_train": 180.57, "samples": 10111, "t": 8692}
+{"it": 414, "J_train": 181.99, "samples": 10070, "t": 8712}
+{"it": 415, "J_train": 177.21, "samples": 10081, "t": 8730}
+{"it": 416, "J_train": 176.37, "samples": 10099, "t": 8749}
+{"it": 417, "J_train": 180.26, "samples": 10111, "t": 8767}
+{"it": 418, "J_train": 185.67, "samples": 10102, "t": 8786}
+{"it": 419, "J_train": 175.94, "samples": 10077, "t": 8804, "J_val": 186.5, "best_val": 190.49, "plateau_gain": 7.5564881405679785, "plateau_2se": 3.8088318326991977}
+{"it": 420, "J_train": 184.63, "samples": 10102, "t": 8856}
+{"it": 421, "J_train": 185.3, "samples": 10097, "t": 8876}
+{"it": 422, "J_train": 176.74, "samples": 10109, "t": 8894}
+{"it": 423, "J_train": 178.57, "samples": 10112, "t": 8912}
+{"it": 424, "J_train": 179.52, "samples": 10090, "t": 8928}
+{"it": 425, "J_train": 181.6, "samples": 10102, "t": 8945}
+{"it": 426, "J_train": 182.26, "samples": 10099, "t": 8962}
+{"it": 427, "J_train": 180.99, "samples": 10104, "t": 8981}
+{"it": 428, "J_train": 185.36, "samples": 10105, "t": 9001}
+{"it": 429, "J_train": 177.07, "samples": 10091, "t": 9018, "J_val": 180.8, "best_val": 190.49, "plateau_gain": 6.7566701027386955, "plateau_2se": 3.9493215264844888}
+{"it": 430, "J_train": 182.13, "samples": 10072, "t": 9065}
+{"it": 431, "J_train": 179.15, "samples": 10100, "t": 9081}
+{"it": 432, "J_train": 180.75, "samples": 10090, "t": 9100}
+{"it": 433, "J_train": 185.38, "samples": 10087, "t": 9116}
+{"it": 434, "J_train": 195.54, "samples": 10072, "t": 9134}
+{"it": 435, "J_train": 182.64, "samples": 10071, "t": 9154}
+{"it": 436, "J_train": 181.39, "samples": 10091, "t": 9170}
+{"it": 437, "J_train": 189.92, "samples": 10102, "t": 9189}
+{"it": 438, "J_train": 175.39, "samples": 10107, "t": 9207}
+{"it": 439, "J_train": 175.61, "samples": 10110, "t": 9226, "J_val": 177.22, "best_val": 190.49, "plateau_gain": 4.649120044221974, "plateau_2se": 4.478528625870842}
+{"it": 440, "J_train": 174.26, "samples": 10078, "t": 9277}
+{"it": 441, "J_train": 191.4, "samples": 10095, "t": 9295}
+{"it": 442, "J_train": 176.18, "samples": 10091, "t": 9313}
+{"it": 443, "J_train": 178.83, "samples": 10083, "t": 9331}
+{"it": 444, "J_train": 180.74, "samples": 10081, "t": 9349}
+{"it": 445, "J_train": 176.02, "samples": 10097, "t": 9367}
+{"it": 446, "J_train": 180.98, "samples": 10103, "t": 9385}
+{"it": 447, "J_train": 174.7, "samples": 10089, "t": 9403}
+{"it": 448, "J_train": 180.24, "samples": 10090, "t": 9421}
+{"it": 449, "J_train": 188.53, "samples": 10092, "t": 9438, "J_val": 184.41, "best_val": 190.49, "plateau_gain": 5.238279279197968, "plateau_2se": 4.3661598265869195}
+{"it": 450, "J_train": 183.64, "samples": 10103, "t": 9492}
+{"it": 451, "J_train": 184.11, "samples": 10083, "t": 9510}
+{"it": 452, "J_train": 181.69, "samples": 10092, "t": 9526}
+{"it": 453, "J_train": 181.7, "samples": 10078, "t": 9545}
+{"it": 454, "J_train": 182.16, "samples": 10080, "t": 9562}
+{"it": 455, "J_train": 181.61, "samples": 10093, "t": 9580}
+{"it": 456, "J_train": 185.16, "samples": 10104, "t": 9599}
+{"it": 457, "J_train": 190.26, "samples": 10076, "t": 9617}
+{"it": 458, "J_train": 179.25, "samples": 10054, "t": 9633}
+{"it": 459, "J_train": 185.16, "samples": 10064, "t": 9652, "J_val": 184.21, "best_val": 190.49, "plateau_gain": 5.439248329425794, "plateau_2se": 3.737816753696886}
+{"it": 460, "J_train": 178.61, "samples": 10087, "t": 9700}
+{"it": 461, "J_train": 179.79, "samples": 10069, "t": 9717}
+{"it": 462, "J_train": 184.0, "samples": 10087, "t": 9735}
+{"it": 463, "J_train": 184.68, "samples": 10088, "t": 9752}
+{"it": 464, "J_train": 175.4, "samples": 10080, "t": 9769}
+{"it": 465, "J_train": 182.01, "samples": 10074, "t": 9788}
+{"it": 466, "J_train": 179.73, "samples": 10089, "t": 9804}
+{"it": 467, "J_train": 179.48, "samples": 10096, "t": 9825}
+{"it": 468, "J_train": 177.34, "samples": 10073, "t": 9841}
+{"it": 469, "J_train": 182.44, "samples": 10074, "t": 9860, "J_val": 182.49, "best_val": 190.49, "plateau_gain": 4.80659752003416, "plateau_2se": 3.5863831602994027}
+{"it": 470, "J_train": 182.39, "samples": 10084, "t": 9912}
+{"it": 471, "J_train": 189.38, "samples": 10094, "t": 9928}
+{"it": 472, "J_train": 181.7, "samples": 10097, "t": 9944}
+{"it": 473, "J_train": 184.47, "samples": 10097, "t": 9962}
+{"it": 474, "J_train": 181.61, "samples": 10094, "t": 9980}
+{"it": 475, "J_train": 182.6, "samples": 10076, "t": 9998}
+{"it": 476, "J_train": 183.28, "samples": 10093, "t": 10015}
+{"it": 477, "J_train": 181.26, "samples": 10079, "t": 10033}
+{"it": 478, "J_train": 187.45, "samples": 10088, "t": 10053}
+{"it": 479, "J_train": 193.04, "samples": 10074, "t": 10072, "J_val": 188.49, "best_val": 190.49, "plateau_gain": 3.547606930679933, "plateau_2se": 4.060583993837206}
+{"it": 480, "J_train": 181.2, "samples": 10096, "t": 10119}
+{"it": 481, "J_train": 184.29, "samples": 10059, "t": 10137}
+{"it": 482, "J_train": 187.52, "samples": 10099, "t": 10157}
+{"it": 483, "J_train": 177.17, "samples": 10078, "t": 10175}
+{"it": 484, "J_train": 186.16, "samples": 10081, "t": 10193}
+{"it": 485, "J_train": 184.67, "samples": 10080, "t": 10212}
+{"it": 486, "J_train": 185.83, "samples": 10070, "t": 10230}
+{"it": 487, "J_train": 183.95, "samples": 10079, "t": 10247}
+{"it": 488, "J_train": 185.93, "samples": 10075, "t": 10266}
+{"it": 489, "J_train": 189.72, "samples": 10063, "t": 10283, "J_val": 186.77, "best_val": 190.49, "plateau_gain": 2.0596666453041053, "plateau_2se": 4.307052895728369}
+{"it": 490, "J_train": 183.63, "samples": 10090, "t": 10337}
+{"it": 491, "J_train": 174.55, "samples": 10053, "t": 10354}
+{"it": 492, "J_train": 183.8, "samples": 10102, "t": 10373}
+{"it": 493, "J_train": 185.94, "samples": 10046, "t": 10389}
+{"it": 494, "J_train": 177.0, "samples": 10090, "t": 10407}
+{"it": 495, "J_train": 190.83, "samples": 10051, "t": 10426}
+{"it": 496, "J_train": 187.97, "samples": 10071, "t": 10444}
+{"it": 497, "J_train": 179.78, "samples": 10068, "t": 10463}
+{"it": 498, "J_train": 177.84, "samples": 10063, "t": 10480}
+{"it": 499, "J_train": 180.7, "samples": 10075, "t": 10495, "J_val": 182.92, "best_val": 190.49, "plateau_gain": 1.2450501617255725, "plateau_2se": 4.350183921385776}
+{"it": 500, "J_train": 181.02, "samples": 10081, "t": 10547}
+{"it": 501, "J_train": 180.08, "samples": 10068, "t": 10563}
+{"it": 502, "J_train": 190.95, "samples": 10076, "t": 10581}
+{"it": 503, "J_train": 193.1, "samples": 10081, "t": 10598}
+{"it": 504, "J_train": 181.09, "samples": 10070, "t": 10616}
+{"it": 505, "J_train": 182.64, "samples": 10096, "t": 10634}
+{"it": 506, "J_train": 176.93, "samples": 10065, "t": 10653}
+{"it": 507, "J_train": 193.87, "samples": 10078, "t": 10672}
+{"it": 508, "J_train": 185.7, "samples": 10070, "t": 10690}
+{"it": 509, "J_train": 170.93, "samples": 10085, "t": 10708, "J_val": 191.99, "best_val": 191.99, "plateau_gain": 1.032752237618638, "plateau_2se": 3.9500174170240285}
+{"it": 510, "J_train": 177.59, "samples": 10083, "t": 10755}
+{"it": 511, "J_train": 183.22, "samples": 10063, "t": 10774}
+{"it": 512, "J_train": 180.21, "samples": 10070, "t": 10791}
+{"it": 513, "J_train": 184.11, "samples": 10065, "t": 10808}
+{"it": 514, "J_train": 188.91, "samples": 10077, "t": 10826}
+{"it": 515, "J_train": 184.36, "samples": 10081, "t": 10844}
+{"it": 516, "J_train": 184.79, "samples": 10074, "t": 10860}
+{"it": 517, "J_train": 185.31, "samples": 10080, "t": 10878}
+{"it": 518, "J_train": 184.02, "samples": 10098, "t": 10893}
+{"it": 519, "J_train": 187.27, "samples": 10060, "t": 10911, "J_val": 193.48, "best_val": 193.48, "plateau_gain": 1.2014213580564785, "plateau_2se": 4.331647277191349}
+{"it": 520, "J_train": 186.12, "samples": 10085, "t": 10963}
+{"it": 521, "J_train": 191.83, "samples": 10077, "t": 10983}
+{"it": 522, "J_train": 179.99, "samples": 10071, "t": 11003}
+{"it": 523, "J_train": 185.99, "samples": 10094, "t": 11020}
+{"it": 524, "J_train": 185.76, "samples": 10064, "t": 11038}
+{"it": 525, "J_train": 183.99, "samples": 10064, "t": 11054}
+{"it": 526, "J_train": 189.75, "samples": 10063, "t": 11073}
+{"it": 527, "J_train": 187.33, "samples": 10092, "t": 11091}
+{"it": 528, "J_train": 186.54, "samples": 10077, "t": 11108}
+{"it": 529, "J_train": 183.46, "samples": 10107, "t": 11123, "J_val": 196.88, "best_val": 196.88, "plateau_gain": 2.9058538369042424, "plateau_2se": 4.789161217639562}
+{"it": 530, "J_train": 184.02, "samples": 10073, "t": 11177}
+{"it": 531, "J_train": 181.05, "samples": 10068, "t": 11193}
+{"it": 532, "J_train": 179.89, "samples": 10059, "t": 11209}
+{"it": 533, "J_train": 175.83, "samples": 10086, "t": 11225}
+{"it": 534, "J_train": 185.85, "samples": 10086, "t": 11244}
+{"it": 535, "J_train": 190.96, "samples": 10075, "t": 11262}
+{"it": 536, "J_train": 179.93, "samples": 10077, "t": 11279}
+{"it": 537, "J_train": 182.35, "samples": 10055, "t": 11297}
+{"it": 538, "J_train": 185.6, "samples": 10080, "t": 11314}
+{"it": 539, "J_train": 190.39, "samples": 10053, "t": 11334, "J_val": 190.64, "best_val": 196.88, "plateau_gain": 5.1924960201658905, "plateau_2se": 4.463694989558262}
+{"it": 540, "J_train": 177.07, "samples": 10082, "t": 11382}
+{"it": 541, "J_train": 184.08, "samples": 10079, "t": 11399}
+{"it": 542, "J_train": 191.68, "samples": 10091, "t": 11417}
+{"it": 543, "J_train": 177.84, "samples": 10062, "t": 11434}
+{"it": 544, "J_train": 185.87, "samples": 10089, "t": 11452}
+{"it": 545, "J_train": 187.45, "samples": 10059, "t": 11473}
+{"it": 546, "J_train": 187.16, "samples": 10086, "t": 11489}
+{"it": 547, "J_train": 186.67, "samples": 10075, "t": 11505}
+{"it": 548, "J_train": 185.75, "samples": 10075, "t": 11523}
+{"it": 549, "J_train": 185.72, "samples": 10069, "t": 11540, "J_val": 189.83, "best_val": 196.88, "plateau_gain": 5.1416361304194425, "plateau_2se": 4.273878584541844}
+{"it": 550, "J_train": 179.32, "samples": 10059, "t": 11589}
+{"it": 551, "J_train": 187.51, "samples": 10056, "t": 11607}
+{"it": 552, "J_train": 182.59, "samples": 10083, "t": 11626}
+{"it": 553, "J_train": 183.17, "samples": 10070, "t": 11643}
+{"it": 554, "J_train": 187.86, "samples": 10071, "t": 11662}
+{"it": 555, "J_train": 178.38, "samples": 10098, "t": 11680}
+{"it": 556, "J_train": 190.17, "samples": 10072, "t": 11697}
+{"it": 557, "J_train": 183.98, "samples": 10062, "t": 11715}
+{"it": 558, "J_train": 185.74, "samples": 10055, "t": 11736}
+{"it": 559, "J_train": 186.05, "samples": 10085, "t": 11755, "J_val": 187.68, "best_val": 196.88, "plateau_gain": 4.715583421494443, "plateau_2se": 3.84965128182463}
+{"it": 560, "J_train": 185.13, "samples": 10064, "t": 11805}
+{"it": 561, "J_train": 188.66, "samples": 10068, "t": 11822}
+{"it": 562, "J_train": 180.08, "samples": 10076, "t": 11840}
+{"it": 563, "J_train": 190.32, "samples": 10065, "t": 11857}
+{"it": 564, "J_train": 187.06, "samples": 10074, "t": 11876}
+{"it": 565, "J_train": 186.74, "samples": 10056, "t": 11894}
+{"it": 566, "J_train": 195.18, "samples": 10046, "t": 11910}
+{"it": 567, "J_train": 186.63, "samples": 10080, "t": 11928}
+{"it": 568, "J_train": 187.76, "samples": 10065, "t": 11946}
+{"it": 569, "J_train": 186.79, "samples": 10064, "t": 11963, "J_val": 184.79, "best_val": 196.88, "plateau_gain": 4.8517453910297945, "plateau_2se": 3.6708010508155064}
+{"it": 570, "J_train": 195.53, "samples": 10059, "t": 12011}
+{"it": 571, "J_train": 184.53, "samples": 10077, "t": 12030}
+{"it": 572, "J_train": 180.93, "samples": 10065, "t": 12046}
+{"it": 573, "J_train": 188.51, "samples": 10074, "t": 12064}
+{"it": 574, "J_train": 177.89, "samples": 10066, "t": 12082}
+{"it": 575, "J_train": 191.23, "samples": 10084, "t": 12100}
+{"it": 576, "J_train": 182.2, "samples": 10064, "t": 12118}
+{"it": 577, "J_train": 185.71, "samples": 10075, "t": 12136}
+{"it": 578, "J_train": 186.75, "samples": 10063, "t": 12153}
+{"it": 579, "J_train": 186.4, "samples": 10062, "t": 12170, "J_val": 188.35, "best_val": 196.88, "plateau_gain": 5.008503510475322, "plateau_2se": 3.568919028602756}
+{"it": 580, "J_train": 181.07, "samples": 10066, "t": 12222}
+{"it": 581, "J_train": 187.69, "samples": 10074, "t": 12239}
+{"it": 582, "J_train": 182.26, "samples": 10054, "t": 12255}
+{"it": 583, "J_train": 185.64, "samples": 10091, "t": 12275}
+{"it": 584, "J_train": 187.32, "samples": 10063, "t": 12294}
+{"it": 585, "J_train": 187.95, "samples": 10047, "t": 12311}
+{"it": 586, "J_train": 187.09, "samples": 10047, "t": 12330}
+{"it": 587, "J_train": 191.28, "samples": 10041, "t": 12348}
+{"it": 588, "J_train": 196.16, "samples": 10064, "t": 12365}
+{"it": 589, "J_train": 181.2, "samples": 10064, "t": 12383, "J_val": 183.93, "best_val": 196.88, "plateau_gain": 5.09605345383298, "plateau_2se": 3.4960602597731927}
+{"it": 590, "J_train": 183.75, "samples": 10042, "t": 12437}
+{"it": 591, "J_train": 190.16, "samples": 10075, "t": 12456}
+{"it": 592, "J_train": 180.92, "samples": 10074, "t": 12473}
+{"it": 593, "J_train": 187.97, "samples": 10067, "t": 12492}
+{"it": 594, "J_train": 184.27, "samples": 10065, "t": 12509}
+{"it": 595, "J_train": 187.42, "samples": 10062, "t": 12526}
+{"it": 596, "J_train": 190.39, "samples": 10075, "t": 12545}
+{"it": 597, "J_train": 183.01, "samples": 10063, "t": 12562}
+{"it": 598, "J_train": 192.89, "samples": 10069, "t": 12579}
+{"it": 599, "J_train": 188.23, "samples": 10071, "t": 12598, "J_val": 187.16, "best_val": 196.88, "plateau_gain": 5.817476945585668, "plateau_2se": 3.2361117435576303}
+{"it": 600, "J_train": 190.16, "samples": 10081, "t": 12648}
+{"it": 601, "J_train": 191.82, "samples": 10077, "t": 12665}
+{"it": 602, "J_train": 186.35, "samples": 10075, "t": 12684}
+{"it": 603, "J_train": 187.62, "samples": 10073, "t": 12703}
+{"it": 604, "J_train": 185.89, "samples": 10084, "t": 12721}
+{"it": 605, "J_train": 195.87, "samples": 10079, "t": 12738}
+{"it": 606, "J_train": 195.38, "samples": 10068, "t": 12756}
+{"it": 607, "J_train": 184.38, "samples": 10092, "t": 12774}
+{"it": 608, "J_train": 194.73, "samples": 10060, "t": 12793}
+{"it": 609, "J_train": 188.42, "samples": 10065, "t": 12811, "J_val": 194.04, "best_val": 196.88, "plateau_gain": 5.097432945726666, "plateau_2se": 3.7110385738532568}
+{"it": 610, "J_train": 186.26, "samples": 10078, "t": 12859}
+{"it": 611, "J_train": 181.8, "samples": 10076, "t": 12876}
+{"it": 612, "J_train": 190.22, "samples": 10049, "t": 12893}
+{"it": 613, "J_train": 185.79, "samples": 10089, "t": 12911}
+{"it": 614, "J_train": 192.62, "samples": 10051, "t": 12928}
+{"it": 615, "J_train": 191.86, "samples": 10051, "t": 12945}
+{"it": 616, "J_train": 189.12, "samples": 10081, "t": 12962}
+{"it": 617, "J_train": 184.28, "samples": 10085, "t": 12979}
+{"it": 618, "J_train": 187.49, "samples": 10074, "t": 12997}
+{"it": 619, "J_train": 192.89, "samples": 10052, "t": 13015, "J_val": 199.47, "best_val": 199.47, "plateau_gain": 4.998837513886343, "plateau_2se": 4.51305087694052}
+{"it": 620, "J_train": 196.41, "samples": 10094, "t": 13068}
+{"it": 621, "J_train": 181.21, "samples": 10079, "t": 13084}
+{"it": 622, "J_train": 194.04, "samples": 10075, "t": 13103}
+{"it": 623, "J_train": 187.32, "samples": 10079, "t": 13120}
+{"it": 624, "J_train": 184.93, "samples": 10050, "t": 13138}
+{"it": 625, "J_train": 188.79, "samples": 10064, "t": 13155}
+{"it": 626, "J_train": 188.29, "samples": 10070, "t": 13174}
+{"it": 627, "J_train": 190.11, "samples": 10072, "t": 13189}
+{"it": 628, "J_train": 192.74, "samples": 10081, "t": 13209}
+{"it": 629, "J_train": 187.39, "samples": 10073, "t": 13226, "J_val": 198.83, "best_val": 199.47, "plateau_gain": 3.5859339148717027, "plateau_2se": 5.060072917959521}
+{"it": 630, "J_train": 196.04, "samples": 10042, "t": 13278}
+{"it": 631, "J_train": 189.29, "samples": 10075, "t": 13297}
+{"it": 632, "J_train": 186.95, "samples": 10056, "t": 13316}
+{"it": 633, "J_train": 196.0, "samples": 10041, "t": 13334}
+{"it": 634, "J_train": 191.11, "samples": 10108, "t": 13353}
+{"it": 635, "J_train": 185.86, "samples": 10078, "t": 13370}
+{"it": 636, "J_train": 198.67, "samples": 10064, "t": 13388}
+{"it": 637, "J_train": 188.95, "samples": 10064, "t": 13407}
+{"it": 638, "J_train": 182.21, "samples": 10065, "t": 13424}
+{"it": 639, "J_train": 183.19, "samples": 10070, "t": 13441, "J_val": 199.5, "best_val": 199.5, "plateau_gain": 3.1294447730742263, "plateau_2se": 4.954799468403961}
+{"it": 640, "J_train": 189.51, "samples": 10064, "t": 13490}
+{"it": 641, "J_train": 191.8, "samples": 10063, "t": 13506}
+{"it": 642, "J_train": 187.56, "samples": 10070, "t": 13526}
+{"it": 643, "J_train": 187.74, "samples": 10073, "t": 13543}
+{"it": 644, "J_train": 192.91, "samples": 10046, "t": 13561}
+{"it": 645, "J_train": 192.98, "samples": 10061, "t": 13577}
+{"it": 646, "J_train": 190.17, "samples": 10065, "t": 13597}
+{"it": 647, "J_train": 188.32, "samples": 10043, "t": 13614}
+{"it": 648, "J_train": 192.69, "samples": 10048, "t": 13631}
+{"it": 649, "J_train": 177.44, "samples": 10068, "t": 13651, "J_val": 195.11, "best_val": 199.5, "plateau_gain": 3.115051218013434, "plateau_2se": 4.927751755738529}
+{"it": 650, "J_train": 194.66, "samples": 10068, "t": 13708}
+{"it": 651, "J_train": 191.96, "samples": 10087, "t": 13725}
+{"it": 652, "J_train": 190.2, "samples": 10072, "t": 13742}
+{"it": 653, "J_train": 191.24, "samples": 10067, "t": 13759}
+{"it": 654, "J_train": 187.79, "samples": 10048, "t": 13777}
+{"it": 655, "J_train": 180.81, "samples": 10086, "t": 13794}
+{"it": 656, "J_train": 191.9, "samples": 10071, "t": 13814}
+{"it": 657, "J_train": 176.12, "samples": 10060, "t": 13831}
+{"it": 658, "J_train": 189.41, "samples": 10072, "t": 13851}
+{"it": 659, "J_train": 188.32, "samples": 10057, "t": 13869, "J_val": 198.45, "best_val": 199.5, "plateau_gain": 3.8452457246843608, "plateau_2se": 4.896096205021442}
+{"it": 660, "J_train": 195.16, "samples": 10074, "t": 13919}
+{"it": 661, "J_train": 186.85, "samples": 10078, "t": 13936}
+{"it": 662, "J_train": 186.43, "samples": 10043, "t": 13956}
+{"it": 663, "J_train": 193.45, "samples": 10081, "t": 13973}
+{"it": 664, "J_train": 188.1, "samples": 10075, "t": 13993}
+{"it": 665, "J_train": 186.39, "samples": 10056, "t": 14009}
+{"it": 666, "J_train": 196.74, "samples": 10061, "t": 14029}
+{"it": 667, "J_train": 187.94, "samples": 10069, "t": 14047}
+{"it": 668, "J_train": 197.02, "samples": 10062, "t": 14064}
+{"it": 669, "J_train": 194.18, "samples": 10059, "t": 14081, "J_val": 197.65, "best_val": 199.5, "plateau_gain": 4.901438594324077, "plateau_2se": 4.4834495252952165}
+{"it": 670, "J_train": 198.35, "samples": 10075, "t": 14134}
+{"it": 671, "J_train": 193.6, "samples": 10055, "t": 14150}
+{"it": 672, "J_train": 188.06, "samples": 10056, "t": 14170}
+{"it": 673, "J_train": 189.03, "samples": 10074, "t": 14186}
+{"it": 674, "J_train": 192.03, "samples": 10064, "t": 14203}
+{"it": 675, "J_train": 193.09, "samples": 10080, "t": 14221}
+{"it": 676, "J_train": 193.75, "samples": 10081, "t": 14240}
+{"it": 677, "J_train": 186.86, "samples": 10055, "t": 14257}
+{"it": 678, "J_train": 189.27, "samples": 10071, "t": 14277}
+{"it": 679, "J_train": 181.46, "samples": 10087, "t": 14293, "J_val": 194.84, "best_val": 199.5, "plateau_gain": 5.564403531683382, "plateau_2se": 4.288767013496247}
+{"it": 680, "J_train": 190.47, "samples": 10053, "t": 14348}
+{"it": 681, "J_train": 192.02, "samples": 10042, "t": 14365}
+{"it": 682, "J_train": 188.92, "samples": 10064, "t": 14383}
+{"it": 683, "J_train": 194.1, "samples": 10061, "t": 14403}
+{"it": 684, "J_train": 186.68, "samples": 10073, "t": 14420}
+{"it": 685, "J_train": 192.91, "samples": 10074, "t": 14437}
+{"it": 686, "J_train": 197.36, "samples": 10057, "t": 14458}
+{"it": 687, "J_train": 191.57, "samples": 10070, "t": 14477}
+{"it": 688, "J_train": 191.93, "samples": 10043, "t": 14494}
+{"it": 689, "J_train": 189.64, "samples": 10060, "t": 14512, "J_val": 196.39, "best_val": 199.5, "plateau_gain": 7.094895211111634, "plateau_2se": 3.6641479564976156}
+{"it": 690, "J_train": 193.51, "samples": 10050, "t": 14563}
+{"it": 691, "J_train": 183.67, "samples": 10052, "t": 14580}
+{"it": 692, "J_train": 193.49, "samples": 10065, "t": 14599}
+{"it": 693, "J_train": 196.98, "samples": 10059, "t": 14618}
+{"it": 694, "J_train": 194.31, "samples": 10074, "t": 14636}
+{"it": 695, "J_train": 190.18, "samples": 10044, "t": 14655}
+{"it": 696, "J_train": 189.96, "samples": 10056, "t": 14671}
+{"it": 697, "J_train": 189.7, "samples": 10071, "t": 14690}
+{"it": 698, "J_train": 190.76, "samples": 10068, "t": 14707}
+{"it": 699, "J_train": 192.79, "samples": 10024, "t": 14724, "J_val": 193.43, "best_val": 199.5, "plateau_gain": 7.298525850430906, "plateau_2se": 2.898336083884606}
+{"it": 700, "J_train": 191.61, "samples": 10042, "t": 14775}
+{"it": 701, "J_train": 194.4, "samples": 10045, "t": 14791}
+{"it": 702, "J_train": 186.92, "samples": 10066, "t": 14809}
+{"it": 703, "J_train": 190.39, "samples": 10068, "t": 14828}
+{"it": 704, "J_train": 197.76, "samples": 10058, "t": 14847}
+{"it": 705, "J_train": 199.78, "samples": 10060, "t": 14864}
+{"it": 706, "J_train": 187.36, "samples": 10065, "t": 14884}
+{"it": 707, "J_train": 187.98, "samples": 10054, "t": 14902}
+{"it": 708, "J_train": 197.36, "samples": 10070, "t": 14921}
+{"it": 709, "J_train": 196.86, "samples": 10053, "t": 14939, "J_val": 195.49, "best_val": 199.5, "plateau_gain": 7.237626332196726, "plateau_2se": 2.960039109058266}
+{"it": 710, "J_train": 192.22, "samples": 10055, "t": 14990}
+{"it": 711, "J_train": 187.05, "samples": 10070, "t": 15007}
+{"it": 712, "J_train": 186.86, "samples": 10047, "t": 15023}
+{"it": 713, "J_train": 190.67, "samples": 10054, "t": 15041}
+{"it": 714, "J_train": 193.76, "samples": 10064, "t": 15058}
+{"it": 715, "J_train": 200.15, "samples": 10051, "t": 15075}
+{"it": 716, "J_train": 187.81, "samples": 10064, "t": 15094}
+{"it": 717, "J_train": 194.42, "samples": 10047, "t": 15111}
+{"it": 718, "J_train": 196.79, "samples": 10058, "t": 15128}
+{"it": 719, "J_train": 197.74, "samples": 10047, "t": 15146, "J_val": 196.97, "best_val": 199.5, "plateau_gain": 6.388551479849411, "plateau_2se": 3.449990489293041}
+{"it": 720, "J_train": 189.03, "samples": 10067, "t": 15197}
+{"it": 721, "J_train": 193.98, "samples": 10065, "t": 15213}
+{"it": 722, "J_train": 197.56, "samples": 10061, "t": 15233}
+{"it": 723, "J_train": 190.91, "samples": 10043, "t": 15252}
+{"it": 724, "J_train": 194.9, "samples": 10069, "t": 15270}
+{"it": 725, "J_train": 190.2, "samples": 10075, "t": 15288}
+{"it": 726, "J_train": 195.43, "samples": 10033, "t": 15308}
+{"it": 727, "J_train": 195.41, "samples": 10066, "t": 15326}
+{"it": 728, "J_train": 188.73, "samples": 10048, "t": 15342}
+{"it": 729, "J_train": 195.1, "samples": 10035, "t": 15362, "J_val": 196.02, "best_val": 199.5, "plateau_gain": 5.912244060460409, "plateau_2se": 3.602255041091272}
+{"it": 730, "J_train": 190.92, "samples": 10057, "t": 15414}
+{"it": 731, "J_train": 196.46, "samples": 10044, "t": 15432}
+{"it": 732, "J_train": 187.51, "samples": 10043, "t": 15450}
+{"it": 733, "J_train": 194.72, "samples": 10057, "t": 15469}
+{"it": 734, "J_train": 193.81, "samples": 10049, "t": 15486}
+{"it": 735, "J_train": 196.99, "samples": 10042, "t": 15502}
+{"it": 736, "J_train": 195.41, "samples": 10049, "t": 15520}
+{"it": 737, "J_train": 190.25, "samples": 10058, "t": 15538}
+{"it": 738, "J_train": 185.07, "samples": 10044, "t": 15557}
+{"it": 739, "J_train": 193.72, "samples": 10037, "t": 15574, "J_val": 196.82, "best_val": 199.5, "plateau_gain": 4.758119824417861, "plateau_2se": 3.9741366699411627}
+{"it": 740, "J_train": 200.34, "samples": 10041, "t": 15627}
+{"it": 741, "J_train": 193.07, "samples": 10066, "t": 15642}
+{"it": 742, "J_train": 200.16, "samples": 10040, "t": 15660}
+{"it": 743, "J_train": 188.27, "samples": 10028, "t": 15680}
+{"it": 744, "J_train": 191.93, "samples": 10054, "t": 15698}
+{"it": 745, "J_train": 195.76, "samples": 10028, "t": 15716}
+{"it": 746, "J_train": 195.17, "samples": 10064, "t": 15734}
+{"it": 747, "J_train": 198.04, "samples": 10046, "t": 15751}
+{"it": 748, "J_train": 187.33, "samples": 10043, "t": 15769}
+{"it": 749, "J_train": 199.14, "samples": 10052, "t": 15790, "J_val": 199.29, "best_val": 199.5, "plateau_gain": 4.648419851432294, "plateau_2se": 4.063802069973749}
+{"it": 750, "J_train": 189.61, "samples": 10067, "t": 15839}
+{"it": 751, "J_train": 188.69, "samples": 10047, "t": 15855}
+{"it": 752, "J_train": 195.61, "samples": 10049, "t": 15874}
+{"it": 753, "J_train": 199.3, "samples": 10051, "t": 15893}
+{"it": 754, "J_train": 187.3, "samples": 10047, "t": 15914}
+{"it": 755, "J_train": 195.56, "samples": 10062, "t": 15929}
+{"it": 756, "J_train": 195.64, "samples": 10053, "t": 15948}
+{"it": 757, "J_train": 189.81, "samples": 10063, "t": 15966}
+{"it": 758, "J_train": 193.76, "samples": 10057, "t": 15982}
+{"it": 759, "J_train": 193.25, "samples": 10058, "t": 16000, "J_val": 199.33, "best_val": 199.5, "plateau_gain": 3.6596015418349452, "plateau_2se": 4.16051845137811}
+{"it": 760, "J_train": 187.99, "samples": 10050, "t": 16053}
+{"it": 761, "J_train": 190.24, "samples": 10045, "t": 16068}
+{"it": 762, "J_train": 196.75, "samples": 10046, "t": 16089}
+{"it": 763, "J_train": 195.14, "samples": 10032, "t": 16106}
+{"it": 764, "J_train": 192.7, "samples": 10066, "t": 16125}
+{"it": 765, "J_train": 193.13, "samples": 10063, "t": 16144}
+{"it": 766, "J_train": 191.28, "samples": 10052, "t": 16161}
+{"it": 767, "J_train": 191.79, "samples": 10034, "t": 16179}
+{"it": 768, "J_train": 190.45, "samples": 10059, "t": 16198}
+{"it": 769, "J_train": 199.56, "samples": 10055, "t": 16218, "J_val": 203.2, "best_val": 203.2, "plateau_gain": 2.928361487154433, "plateau_2se": 4.039885498801151}
+{"it": 770, "J_train": 197.21, "samples": 10046, "t": 16267}
+{"it": 771, "J_train": 199.48, "samples": 10053, "t": 16286}
+{"it": 772, "J_train": 200.37, "samples": 10036, "t": 16307}
+{"it": 773, "J_train": 197.45, "samples": 10076, "t": 16327}
+{"it": 774, "J_train": 185.15, "samples": 10086, "t": 16345}
+{"it": 775, "J_train": 198.34, "samples": 10058, "t": 16361}
+{"it": 776, "J_train": 188.52, "samples": 10048, "t": 16380}
+{"it": 777, "J_train": 192.2, "samples": 10063, "t": 16397}
+{"it": 778, "J_train": 199.58, "samples": 10039, "t": 16414}
+{"it": 779, "J_train": 195.13, "samples": 10049, "t": 16434, "J_val": 203.56, "best_val": 203.56, "plateau_gain": 3.151748527692604, "plateau_2se": 3.97868909885503}
+{"it": 780, "J_train": 184.9, "samples": 10057, "t": 16489}
+{"it": 781, "J_train": 187.83, "samples": 10054, "t": 16505}
+{"it": 782, "J_train": 193.36, "samples": 10080, "t": 16523}
+{"it": 783, "J_train": 193.93, "samples": 10054, "t": 16541}
+{"it": 784, "J_train": 193.35, "samples": 10059, "t": 16557}
+{"it": 785, "J_train": 195.57, "samples": 10069, "t": 16575}
+{"it": 786, "J_train": 191.58, "samples": 10057, "t": 16594}
+{"it": 787, "J_train": 190.06, "samples": 10061, "t": 16611}
+{"it": 788, "J_train": 195.58, "samples": 10062, "t": 16628}
+{"it": 789, "J_train": 192.36, "samples": 10048, "t": 16646, "J_val": 202.12, "best_val": 203.56, "plateau_gain": 2.478620813309476, "plateau_2se": 3.218732717026273}
+{"it": 790, "J_train": 188.7, "samples": 10066, "t": 16699}
+{"it": 791, "J_train": 192.76, "samples": 10026, "t": 16716}
+{"it": 792, "J_train": 190.54, "samples": 10077, "t": 16735}
+{"it": 793, "J_train": 191.39, "samples": 10043, "t": 16752}
+{"it": 794, "J_train": 190.52, "samples": 10046, "t": 16769}
+{"it": 795, "J_train": 191.55, "samples": 10044, "t": 16788}
+{"it": 796, "J_train": 197.84, "samples": 10033, "t": 16804}
+{"it": 797, "J_train": 190.93, "samples": 10059, "t": 16821}
+{"it": 798, "J_train": 195.08, "samples": 10057, "t": 16838}
+{"it": 799, "J_train": 193.19, "samples": 10060, "t": 16855, "J_val": 203.23, "best_val": 203.56, "plateau_gain": 2.8312437256076066, "plateau_2se": 2.4993163381520884}
+{"it": 800, "J_train": 186.81, "samples": 10047, "t": 16907}
+{"it": 801, "J_train": 192.41, "samples": 10067, "t": 16923}
+{"it": 802, "J_train": 188.12, "samples": 10058, "t": 16942}
+{"it": 803, "J_train": 189.74, "samples": 10064, "t": 16959}
+{"it": 804, "J_train": 195.65, "samples": 10067, "t": 16979}
+{"it": 805, "J_train": 192.91, "samples": 10070, "t": 16999}
+{"it": 806, "J_train": 194.85, "samples": 10064, "t": 17016}
+{"it": 807, "J_train": 190.72, "samples": 10067, "t": 17034}
+{"it": 808, "J_train": 190.63, "samples": 10072, "t": 17053}
+{"it": 809, "J_train": 195.55, "samples": 10057, "t": 17073, "J_val": 200.76, "best_val": 203.56, "plateau_gain": 3.2137462364254077, "plateau_2se": 2.2722441743926503}
+{"it": 810, "J_train": 188.36, "samples": 10035, "t": 17121}
+{"it": 811, "J_train": 189.16, "samples": 10043, "t": 17138}
+{"it": 812, "J_train": 190.83, "samples": 10035, "t": 17158}
+{"it": 813, "J_train": 191.49, "samples": 10073, "t": 17175}
+{"it": 814, "J_train": 193.61, "samples": 10064, "t": 17194}
+{"it": 815, "J_train": 193.95, "samples": 10052, "t": 17210}
+{"it": 816, "J_train": 193.93, "samples": 10055, "t": 17229}
+{"it": 817, "J_train": 199.07, "samples": 10054, "t": 17247}
+{"it": 818, "J_train": 190.88, "samples": 10050, "t": 17264}
+{"it": 819, "J_train": 191.74, "samples": 10051, "t": 17281, "J_val": 199.13, "best_val": 203.56, "plateau_gain": 3.680510382551688, "plateau_2se": 2.103452511118655}
+{"it": 820, "J_train": 186.5, "samples": 10079, "t": 17334}
+{"it": 821, "J_train": 195.36, "samples": 10038, "t": 17355}
+{"it": 822, "J_train": 195.01, "samples": 10042, "t": 17373}
+{"it": 823, "J_train": 191.09, "samples": 10035, "t": 17391}
+{"it": 824, "J_train": 191.14, "samples": 10045, "t": 17412}
+{"it": 825, "J_train": 193.35, "samples": 10045, "t": 17430}
+{"it": 826, "J_train": 193.4, "samples": 10037, "t": 17446}
+{"it": 827, "J_train": 194.46, "samples": 10038, "t": 17466}
+{"it": 828, "J_train": 200.41, "samples": 10067, "t": 17484}
+{"it": 829, "J_train": 192.19, "samples": 10060, "t": 17502, "J_val": 199.19, "best_val": 203.56, "plateau_gain": 4.278029448294177, "plateau_2se": 1.839418956332401}
+{"it": 830, "J_train": 199.29, "samples": 10045, "t": 17555}
+{"it": 831, "J_train": 192.95, "samples": 10068, "t": 17573}
+{"it": 832, "J_train": 194.96, "samples": 10038, "t": 17591}
+{"it": 833, "J_train": 193.72, "samples": 10051, "t": 17607}
+{"it": 834, "J_train": 197.95, "samples": 10074, "t": 17622}
+{"it": 835, "J_train": 193.98, "samples": 10037, "t": 17640}
+{"it": 836, "J_train": 189.72, "samples": 10044, "t": 17660}
+{"it": 837, "J_train": 201.13, "samples": 10073, "t": 17677}
+{"it": 838, "J_train": 196.6, "samples": 10072, "t": 17692}
+{"it": 839, "J_train": 197.45, "samples": 10045, "t": 17713, "J_val": 203.61, "best_val": 203.61, "plateau_gain": 5.226013430102881, "plateau_2se": 1.5662635088318575}
+{"it": 840, "J_train": 201.1, "samples": 10079, "t": 17763}
+{"it": 841, "J_train": 192.05, "samples": 10062, "t": 17782}
+{"it": 842, "J_train": 195.93, "samples": 10046, "t": 17801}
+{"it": 843, "J_train": 199.24, "samples": 10051, "t": 17822}
+{"it": 844, "J_train": 196.07, "samples": 10034, "t": 17838}
+{"it": 845, "J_train": 190.54, "samples": 10077, "t": 17853}
+{"it": 846, "J_train": 195.16, "samples": 10073, "t": 17871}
+{"it": 847, "J_train": 198.03, "samples": 10043, "t": 17889}
+{"it": 848, "J_train": 195.6, "samples": 10072, "t": 17905}
+{"it": 849, "J_train": 200.62, "samples": 10076, "t": 17924, "J_val": 203.04, "best_val": 203.61, "plateau_gain": 5.183217604768146, "plateau_2se": 1.6290995349999469}
+{"it": 850, "J_train": 196.43, "samples": 10042, "t": 17975}
+{"it": 851, "J_train": 198.3, "samples": 10066, "t": 17990}
+{"it": 852, "J_train": 182.56, "samples": 10056, "t": 18008}
+{"it": 853, "J_train": 193.79, "samples": 10067, "t": 18023}
+{"it": 854, "J_train": 201.92, "samples": 10050, "t": 18038}
+{"it": 855, "J_train": 196.36, "samples": 10053, "t": 18057}
+{"it": 856, "J_train": 205.21, "samples": 10060, "t": 18075}
+{"it": 857, "J_train": 195.04, "samples": 10041, "t": 18094}
+{"it": 858, "J_train": 193.75, "samples": 10058, "t": 18114}
+{"it": 859, "J_train": 190.19, "samples": 10045, "t": 18135, "J_val": 201.96, "best_val": 203.61, "plateau_gain": 5.3578665029459955, "plateau_2se": 1.5984560741025933}
+{"it": 860, "J_train": 199.69, "samples": 10058, "t": 18187}
+{"it": 861, "J_train": 187.21, "samples": 10060, "t": 18205}
+{"it": 862, "J_train": 196.45, "samples": 10034, "t": 18225}
+{"it": 863, "J_train": 193.86, "samples": 10059, "t": 18243}
+{"it": 864, "J_train": 198.21, "samples": 10045, "t": 18260}
+{"it": 865, "J_train": 196.99, "samples": 10045, "t": 18279}
+{"it": 866, "J_train": 198.1, "samples": 10056, "t": 18297}
+{"it": 867, "J_train": 195.02, "samples": 10053, "t": 18314}
+{"it": 868, "J_train": 192.72, "samples": 10051, "t": 18333}
+{"it": 869, "J_train": 192.07, "samples": 10065, "t": 18352, "J_val": 201.96, "best_val": 203.61, "plateau_gain": 4.678782932096311, "plateau_2se": 2.0544126521415236}
+{"it": 870, "J_train": 199.14, "samples": 10047, "t": 18404}
+{"it": 871, "J_train": 197.15, "samples": 10056, "t": 18420}
+{"it": 872, "J_train": 194.38, "samples": 10078, "t": 18438}
+{"it": 873, "J_train": 196.58, "samples": 10059, "t": 18456}
+{"it": 874, "J_train": 188.92, "samples": 10044, "t": 18472}
+{"it": 875, "J_train": 191.95, "samples": 10061, "t": 18489}
+{"it": 876, "J_train": 199.22, "samples": 10057, "t": 18508}
+{"it": 877, "J_train": 199.9, "samples": 10071, "t": 18523}
+{"it": 878, "J_train": 191.9, "samples": 10058, "t": 18543}
+{"it": 879, "J_train": 198.5, "samples": 10070, "t": 18560, "J_val": 203.25, "best_val": 203.61, "plateau_gain": 3.7758026676828536, "plateau_2se": 2.325190798553909}
+{"it": 880, "J_train": 196.45, "samples": 10061, "t": 18614}
+{"it": 881, "J_train": 193.82, "samples": 10059, "t": 18631}
+{"it": 882, "J_train": 196.36, "samples": 10060, "t": 18649}
+{"it": 883, "J_train": 201.04, "samples": 10055, "t": 18667}
+{"it": 884, "J_train": 200.9, "samples": 10074, "t": 18685}
+{"it": 885, "J_train": 200.18, "samples": 10032, "t": 18703}
+{"it": 886, "J_train": 194.75, "samples": 10062, "t": 18722}
+{"it": 887, "J_train": 200.88, "samples": 10065, "t": 18739}
+{"it": 888, "J_train": 189.66, "samples": 10073, "t": 18758}
+{"it": 889, "J_train": 195.99, "samples": 10056, "t": 18775, "J_val": 204.87, "best_val": 204.87, "plateau_gain": 3.477227191136876, "plateau_2se": 2.4996624051502545}
+{"it": 890, "J_train": 195.62, "samples": 10063, "t": 18824}
+{"it": 891, "J_train": 199.48, "samples": 10077, "t": 18840}
+{"it": 892, "J_train": 190.48, "samples": 10083, "t": 18859}
+{"it": 893, "J_train": 191.81, "samples": 10067, "t": 18876}
+{"it": 894, "J_train": 195.14, "samples": 10060, "t": 18893}
+{"it": 895, "J_train": 197.55, "samples": 10076, "t": 18912}
+{"it": 896, "J_train": 194.0, "samples": 10084, "t": 18930}
+{"it": 897, "J_train": 188.71, "samples": 10060, "t": 18948}
+{"it": 898, "J_train": 192.41, "samples": 10043, "t": 18966}
+{"it": 899, "J_train": 181.39, "samples": 10076, "t": 18983, "J_val": 202.96, "best_val": 204.87, "plateau_gain": 2.4700935895251632, "plateau_2se": 2.355024208734884}
+{"it": 900, "J_train": 193.75, "samples": 10048, "t": 19035}
+{"it": 901, "J_train": 190.5, "samples": 10042, "t": 19054}
+{"it": 902, "J_train": 196.9, "samples": 10046, "t": 19070}
+{"it": 903, "J_train": 199.29, "samples": 10057, "t": 19088}
+{"it": 904, "J_train": 202.52, "samples": 10051, "t": 19106}
+{"it": 905, "J_train": 194.5, "samples": 10048, "t": 19122}
+{"it": 906, "J_train": 197.21, "samples": 10073, "t": 19140}
+{"it": 907, "J_train": 199.67, "samples": 10037, "t": 19158}
+{"it": 908, "J_train": 197.63, "samples": 10054, "t": 19177}
+{"it": 909, "J_train": 197.64, "samples": 10062, "t": 19195, "J_val": 202.27, "best_val": 204.87, "plateau_gain": 2.0943970735822006, "plateau_2se": 2.154884347167967}
+{"it": 910, "J_train": 201.77, "samples": 10051, "t": 19248}
+{"it": 911, "J_train": 199.31, "samples": 10042, "t": 19266}
+{"it": 912, "J_train": 197.48, "samples": 10041, "t": 19285}
+{"it": 913, "J_train": 202.73, "samples": 10052, "t": 19304}
+{"it": 914, "J_train": 199.34, "samples": 10028, "t": 19320}
+{"it": 915, "J_train": 189.63, "samples": 10047, "t": 19337}
+{"it": 916, "J_train": 198.95, "samples": 10051, "t": 19355}
+{"it": 917, "J_train": 201.03, "samples": 10071, "t": 19372}
+{"it": 918, "J_train": 204.31, "samples": 10048, "t": 19389}
+{"it": 919, "J_train": 193.71, "samples": 10043, "t": 19407, "J_val": 200.39, "best_val": 204.87, "plateau_gain": 2.0036751900834133, "plateau_2se": 1.9847823416907204}
+{"it": 920, "J_train": 195.14, "samples": 10060, "t": 19458}
+{"it": 921, "J_train": 194.55, "samples": 10042, "t": 19475}
+{"it": 922, "J_train": 202.72, "samples": 10044, "t": 19493}
+{"it": 923, "J_train": 201.63, "samples": 10047, "t": 19513}
+{"it": 924, "J_train": 192.19, "samples": 10050, "t": 19529}
+{"it": 925, "J_train": 198.81, "samples": 10058, "t": 19547}
+{"it": 926, "J_train": 199.48, "samples": 10039, "t": 19566}
+{"it": 927, "J_train": 193.62, "samples": 10043, "t": 19583}
+{"it": 928, "J_train": 197.84, "samples": 10054, "t": 19602}
+{"it": 929, "J_train": 193.94, "samples": 10075, "t": 19620, "J_val": 206.03, "best_val": 206.03, "plateau_gain": 2.3709623803445368, "plateau_2se": 1.75287468317468}
+{"it": 930, "J_train": 193.22, "samples": 10053, "t": 19674}
+{"it": 931, "J_train": 199.54, "samples": 10063, "t": 19691}
+{"it": 932, "J_train": 202.68, "samples": 10081, "t": 19710}
+{"it": 933, "J_train": 191.6, "samples": 10053, "t": 19728}
+{"it": 934, "J_train": 191.95, "samples": 10078, "t": 19746}
+{"it": 935, "J_train": 200.74, "samples": 10057, "t": 19762}
+{"it": 936, "J_train": 199.5, "samples": 10064, "t": 19781}
+{"it": 937, "J_train": 187.0, "samples": 10074, "t": 19798}
+{"it": 938, "J_train": 199.3, "samples": 10071, "t": 19815}
+{"it": 939, "J_train": 200.53, "samples": 10060, "t": 19835, "J_val": 206.62, "best_val": 206.62, "plateau_gain": 1.9919204180175427, "plateau_2se": 1.7647480782586165}
+{"it": 940, "J_train": 197.71, "samples": 10022, "t": 19887}
+{"it": 941, "J_train": 192.68, "samples": 10047, "t": 19905}
+{"it": 942, "J_train": 191.56, "samples": 10062, "t": 19925}
+{"it": 943, "J_train": 199.9, "samples": 10051, "t": 19943}
+{"it": 944, "J_train": 194.85, "samples": 10072, "t": 19960}
+{"it": 945, "J_train": 200.89, "samples": 10060, "t": 19977}
+{"it": 946, "J_train": 200.62, "samples": 10071, "t": 19996}
+{"it": 947, "J_train": 196.29, "samples": 10048, "t": 20011}
+{"it": 948, "J_train": 190.84, "samples": 10057, "t": 20028}
+{"it": 949, "J_train": 196.03, "samples": 10060, "t": 20046, "J_val": 204.98, "best_val": 206.62, "plateau_gain": 1.8110719670888784, "plateau_2se": 1.7581726256565775}
+{"it": 950, "J_train": 202.76, "samples": 10062, "t": 20093}
+{"it": 951, "J_train": 195.14, "samples": 10065, "t": 20111}
+{"it": 952, "J_train": 206.1, "samples": 10059, "t": 20129}
+{"it": 953, "J_train": 200.17, "samples": 10060, "t": 20146}
+{"it": 954, "J_train": 191.91, "samples": 10042, "t": 20162}
+{"it": 955, "J_train": 190.52, "samples": 10037, "t": 20180}
+{"it": 956, "J_train": 200.18, "samples": 10064, "t": 20197}
+{"it": 957, "J_train": 200.94, "samples": 10052, "t": 20217}
+{"it": 958, "J_train": 202.01, "samples": 10045, "t": 20236}
+{"it": 959, "J_train": 195.35, "samples": 10060, "t": 20253, "J_val": 206.26, "best_val": 206.62, "plateau_gain": 1.9775523352895732, "plateau_2se": 1.7178033598517781}
+{"it": 960, "J_train": 197.21, "samples": 10050, "t": 20306}
+{"it": 961, "J_train": 192.7, "samples": 10074, "t": 20324}
+{"it": 962, "J_train": 197.36, "samples": 10063, "t": 20339}
+{"it": 963, "J_train": 197.96, "samples": 10050, "t": 20358}
+{"it": 964, "J_train": 200.81, "samples": 10086, "t": 20374}
+{"it": 965, "J_train": 205.18, "samples": 10046, "t": 20392}
+{"it": 966, "J_train": 197.62, "samples": 10038, "t": 20408}
+{"it": 967, "J_train": 195.04, "samples": 10054, "t": 20426}
+{"it": 968, "J_train": 190.86, "samples": 10051, "t": 20445}
+{"it": 969, "J_train": 200.28, "samples": 10054, "t": 20465, "J_val": 203.54, "best_val": 206.62, "plateau_gain": 2.259961184072097, "plateau_2se": 1.642164158906952}
+{"it": 970, "J_train": 194.17, "samples": 10029, "t": 20514}
+{"it": 971, "J_train": 194.83, "samples": 10046, "t": 20533}
+{"it": 972, "J_train": 199.27, "samples": 10052, "t": 20551}
+{"it": 973, "J_train": 199.82, "samples": 10052, "t": 20570}
+{"it": 974, "J_train": 197.46, "samples": 10061, "t": 20588}
+{"it": 975, "J_train": 204.88, "samples": 10056, "t": 20607}
+{"it": 976, "J_train": 199.9, "samples": 10061, "t": 20624}
+{"it": 977, "J_train": 186.4, "samples": 10060, "t": 20643}
+{"it": 978, "J_train": 202.81, "samples": 10068, "t": 20660}
+{"it": 979, "J_train": 199.82, "samples": 10083, "t": 20679, "J_val": 205.06, "best_val": 206.62, "plateau_gain": 2.4710669437275214, "plateau_2se": 1.6265311242687133}
+{"it": 980, "J_train": 197.47, "samples": 10049, "t": 20732}
+{"it": 981, "J_train": 198.52, "samples": 10059, "t": 20749}
+{"it": 982, "J_train": 208.51, "samples": 10063, "t": 20766}
+{"it": 983, "J_train": 190.73, "samples": 10056, "t": 20786}
+{"it": 984, "J_train": 194.23, "samples": 10064, "t": 20802}
+{"it": 985, "J_train": 194.62, "samples": 10037, "t": 20820}
+{"it": 986, "J_train": 198.99, "samples": 10064, "t": 20837}
+{"it": 987, "J_train": 198.13, "samples": 10063, "t": 20855}
+{"it": 988, "J_train": 193.86, "samples": 10046, "t": 20873}
+{"it": 989, "J_train": 195.08, "samples": 10067, "t": 20890, "J_val": 207.51, "best_val": 207.51, "plateau_gain": 2.4612585750618337, "plateau_2se": 1.8528018218414264}
+{"it": 990, "J_train": 204.41, "samples": 10077, "t": 20940}
+{"it": 991, "J_train": 197.84, "samples": 10076, "t": 20955}
+{"it": 992, "J_train": 201.48, "samples": 10053, "t": 20972}
+{"it": 993, "J_train": 190.34, "samples": 10070, "t": 20990}
+{"it": 994, "J_train": 205.83, "samples": 10072, "t": 21011}
+{"it": 995, "J_train": 194.42, "samples": 10065, "t": 21029}
+{"it": 996, "J_train": 198.99, "samples": 10087, "t": 21045}
+{"it": 997, "J_train": 202.55, "samples": 10058, "t": 21063}
+{"it": 998, "J_train": 193.4, "samples": 10068, "t": 21079}
+{"it": 999, "J_train": 196.3, "samples": 10054, "t": 21096, "J_val": 208.35, "best_val": 208.35, "plateau_gain": 3.026883948065432, "plateau_2se": 1.950425092882419}
+{"it": 1000, "J_train": 199.95, "samples": 10052, "t": 21146}
+{"it": 1001, "J_train": 202.12, "samples": 10073, "t": 21164}
+{"it": 1002, "J_train": 200.97, "samples": 10063, "t": 21182}
+{"it": 1003, "J_train": 200.87, "samples": 10043, "t": 21201}
+{"it": 1004, "J_train": 200.43, "samples": 10064, "t": 21219}
+{"it": 1005, "J_train": 201.94, "samples": 10048, "t": 21234}
+{"it": 1006, "J_train": 202.09, "samples": 10050, "t": 21253}
+{"it": 1007, "J_train": 199.59, "samples": 10055, "t": 21270}
+{"it": 1008, "J_train": 203.96, "samples": 10037, "t": 21288}
+{"it": 1009, "J_train": 198.74, "samples": 10044, "t": 21305, "J_val": 206.37, "best_val": 208.35, "plateau_gain": 3.2856994990469843, "plateau_2se": 1.8325683836145596}
+{"it": 1010, "J_train": 202.85, "samples": 10041, "t": 21359}
+{"it": 1011, "J_train": 198.36, "samples": 10048, "t": 21378}
+{"it": 1012, "J_train": 204.21, "samples": 10057, "t": 21395}
+{"it": 1013, "J_train": 201.5, "samples": 10043, "t": 21413}
+{"it": 1014, "J_train": 193.78, "samples": 10033, "t": 21431}
+{"it": 1015, "J_train": 195.81, "samples": 10060, "t": 21450}
+{"it": 1016, "J_train": 193.96, "samples": 10033, "t": 21467}
+{"it": 1017, "J_train": 199.54, "samples": 10054, "t": 21485}
+{"it": 1018, "J_train": 199.27, "samples": 10081, "t": 21503}
+{"it": 1019, "J_train": 210.32, "samples": 10066, "t": 21522, "J_val": 206.71, "best_val": 208.35, "plateau_gain": 3.792457556901695, "plateau_2se": 1.3405672684327583}
+{"it": 1020, "J_train": 201.47, "samples": 10064, "t": 21575}
+{"it": 1021, "J_train": 191.33, "samples": 10077, "t": 21593}
+{"it": 1022, "J_train": 200.45, "samples": 10064, "t": 21611}
+{"it": 1023, "J_train": 193.76, "samples": 10045, "t": 21627}
+{"it": 1024, "J_train": 200.18, "samples": 10081, "t": 21645}
+{"it": 1025, "J_train": 199.31, "samples": 10058, "t": 21661}
+{"it": 1026, "J_train": 204.96, "samples": 10055, "t": 21677}
+{"it": 1027, "J_train": 198.03, "samples": 10077, "t": 21695}
+{"it": 1028, "J_train": 200.98, "samples": 10066, "t": 21712}
+{"it": 1029, "J_train": 194.59, "samples": 10071, "t": 21730, "J_val": 207.51, "best_val": 208.35, "plateau_gain": 3.256604361792739, "plateau_2se": 1.3485589543634904}
+{"it": 1030, "J_train": 204.91, "samples": 10073, "t": 21780}
+{"it": 1031, "J_train": 198.42, "samples": 10053, "t": 21797}
+{"it": 1032, "J_train": 190.35, "samples": 10066, "t": 21815}
+{"it": 1033, "J_train": 204.07, "samples": 10079, "t": 21834}
+{"it": 1034, "J_train": 197.6, "samples": 10044, "t": 21851}
+{"it": 1035, "J_train": 198.65, "samples": 10064, "t": 21869}
+{"it": 1036, "J_train": 202.19, "samples": 10065, "t": 21887}
+{"it": 1037, "J_train": 191.12, "samples": 10064, "t": 21904}
+{"it": 1038, "J_train": 202.21, "samples": 10062, "t": 21922}
+{"it": 1039, "J_train": 199.59, "samples": 10080, "t": 21942, "J_val": 206.66, "best_val": 208.35, "plateau_gain": 2.959650958294361, "plateau_2se": 1.5285787815864167}
+{"it": 1040, "J_train": 194.09, "samples": 10062, "t": 21992}
+{"it": 1041, "J_train": 202.82, "samples": 10062, "t": 22009}
+{"it": 1042, "J_train": 199.45, "samples": 10058, "t": 22027}
+{"it": 1043, "J_train": 196.5, "samples": 10072, "t": 22046}
+{"it": 1044, "J_train": 196.47, "samples": 10049, "t": 22063}
+{"it": 1045, "J_train": 201.87, "samples": 10057, "t": 22080}
+{"it": 1046, "J_train": 197.17, "samples": 10077, "t": 22099}
+{"it": 1047, "J_train": 202.2, "samples": 10045, "t": 22116}
+{"it": 1048, "J_train": 200.03, "samples": 10064, "t": 22133}
+{"it": 1049, "J_train": 191.29, "samples": 10081, "t": 22153, "J_val": 207.98, "best_val": 208.35, "plateau_gain": 3.0650604661151704, "plateau_2se": 1.56377426637048}
+{"it": 1050, "J_train": 204.21, "samples": 10045, "t": 22207}
+{"it": 1051, "J_train": 204.03, "samples": 10058, "t": 22225}
+{"it": 1052, "J_train": 191.37, "samples": 10056, "t": 22241}
+{"it": 1053, "J_train": 205.74, "samples": 10044, "t": 22260}
+{"it": 1054, "J_train": 195.08, "samples": 10081, "t": 22279}
+{"it": 1055, "J_train": 201.91, "samples": 10082, "t": 22296}
+{"it": 1056, "J_train": 190.69, "samples": 10055, "t": 22314}
+{"it": 1057, "J_train": 196.42, "samples": 10044, "t": 22332}
+{"it": 1058, "J_train": 205.83, "samples": 10055, "t": 22349}
+{"it": 1059, "J_train": 197.66, "samples": 10063, "t": 22368, "J_val": 209.19, "best_val": 209.19, "plateau_gain": 2.929302835277923, "plateau_2se": 1.6860797789772701}
+{"it": 1060, "J_train": 204.63, "samples": 10056, "t": 22420}
+{"it": 1061, "J_train": 196.26, "samples": 10045, "t": 22436}
+{"it": 1062, "J_train": 200.94, "samples": 10054, "t": 22453}
+{"it": 1063, "J_train": 197.99, "samples": 10053, "t": 22473}
+{"it": 1064, "J_train": 189.52, "samples": 10047, "t": 22489}
+{"it": 1065, "J_train": 194.78, "samples": 10062, "t": 22508}
+{"it": 1066, "J_train": 194.64, "samples": 10044, "t": 22527}
+{"it": 1067, "J_train": 191.02, "samples": 10049, "t": 22546}
+{"it": 1068, "J_train": 197.89, "samples": 10068, "t": 22564}
+{"it": 1069, "J_train": 197.85, "samples": 10074, "t": 22582, "J_val": 207.38, "best_val": 209.19, "plateau_gain": 3.1554962736842924, "plateau_2se": 1.4519865692373248}
+{"it": 1070, "J_train": 192.2, "samples": 10075, "t": 22637}
+{"it": 1071, "J_train": 189.1, "samples": 10051, "t": 22655}
+{"it": 1072, "J_train": 209.73, "samples": 10050, "t": 22672}
+{"it": 1073, "J_train": 196.79, "samples": 10055, "t": 22690}
+{"it": 1074, "J_train": 204.66, "samples": 10031, "t": 22706}
+{"it": 1075, "J_train": 199.12, "samples": 10048, "t": 22723}
+{"it": 1076, "J_train": 198.48, "samples": 10068, "t": 22742}
+{"it": 1077, "J_train": 199.0, "samples": 10056, "t": 22757}
+{"it": 1078, "J_train": 204.19, "samples": 10054, "t": 22776}
+{"it": 1079, "J_train": 201.25, "samples": 10065, "t": 22794, "J_val": 211.34, "best_val": 211.34, "plateau_gain": 3.6037365616862758, "plateau_2se": 1.5628788514201768}
+{"it": 1080, "J_train": 203.79, "samples": 10073, "t": 22847}
+{"it": 1081, "J_train": 198.86, "samples": 10036, "t": 22864}
+{"it": 1082, "J_train": 208.31, "samples": 10066, "t": 22882}
+{"it": 1083, "J_train": 195.9, "samples": 10072, "t": 22899}
+{"it": 1084, "J_train": 198.83, "samples": 10045, "t": 22916}
+{"it": 1085, "J_train": 195.69, "samples": 10071, "t": 22934}
+{"it": 1086, "J_train": 196.65, "samples": 10060, "t": 22950}
+{"it": 1087, "J_train": 195.05, "samples": 10074, "t": 22966}
+{"it": 1088, "J_train": 192.19, "samples": 10058, "t": 22985}
+{"it": 1089, "J_train": 198.33, "samples": 10050, "t": 23002, "J_val": 206.33, "best_val": 211.34, "plateau_gain": 3.220999026012919, "plateau_2se": 1.7184597968837094}
+{"it": 1090, "J_train": 201.81, "samples": 10064, "t": 23055}
+{"it": 1091, "J_train": 198.44, "samples": 10058, "t": 23073}
+{"it": 1092, "J_train": 195.11, "samples": 10061, "t": 23092}
+{"it": 1093, "J_train": 203.83, "samples": 10056, "t": 23108}
+{"it": 1094, "J_train": 199.83, "samples": 10060, "t": 23127}
+{"it": 1095, "J_train": 200.47, "samples": 10055, "t": 23144}
+{"it": 1096, "J_train": 197.74, "samples": 10049, "t": 23161}
+{"it": 1097, "J_train": 199.54, "samples": 10054, "t": 23179}
+{"it": 1098, "J_train": 203.23, "samples": 10053, "t": 23197}
+{"it": 1099, "J_train": 197.96, "samples": 10063, "t": 23213, "J_val": 210.13, "best_val": 211.34, "plateau_gain": 2.8604989968724226, "plateau_2se": 1.8882280372306637}
+{"it": 1100, "J_train": 191.73, "samples": 10067, "t": 23264}
+{"it": 1101, "J_train": 195.19, "samples": 10051, "t": 23282}
+{"it": 1102, "J_train": 193.76, "samples": 10078, "t": 23301}
+{"it": 1103, "J_train": 193.82, "samples": 10075, "t": 23317}
+{"it": 1104, "J_train": 197.39, "samples": 10080, "t": 23336}
+{"it": 1105, "J_train": 194.02, "samples": 10074, "t": 23354}
+{"it": 1106, "J_train": 196.11, "samples": 10061, "t": 23372}
+{"it": 1107, "J_train": 206.56, "samples": 10047, "t": 23389}
+{"it": 1108, "J_train": 199.53, "samples": 10049, "t": 23408}
+{"it": 1109, "J_train": 191.8, "samples": 10064, "t": 23424, "J_val": 209.45, "best_val": 211.34, "plateau_gain": 2.7589104630119436, "plateau_2se": 1.7743765738579986}
+{"it": 1110, "J_train": 198.67, "samples": 10053, "t": 23479}
+{"it": 1111, "J_train": 192.57, "samples": 10060, "t": 23498}
+{"it": 1112, "J_train": 202.28, "samples": 10050, "t": 23517}
+{"it": 1113, "J_train": 200.1, "samples": 10046, "t": 23533}
+{"it": 1114, "J_train": 203.28, "samples": 10050, "t": 23550}
+{"it": 1115, "J_train": 195.61, "samples": 10065, "t": 23570}
+{"it": 1116, "J_train": 195.51, "samples": 10024, "t": 23590}
+{"it": 1117, "J_train": 204.27, "samples": 10075, "t": 23607}
+{"it": 1118, "J_train": 201.21, "samples": 10054, "t": 23626}
+{"it": 1119, "J_train": 200.16, "samples": 10037, "t": 23644, "J_val": 206.24, "best_val": 211.34, "plateau_gain": 2.0787715566373492, "plateau_2se": 1.3944731042746419}
+{"it": 1120, "J_train": 192.18, "samples": 10021, "t": 23695}
+{"it": 1121, "J_train": 196.28, "samples": 10046, "t": 23714}
+{"it": 1122, "J_train": 200.78, "samples": 10068, "t": 23732}
+{"it": 1123, "J_train": 195.39, "samples": 10027, "t": 23750}
+{"it": 1124, "J_train": 199.35, "samples": 10066, "t": 23767}
+{"it": 1125, "J_train": 194.26, "samples": 10067, "t": 23785}
+{"it": 1126, "J_train": 201.13, "samples": 10063, "t": 23802}
+{"it": 1127, "J_train": 201.33, "samples": 10062, "t": 23820}
+{"it": 1128, "J_train": 197.88, "samples": 10074, "t": 23838}
+{"it": 1129, "J_train": 195.19, "samples": 10065, "t": 23856, "J_val": 204.25, "best_val": 211.34, "plateau_gain": 1.6049821119788135, "plateau_2se": 1.6273303123525182}
+{"it": 1130, "J_train": 203.98, "samples": 10050, "t": 23906}
+{"it": 1131, "J_train": 201.81, "samples": 10086, "t": 23922}
+{"it": 1132, "J_train": 197.74, "samples": 10071, "t": 23941}
+{"it": 1133, "J_train": 197.65, "samples": 10074, "t": 23959}
+{"it": 1134, "J_train": 191.08, "samples": 10071, "t": 23975}
+{"it": 1135, "J_train": 192.69, "samples": 10046, "t": 23993}
+{"it": 1136, "J_train": 191.55, "samples": 10050, "t": 24012}
+{"it": 1137, "J_train": 197.61, "samples": 10063, "t": 24030}
+{"it": 1138, "J_train": 202.48, "samples": 10039, "t": 24049}
+{"it": 1139, "J_train": 195.61, "samples": 10051, "t": 24067, "J_val": 206.7, "best_val": 211.34, "plateau_gain": 1.6057156757113376, "plateau_2se": 1.6262100960262988}
+{"it": 1140, "J_train": 192.79, "samples": 10073, "t": 24119}
+{"it": 1141, "J_train": 196.8, "samples": 10050, "t": 24138}
+{"it": 1142, "J_train": 196.09, "samples": 10058, "t": 24156}
+{"it": 1143, "J_train": 201.38, "samples": 10036, "t": 24173}
+{"it": 1144, "J_train": 196.63, "samples": 10046, "t": 24190}
+{"it": 1145, "J_train": 203.6, "samples": 10041, "t": 24206}
+{"it": 1146, "J_train": 198.41, "samples": 10088, "t": 24226}
+{"it": 1147, "J_train": 202.55, "samples": 10078, "t": 24244}
+{"it": 1148, "J_train": 206.13, "samples": 10056, "t": 24264}
+{"it": 1149, "J_train": 194.9, "samples": 10041, "t": 24280, "J_val": 210.35, "best_val": 211.34, "plateau_gain": 1.543689747380455, "plateau_2se": 1.701740210353109}
+{"it": 1150, "J_train": 207.5, "samples": 10048, "t": 24331}
+{"it": 1151, "J_train": 198.72, "samples": 10064, "t": 24349}
+{"it": 1152, "J_train": 203.05, "samples": 10064, "t": 24365}
+{"it": 1153, "J_train": 202.03, "samples": 10075, "t": 24384}
+{"it": 1154, "J_train": 201.94, "samples": 10031, "t": 24402}
+{"it": 1155, "J_train": 198.85, "samples": 10048, "t": 24419}
+{"it": 1156, "J_train": 202.2, "samples": 10062, "t": 24436}
+{"it": 1157, "J_train": 201.6, "samples": 10043, "t": 24453}
+{"it": 1158, "J_train": 205.99, "samples": 10049, "t": 24471}
+{"it": 1159, "J_train": 204.08, "samples": 10047, "t": 24487, "J_val": 211.06, "best_val": 211.34, "plateau_gain": 1.4367180064001843, "plateau_2se": 1.8622647591266908}
+{"it": 1160, "J_train": 200.55, "samples": 10035, "t": 24540}
+{"it": 1161, "J_train": 193.97, "samples": 10047, "t": 24557}
+{"it": 1162, "J_train": 205.38, "samples": 10056, "t": 24578}
+{"it": 1163, "J_train": 191.61, "samples": 10056, "t": 24597}
+{"it": 1164, "J_train": 200.16, "samples": 10062, "t": 24614}
+{"it": 1165, "J_train": 203.51, "samples": 10037, "t": 24632}
+{"it": 1166, "J_train": 194.52, "samples": 10075, "t": 24647}
+{"it": 1167, "J_train": 200.44, "samples": 10074, "t": 24666}
+{"it": 1168, "J_train": 192.15, "samples": 10050, "t": 24683}
+{"it": 1169, "J_train": 200.59, "samples": 10050, "t": 24700, "J_val": 212.8, "best_val": 212.8, "plateau_gain": 1.5941059861653173, "plateau_2se": 1.9065827426913309}
+{"it": 1170, "J_train": 196.41, "samples": 10056, "t": 24751}
+{"it": 1171, "J_train": 197.17, "samples": 10050, "t": 24769}
+{"it": 1172, "J_train": 204.25, "samples": 10066, "t": 24789}
+{"it": 1173, "J_train": 187.94, "samples": 10047, "t": 24806}
+{"it": 1174, "J_train": 202.45, "samples": 10061, "t": 24824}
+{"it": 1175, "J_train": 201.83, "samples": 10064, "t": 24842}
+{"it": 1176, "J_train": 201.77, "samples": 10067, "t": 24860}
+{"it": 1177, "J_train": 200.87, "samples": 10062, "t": 24877}
+{"it": 1178, "J_train": 200.69, "samples": 10061, "t": 24895}
+{"it": 1179, "J_train": 194.79, "samples": 10071, "t": 24913, "J_val": 210.76, "best_val": 212.8, "plateau_gain": 0.9070774703351958, "plateau_2se": 1.965405336452547}
+{"it": 1180, "J_train": 201.49, "samples": 10059, "t": 24966}
+{"it": 1181, "J_train": 204.47, "samples": 10058, "t": 24984}
+{"it": 1182, "J_train": 197.01, "samples": 10061, "t": 25002}
+{"it": 1183, "J_train": 199.38, "samples": 10055, "t": 25022}
+{"it": 1184, "J_train": 201.53, "samples": 10071, "t": 25039}
+{"it": 1185, "J_train": 200.91, "samples": 10058, "t": 25058}
+{"it": 1186, "J_train": 204.6, "samples": 10059, "t": 25076}
+{"it": 1187, "J_train": 202.64, "samples": 10066, "t": 25091}
+{"it": 1188, "J_train": 193.91, "samples": 10028, "t": 25109}
+{"it": 1189, "J_train": 197.46, "samples": 10063, "t": 25128, "J_val": 210.22, "best_val": 212.8, "plateau_gain": 1.4141076503219665, "plateau_2se": 1.9256744352381698}
+{"it": 1190, "J_train": 203.49, "samples": 10049, "t": 25178}
+{"it": 1191, "J_train": 200.07, "samples": 10074, "t": 25197}
+{"it": 1192, "J_train": 195.61, "samples": 10044, "t": 25215}
+{"it": 1193, "J_train": 194.39, "samples": 10058, "t": 25233}
+{"it": 1194, "J_train": 199.09, "samples": 10050, "t": 25249}
+{"it": 1195, "J_train": 195.71, "samples": 10061, "t": 25268}
+{"it": 1196, "J_train": 192.98, "samples": 10059, "t": 25285}
+{"it": 1197, "J_train": 198.5, "samples": 10072, "t": 25301}
+{"it": 1198, "J_train": 200.31, "samples": 10045, "t": 25320}
+{"it": 1199, "J_train": 199.96, "samples": 10050, "t": 25337, "J_val": 210.99, "best_val": 212.8, "plateau_gain": 1.3221104131268362, "plateau_2se": 2.0064679053443073}
+{"it": 1200, "J_train": 200.68, "samples": 10067, "t": 25387}
+{"it": 1201, "J_train": 205.91, "samples": 10049, "t": 25405}
+{"it": 1202, "J_train": 206.36, "samples": 10040, "t": 25424}
+{"it": 1203, "J_train": 199.87, "samples": 10044, "t": 25442}
+{"it": 1204, "J_train": 205.36, "samples": 10071, "t": 25457}
+{"it": 1205, "J_train": 202.69, "samples": 10039, "t": 25474}
+{"it": 1206, "J_train": 203.77, "samples": 10049, "t": 25491}
+{"it": 1207, "J_train": 198.04, "samples": 10049, "t": 25509}
+{"it": 1208, "J_train": 200.72, "samples": 10065, "t": 25527}
+{"it": 1209, "J_train": 214.46, "samples": 10056, "t": 25543, "J_val": 213.68, "best_val": 213.68, "plateau_gain": 1.436582482307415, "plateau_2se": 2.1787180377498627}
+{"it": 1210, "J_train": 206.37, "samples": 10038, "t": 25593}
+{"it": 1211, "J_train": 205.84, "samples": 10050, "t": 25610}
+{"it": 1212, "J_train": 199.05, "samples": 10056, "t": 25627}
+{"it": 1213, "J_train": 193.69, "samples": 10070, "t": 25643}
+{"it": 1214, "J_train": 203.2, "samples": 10028, "t": 25661}
+{"it": 1215, "J_train": 201.13, "samples": 10055, "t": 25680}
+{"it": 1216, "J_train": 197.76, "samples": 10055, "t": 25697}
+{"it": 1217, "J_train": 199.45, "samples": 10055, "t": 25716}
+{"it": 1218, "J_train": 202.31, "samples": 10063, "t": 25735}
+{"it": 1219, "J_train": 204.8, "samples": 10045, "t": 25749, "J_val": 211.09, "best_val": 213.68, "plateau_gain": 1.969109743075336, "plateau_2se": 2.0660136254231594}
+{"it": 1220, "J_train": 202.61, "samples": 10042, "t": 25798}
+{"it": 1221, "J_train": 206.78, "samples": 10050, "t": 25817}
+{"it": 1222, "J_train": 200.73, "samples": 10028, "t": 25831}
+{"it": 1223, "J_train": 201.91, "samples": 10061, "t": 25849}
+{"it": 1224, "J_train": 198.76, "samples": 10059, "t": 25867}
+{"it": 1225, "J_train": 199.25, "samples": 10072, "t": 25884}
+{"it": 1226, "J_train": 203.87, "samples": 10042, "t": 25902}
+{"it": 1227, "J_train": 202.39, "samples": 10039, "t": 25921}
+{"it": 1228, "J_train": 195.42, "samples": 10050, "t": 25939}
+{"it": 1229, "J_train": 199.51, "samples": 10033, "t": 25957, "J_val": 212.85, "best_val": 213.68, "plateau_gain": 3.155287780669653, "plateau_2se": 1.8213981586925485}
+{"it": 1230, "J_train": 201.25, "samples": 10050, "t": 26007}
+{"it": 1231, "J_train": 202.41, "samples": 10056, "t": 26024}
+{"it": 1232, "J_train": 198.61, "samples": 10064, "t": 26041}
+{"it": 1233, "J_train": 207.0, "samples": 10052, "t": 26061}
+{"it": 1234, "J_train": 202.45, "samples": 10053, "t": 26080}
+{"it": 1235, "J_train": 201.1, "samples": 10034, "t": 26095}
+{"it": 1236, "J_train": 203.7, "samples": 10062, "t": 26114}
+{"it": 1237, "J_train": 196.09, "samples": 10062, "t": 26132}
+{"it": 1238, "J_train": 196.57, "samples": 10057, "t": 26149}
+{"it": 1239, "J_train": 202.41, "samples": 10059, "t": 26167, "J_val": 214.38, "best_val": 214.38, "plateau_gain": 3.918627181260632, "plateau_2se": 1.6440634824805211}
+{"it": 1240, "J_train": 202.99, "samples": 10067, "t": 26218}
+{"it": 1241, "J_train": 208.49, "samples": 10051, "t": 26235}
+{"it": 1242, "J_train": 200.22, "samples": 10053, "t": 26252}
+{"it": 1243, "J_train": 198.72, "samples": 10073, "t": 26271}
+{"it": 1244, "J_train": 206.95, "samples": 10043, "t": 26288}
+{"it": 1245, "J_train": 202.1, "samples": 10044, "t": 26306}
+{"it": 1246, "J_train": 194.41, "samples": 10054, "t": 26324}
+{"it": 1247, "J_train": 197.64, "samples": 10046, "t": 26339}
+{"it": 1248, "J_train": 199.55, "samples": 10057, "t": 26358}
+{"it": 1249, "J_train": 202.56, "samples": 10025, "t": 26377, "J_val": 215.94, "best_val": 215.94, "plateau_gain": 4.239192437374015, "plateau_2se": 1.8613352747557133}
+{"it": 1250, "J_train": 197.84, "samples": 10060, "t": 26432}
+{"it": 1251, "J_train": 200.41, "samples": 10051, "t": 26448}
+{"it": 1252, "J_train": 207.66, "samples": 10032, "t": 26465}
+{"it": 1253, "J_train": 187.9, "samples": 10048, "t": 26485}
+{"it": 1254, "J_train": 203.68, "samples": 10052, "t": 26504}
+{"it": 1255, "J_train": 200.69, "samples": 10062, "t": 26521}
+{"it": 1256, "J_train": 200.51, "samples": 10057, "t": 26538}
+{"it": 1257, "J_train": 202.36, "samples": 10049, "t": 26557}
+{"it": 1258, "J_train": 207.22, "samples": 10050, "t": 26575}
+{"it": 1259, "J_train": 204.71, "samples": 10055, "t": 26593, "J_val": 213.77, "best_val": 215.94, "plateau_gain": 4.323132734740113, "plateau_2se": 1.9380383304634938}
+{"it": 1260, "J_train": 199.54, "samples": 10070, "t": 26646}
+{"it": 1261, "J_train": 200.83, "samples": 10046, "t": 26665}
+{"it": 1262, "J_train": 203.42, "samples": 10042, "t": 26684}
+{"it": 1263, "J_train": 202.5, "samples": 10043, "t": 26700}
+{"it": 1264, "J_train": 202.77, "samples": 10047, "t": 26719}
+{"it": 1265, "J_train": 199.86, "samples": 10052, "t": 26737}
+{"it": 1266, "J_train": 205.63, "samples": 10044, "t": 26755}
+{"it": 1267, "J_train": 203.9, "samples": 10031, "t": 26771}
+{"it": 1268, "J_train": 200.45, "samples": 10027, "t": 26788}
+{"it": 1269, "J_train": 201.43, "samples": 10037, "t": 26807, "J_val": 210.04, "best_val": 215.94, "plateau_gain": 3.5050887786796636, "plateau_2se": 2.178128770261844}
+{"it": 1270, "J_train": 202.69, "samples": 10023, "t": 26858}
+{"it": 1271, "J_train": 199.92, "samples": 10040, "t": 26875}
+{"it": 1272, "J_train": 198.88, "samples": 10048, "t": 26892}
+{"it": 1273, "J_train": 202.42, "samples": 10050, "t": 26910}
+{"it": 1274, "J_train": 208.59, "samples": 10046, "t": 26928}
+{"it": 1275, "J_train": 198.71, "samples": 10062, "t": 26945}
+{"it": 1276, "J_train": 206.2, "samples": 10047, "t": 26959}
+{"it": 1277, "J_train": 201.82, "samples": 10051, "t": 26976}
+{"it": 1278, "J_train": 199.96, "samples": 10044, "t": 26993}
+{"it": 1279, "J_train": 212.36, "samples": 10037, "t": 27011, "J_val": 210.29, "best_val": 215.94, "plateau_gain": 3.5166794934618792, "plateau_2se": 2.169143105699419}
+{"it": 1280, "J_train": 199.19, "samples": 10054, "t": 27064}
+{"it": 1281, "J_train": 197.59, "samples": 10050, "t": 27082}
+{"it": 1282, "J_train": 205.08, "samples": 10043, "t": 27100}
+{"it": 1283, "J_train": 198.1, "samples": 10054, "t": 27116}
+{"it": 1284, "J_train": 209.02, "samples": 10088, "t": 27134}
+{"it": 1285, "J_train": 197.19, "samples": 10050, "t": 27152}
+{"it": 1286, "J_train": 205.45, "samples": 10031, "t": 27168}
+{"it": 1287, "J_train": 199.79, "samples": 10045, "t": 27185}
+{"it": 1288, "J_train": 201.1, "samples": 10056, "t": 27202}
+{"it": 1289, "J_train": 201.19, "samples": 10062, "t": 27221, "J_val": 210.86, "best_val": 215.94, "plateau_gain": 3.192077311469575, "plateau_2se": 2.0857215337438375}
+{"it": 1290, "J_train": 196.03, "samples": 10026, "t": 27271}
+{"it": 1291, "J_train": 206.56, "samples": 10044, "t": 27288}
+{"it": 1292, "J_train": 204.08, "samples": 10035, "t": 27307}
+{"it": 1293, "J_train": 200.14, "samples": 10039, "t": 27324}
+{"it": 1294, "J_train": 195.61, "samples": 10039, "t": 27342}
+{"it": 1295, "J_train": 204.77, "samples": 10040, "t": 27363}
+{"it": 1296, "J_train": 201.0, "samples": 10025, "t": 27380}
+{"it": 1297, "J_train": 205.51, "samples": 10048, "t": 27398}
+{"it": 1298, "J_train": 205.85, "samples": 10044, "t": 27416}
+{"it": 1299, "J_train": 207.87, "samples": 10052, "t": 27435, "J_val": 208.84, "best_val": 215.94, "plateau_gain": 2.8913355235463314, "plateau_2se": 2.214129650147394}
+{"it": 1300, "J_train": 204.34, "samples": 10024, "t": 27486}
+{"it": 1301, "J_train": 191.52, "samples": 10019, "t": 27505}
+{"it": 1302, "J_train": 203.95, "samples": 10038, "t": 27524}
+{"it": 1303, "J_train": 202.06, "samples": 10049, "t": 27541}
+{"it": 1304, "J_train": 199.47, "samples": 10031, "t": 27559}
+{"it": 1305, "J_train": 202.8, "samples": 10034, "t": 27578}
+{"it": 1306, "J_train": 204.34, "samples": 10055, "t": 27596}
+{"it": 1307, "J_train": 198.97, "samples": 10036, "t": 27614}
+{"it": 1308, "J_train": 202.93, "samples": 10036, "t": 27631}
+{"it": 1309, "J_train": 206.76, "samples": 10045, "t": 27650, "J_val": 210.22, "best_val": 215.94, "plateau_gain": 2.1233014927287, "plateau_2se": 2.386514616108361}
+{"it": 1310, "J_train": 206.28, "samples": 10049, "t": 27702}
+{"it": 1311, "J_train": 201.88, "samples": 10030, "t": 27718}
+{"it": 1312, "J_train": 205.57, "samples": 10043, "t": 27739}
+{"it": 1313, "J_train": 202.42, "samples": 10053, "t": 27757}
+{"it": 1314, "J_train": 202.47, "samples": 10042, "t": 27777}
+{"it": 1315, "J_train": 206.52, "samples": 10054, "t": 27796}
+{"it": 1316, "J_train": 202.82, "samples": 10054, "t": 27814}
+{"it": 1317, "J_train": 203.26, "samples": 10053, "t": 27830}
+{"it": 1318, "J_train": 205.45, "samples": 10045, "t": 27848}
+{"it": 1319, "J_train": 204.68, "samples": 10052, "t": 27866, "J_val": 210.35, "best_val": 215.94, "plateau_gain": 1.5642319500190922, "plateau_2se": 2.2831941395680073}
+{"it": 1320, "J_train": 200.95, "samples": 10046, "t": 27913}
+{"it": 1321, "J_train": 203.51, "samples": 10027, "t": 27930}
+{"it": 1322, "J_train": 211.89, "samples": 10022, "t": 27948}
+{"it": 1323, "J_train": 201.54, "samples": 10027, "t": 27965}
+{"it": 1324, "J_train": 202.59, "samples": 10060, "t": 27983}
+{"it": 1325, "J_train": 204.55, "samples": 10045, "t": 28001}
+{"it": 1326, "J_train": 207.1, "samples": 10046, "t": 28018}
+{"it": 1327, "J_train": 203.31, "samples": 10037, "t": 28036}
+{"it": 1328, "J_train": 209.22, "samples": 10041, "t": 28055}
+{"it": 1329, "J_train": 202.46, "samples": 10048, "t": 28070, "J_val": 211.47, "best_val": 215.94, "plateau_gain": 0.5658202850845555, "plateau_2se": 1.8900314087268453}
+{"it": 1330, "J_train": 204.72, "samples": 10047, "t": 28123}
+{"it": 1331, "J_train": 206.6, "samples": 10066, "t": 28143}
+{"it": 1332, "J_train": 203.53, "samples": 10050, "t": 28160}
+{"it": 1333, "J_train": 211.25, "samples": 10044, "t": 28179}
+{"it": 1334, "J_train": 203.99, "samples": 10024, "t": 28197}
+{"it": 1335, "J_train": 204.68, "samples": 10061, "t": 28214}
+{"it": 1336, "J_train": 208.92, "samples": 10037, "t": 28233}
+{"it": 1337, "J_train": 205.09, "samples": 10005, "t": 28251}
+{"it": 1338, "J_train": 203.93, "samples": 10015, "t": 28268}
+{"it": 1339, "J_train": 205.15, "samples": 10036, "t": 28287, "J_val": 210.4, "best_val": 215.94, "plateau_gain": -0.600087699984357, "plateau_2se": 1.6181970231967715}
+{"it": 1340, "J_train": 197.47, "samples": 10028, "t": 28336}
+{"it": 1341, "J_train": 202.59, "samples": 10039, "t": 28355}
+{"it": 1342, "J_train": 197.48, "samples": 10041, "t": 28374}
+{"it": 1343, "J_train": 206.5, "samples": 10018, "t": 28391}
+{"it": 1344, "J_train": 195.91, "samples": 10044, "t": 28407}
+{"it": 1345, "J_train": 199.67, "samples": 10038, "t": 28427}
+{"it": 1346, "J_train": 208.46, "samples": 10026, "t": 28444}
+{"it": 1347, "J_train": 207.04, "samples": 10056, "t": 28461}
+{"it": 1348, "J_train": 200.75, "samples": 10022, "t": 28480}
+{"it": 1349, "J_train": 203.27, "samples": 10033, "t": 28496, "J_val": 210.62, "best_val": 215.94, "plateau_gain": -1.6895704505979268, "plateau_2se": 1.4280662879095227}
+{"it": 1350, "J_train": 200.72, "samples": 10045, "t": 28549}
+{"it": 1351, "J_train": 199.98, "samples": 10017, "t": 28568}
+{"it": 1352, "J_train": 197.07, "samples": 10029, "t": 28588}
+{"it": 1353, "J_train": 197.87, "samples": 10020, "t": 28606}
+{"it": 1354, "J_train": 204.14, "samples": 10036, "t": 28622}
+{"it": 1355, "J_train": 204.79, "samples": 10045, "t": 28642}
+{"it": 1356, "J_train": 206.27, "samples": 10029, "t": 28659}
+{"it": 1357, "J_train": 203.18, "samples": 10024, "t": 28677}
+{"it": 1358, "J_train": 205.22, "samples": 10068, "t": 28694}
+{"it": 1359, "J_train": 206.52, "samples": 10035, "t": 28714, "J_val": 209.89, "best_val": 215.94, "plateau_gain": -2.347865276744102, "plateau_2se": 1.2471971791075493}
+{"it": 1360, "J_train": 198.81, "samples": 10032, "t": 28764}
+{"it": 1361, "J_train": 200.79, "samples": 10042, "t": 28782}
+{"it": 1362, "J_train": 201.29, "samples": 10023, "t": 28799}
+{"it": 1363, "J_train": 200.32, "samples": 10044, "t": 28815}
+{"it": 1364, "J_train": 200.06, "samples": 10046, "t": 28833}
+{"it": 1365, "J_train": 198.18, "samples": 10063, "t": 28850}
+{"it": 1366, "J_train": 205.71, "samples": 10046, "t": 28866}
+{"it": 1367, "J_train": 201.3, "samples": 10063, "t": 28883}
+{"it": 1368, "J_train": 203.92, "samples": 10042, "t": 28902}
+{"it": 1369, "J_train": 198.09, "samples": 10069, "t": 28922, "J_val": 209.2, "best_val": 215.94, "plateau_gain": -2.1552982884828964, "plateau_2se": 1.3678607169888592}
+{"it": 1370, "J_train": 204.94, "samples": 10033, "t": 28973}
+{"it": 1371, "J_train": 214.39, "samples": 10041, "t": 28994}
+{"it": 1372, "J_train": 198.73, "samples": 10037, "t": 29011}
+{"it": 1373, "J_train": 202.68, "samples": 10009, "t": 29030}
+{"it": 1374, "J_train": 202.85, "samples": 10050, "t": 29050}
+{"it": 1375, "J_train": 200.42, "samples": 10051, "t": 29067}
+{"it": 1376, "J_train": 202.24, "samples": 10045, "t": 29085}
+{"it": 1377, "J_train": 202.91, "samples": 10042, "t": 29101}
+{"it": 1378, "J_train": 206.36, "samples": 10029, "t": 29119}
+{"it": 1379, "J_train": 198.29, "samples": 10039, "t": 29137, "J_val": 208.71, "best_val": 215.94, "plateau_gain": -2.2661302868127677, "plateau_2se": 1.4268328598700966}
+{"it": 1380, "J_train": 198.62, "samples": 10039, "t": 29188}
+{"it": 1381, "J_train": 208.77, "samples": 10075, "t": 29206}
+{"it": 1382, "J_train": 199.47, "samples": 10065, "t": 29223}
+{"it": 1383, "J_train": 201.58, "samples": 10046, "t": 29242}
+{"it": 1384, "J_train": 199.94, "samples": 10047, "t": 29260}
+{"it": 1385, "J_train": 201.42, "samples": 10047, "t": 29280}
+{"it": 1386, "J_train": 205.92, "samples": 10049, "t": 29297}
+{"it": 1387, "J_train": 195.55, "samples": 10067, "t": 29314}
+{"it": 1388, "J_train": 202.23, "samples": 10034, "t": 29331}
+{"it": 1389, "J_train": 204.45, "samples": 10042, "t": 29350, "J_val": 210.83, "best_val": 215.94, "plateau_gain": -2.3337623538703838, "plateau_2se": 1.3891612747415296}
+{"it": 1390, "J_train": 206.1, "samples": 10041, "t": 29395}
+{"it": 1391, "J_train": 205.77, "samples": 10055, "t": 29411}
+{"it": 1392, "J_train": 200.42, "samples": 10054, "t": 29429}
+{"it": 1393, "J_train": 205.63, "samples": 10040, "t": 29447}
+{"it": 1394, "J_train": 197.51, "samples": 10065, "t": 29464}
+{"it": 1395, "J_train": 204.46, "samples": 10044, "t": 29482}
+{"it": 1396, "J_train": 201.64, "samples": 10053, "t": 29499}
+{"it": 1397, "J_train": 201.23, "samples": 10038, "t": 29516}
+{"it": 1398, "J_train": 196.52, "samples": 10066, "t": 29536}
+{"it": 1399, "J_train": 202.82, "samples": 10058, "t": 29555, "J_val": 209.08, "best_val": 215.94, "plateau_gain": -2.0959254343439966, "plateau_2se": 1.535603175241806}
+{"it": 1400, "J_train": 205.34, "samples": 10058, "t": 29610}
+{"it": 1401, "J_train": 199.98, "samples": 10045, "t": 29629}
+{"it": 1402, "J_train": 200.22, "samples": 10052, "t": 29645}
+{"it": 1403, "J_train": 209.69, "samples": 10036, "t": 29664}
+{"it": 1404, "J_train": 204.29, "samples": 10056, "t": 29682}
+{"it": 1405, "J_train": 197.47, "samples": 10051, "t": 29697}
+{"it": 1406, "J_train": 202.84, "samples": 10034, "t": 29715}
+{"it": 1407, "J_train": 202.85, "samples": 10045, "t": 29732}
+{"it": 1408, "J_train": 201.01, "samples": 10038, "t": 29751}
+{"it": 1409, "J_train": 206.4, "samples": 10033, "t": 29770, "J_val": 212.23, "best_val": 215.94, "plateau_gain": -1.5504103347361706, "plateau_2se": 1.6000325025660511}
+{"it": 1410, "J_train": 203.96, "samples": 10043, "t": 29823}
+{"it": 1411, "J_train": 205.04, "samples": 10050, "t": 29843}
+{"it": 1412, "J_train": 204.6, "samples": 10042, "t": 29860}
+{"it": 1413, "J_train": 207.39, "samples": 10039, "t": 29879}
+{"it": 1414, "J_train": 198.63, "samples": 10047, "t": 29894}
+{"it": 1415, "J_train": 208.27, "samples": 10049, "t": 29914}
+{"it": 1416, "J_train": 204.64, "samples": 10057, "t": 29932}
+{"it": 1417, "J_train": 198.27, "samples": 10048, "t": 29949}
+{"it": 1418, "J_train": 204.77, "samples": 10058, "t": 29967}
+{"it": 1419, "J_train": 212.06, "samples": 10055, "t": 29985, "J_val": 210.74, "best_val": 215.94, "plateau_gain": -1.437549835106438, "plateau_2se": 1.6245512480492814}
+{"it": 1420, "J_train": 199.23, "samples": 10067, "t": 30037}
+{"it": 1421, "J_train": 204.62, "samples": 10059, "t": 30057}
+{"it": 1422, "J_train": 209.59, "samples": 10068, "t": 30073}
+{"it": 1423, "J_train": 196.62, "samples": 10032, "t": 30091}
+{"it": 1424, "J_train": 194.33, "samples": 10069, "t": 30110}
+{"it": 1425, "J_train": 196.96, "samples": 10033, "t": 30128}
+{"it": 1426, "J_train": 206.07, "samples": 10055, "t": 30147}
+{"it": 1427, "J_train": 204.52, "samples": 10083, "t": 30165}
+{"it": 1428, "J_train": 197.8, "samples": 10082, "t": 30182}
+{"it": 1429, "J_train": 208.31, "samples": 10077, "t": 30199, "J_val": 210.28, "best_val": 215.94, "plateau_gain": -1.4187371708931948, "plateau_2se": 1.5857891021887858}
+{"it": 1430, "J_train": 202.32, "samples": 10047, "t": 30250}
+{"it": 1431, "J_train": 213.08, "samples": 10059, "t": 30267}
+{"it": 1432, "J_train": 204.76, "samples": 10061, "t": 30285}
+{"it": 1433, "J_train": 209.2, "samples": 10050, "t": 30305}
+{"it": 1434, "J_train": 201.88, "samples": 10075, "t": 30324}
+{"it": 1435, "J_train": 203.35, "samples": 10057, "t": 30341}
+{"it": 1436, "J_train": 197.62, "samples": 10044, "t": 30359}
+{"it": 1437, "J_train": 208.39, "samples": 10055, "t": 30378}
+{"it": 1438, "J_train": 204.51, "samples": 10031, "t": 30396}
+{"it": 1439, "J_train": 203.32, "samples": 10039, "t": 30412, "J_val": 210.87, "best_val": 215.94, "plateau_gain": -0.9729425146819892, "plateau_2se": 1.4793277378466503}
+{"it": 1440, "J_train": 206.46, "samples": 10063, "t": 30462}
+{"it": 1441, "J_train": 204.68, "samples": 10059, "t": 30481}
+{"it": 1442, "J_train": 196.7, "samples": 10077, "t": 30500}
+{"it": 1443, "J_train": 200.22, "samples": 10056, "t": 30518}
+{"it": 1444, "J_train": 201.54, "samples": 10054, "t": 30536}
+{"it": 1445, "J_train": 210.63, "samples": 10030, "t": 30555}
+{"it": 1446, "J_train": 199.52, "samples": 10076, "t": 30572}
+{"it": 1447, "J_train": 201.31, "samples": 10058, "t": 30588}
+{"it": 1448, "J_train": 209.19, "samples": 10050, "t": 30604}
+{"it": 1449, "J_train": 205.12, "samples": 10030, "t": 30622, "J_val": 212.61, "best_val": 215.94, "plateau_gain": -0.24311633026476898, "plateau_2se": 1.1463416864438125}
+{"it": 1450, "J_train": 203.93, "samples": 10043, "t": 30674}
+{"it": 1451, "J_train": 205.98, "samples": 10050, "t": 30692}
+{"it": 1452, "J_train": 205.21, "samples": 10049, "t": 30711}
+{"it": 1453, "J_train": 207.87, "samples": 10044, "t": 30727}
+{"it": 1454, "J_train": 204.54, "samples": 10048, "t": 30746}
+{"it": 1455, "J_train": 204.66, "samples": 10057, "t": 30763}
+{"it": 1456, "J_train": 203.05, "samples": 10060, "t": 30782}
+{"it": 1457, "J_train": 205.3, "samples": 10045, "t": 30801}
+{"it": 1458, "J_train": 205.55, "samples": 10041, "t": 30818}
+{"it": 1459, "J_train": 207.9, "samples": 10049, "t": 30836, "J_val": 209.41, "best_val": 215.94, "plateau_gain": 0.09652784270028292, "plateau_2se": 0.9415176285233086}
+{"it": 1460, "J_train": 196.03, "samples": 10054, "t": 30889}
+{"it": 1461, "J_train": 202.75, "samples": 10057, "t": 30906}
+{"it": 1462, "J_train": 208.87, "samples": 10046, "t": 30925}
+{"it": 1463, "J_train": 205.17, "samples": 10059, "t": 30945}
+{"it": 1464, "J_train": 204.68, "samples": 10058, "t": 30961}
+{"it": 1465, "J_train": 209.57, "samples": 10037, "t": 30981}
+{"it": 1466, "J_train": 210.76, "samples": 10065, "t": 31000}
+{"it": 1467, "J_train": 204.97, "samples": 10057, "t": 31018}
+{"it": 1468, "J_train": 200.19, "samples": 10048, "t": 31037}
+{"it": 1469, "J_train": 207.11, "samples": 10042, "t": 31055, "J_val": 210.85, "best_val": 215.94, "plateau_gain": 0.34584460483682733, "plateau_2se": 0.9314564864424246}
+{"it": 1470, "J_train": 205.07, "samples": 10032, "t": 31105}
+{"it": 1471, "J_train": 203.77, "samples": 10043, "t": 31123}
+{"it": 1472, "J_train": 206.34, "samples": 10068, "t": 31143}
+{"it": 1473, "J_train": 208.31, "samples": 10052, "t": 31161}
+{"it": 1474, "J_train": 197.98, "samples": 10039, "t": 31178}
+{"it": 1475, "J_train": 205.39, "samples": 10050, "t": 31195}
+{"it": 1476, "J_train": 201.82, "samples": 10022, "t": 31214}
+{"it": 1477, "J_train": 198.57, "samples": 10043, "t": 31231}
+{"it": 1478, "J_train": 202.5, "samples": 10048, "t": 31248}
+{"it": 1479, "J_train": 209.02, "samples": 10036, "t": 31268, "J_val": 210.34, "best_val": 215.94, "plateau_gain": 0.6664699840789297, "plateau_2se": 0.8917050210717244}
+{"it": 1480, "J_train": 207.37, "samples": 10053, "t": 31322}
+{"it": 1481, "J_train": 200.1, "samples": 10035, "t": 31340}
+{"it": 1482, "J_train": 207.33, "samples": 10037, "t": 31358}
+{"it": 1483, "J_train": 201.87, "samples": 10047, "t": 31376}
+{"it": 1484, "J_train": 200.29, "samples": 10046, "t": 31393}
+{"it": 1485, "J_train": 198.76, "samples": 10024, "t": 31411}
+{"it": 1486, "J_train": 200.98, "samples": 10051, "t": 31429}
+{"it": 1487, "J_train": 203.22, "samples": 10058, "t": 31446}
+{"it": 1488, "J_train": 204.21, "samples": 10047, "t": 31464}
+{"it": 1489, "J_train": 208.87, "samples": 10063, "t": 31484, "J_val": 209.49, "best_val": 215.94, "plateau_gain": 0.5355234138632454, "plateau_2se": 0.9232072437604798}
+{"it": 1490, "J_train": 204.41, "samples": 10047, "t": 31536}
+{"it": 1491, "J_train": 192.74, "samples": 10031, "t": 31551}
+{"it": 1492, "J_train": 202.71, "samples": 10048, "t": 31570}
+{"it": 1493, "J_train": 203.31, "samples": 10038, "t": 31590}
+{"it": 1494, "J_train": 206.35, "samples": 10026, "t": 31608}
+{"it": 1495, "J_train": 197.25, "samples": 10051, "t": 31626}
+{"it": 1496, "J_train": 211.29, "samples": 10037, "t": 31645}
+{"it": 1497, "J_train": 197.79, "samples": 10063, "t": 31665}
+{"it": 1498, "J_train": 205.8, "samples": 10052, "t": 31680}
+{"it": 1499, "J_train": 199.54, "samples": 10049, "t": 31700, "J_val": 209.86, "best_val": 215.94, "plateau_gain": 0.5908885282681524, "plateau_2se": 0.8651503172577857}

@@ -1,0 +1,52 @@
+{
+ "summary": {
+  "T1_submodular": {
+   "trials": 20000,
+   "monotonicity_violations": 0,
+   "submodularity_violations": 0
+  },
+  "T2_soft_simultaneous": {
+   "n": 300,
+   "violations": 0,
+   "min_ratio": 0.49175393772648507,
+   "mean_ratio": 0.8487452415241907,
+   "m_hist": {
+    "1": 54,
+    "2": 188,
+    "3": 56,
+    "4": 2
+   }
+  },
+  "T3_noisy": {
+   "n": 300,
+   "violations": 0,
+   "min_ratio": 0.4033185986631892
+  },
+  "T4_certificate": {
+   "n": 300,
+   "violations": 0,
+   "mean_ub_over_opt": 1.426162886455035,
+   "max_ub_over_opt": 1.8999985410054587
+  },
+  "T5_hard_partition": {
+   "n": 300,
+   "violations": 0,
+   "min_ratio": 0.6288207822736834
+  },
+  "T2_stress_tiny_adversarial": {
+   "trials": 100000,
+   "violations": 0,
+   "min_slack_ratio_minus_bound": 0.09271305530411139
+  },
+  "T6_capacity_submodular": {
+   "trials": 3000,
+   "violations": 0
+  },
+  "T7_interference_counterexamples": {
+   "trials": 5000,
+   "monotonicity": 2905,
+   "submodularity": 920
+  }
+ },
+ "seed": 2026
+}

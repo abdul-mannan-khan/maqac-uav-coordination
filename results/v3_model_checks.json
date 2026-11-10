@@ -1,0 +1,114 @@
+{
+ "coverage_radius": {
+  "suburban": 860.0,
+  "urban": 580.0,
+  "dense": 410.0,
+  "highrise": 105.0
+ },
+ "energy": {
+  "hover_w": 406.5,
+  "cruise_w_at_14ms": 248.1,
+  "hover_endurance_min": 34.4,
+  "old_model_hover_w": 168.5
+ },
+ "kinematics": {
+  "climb_s_expected": 33.3,
+  "mission_mode_at_s": {
+   "0": 33,
+   "1": 38,
+   "2": 43,
+   "3": 48
+  },
+  "takeoff_gap_s": 5.0,
+  "speed_per_s_first_10s": [
+   2.0,
+   6.0,
+   10.0,
+   13.0,
+   14.0,
+   14.0,
+   14.0,
+   14.0,
+   14.0,
+   14.0
+  ],
+  "a_max": 4.0,
+  "v_max": 14.0
+ },
+ "backhaul": {
+  "range_m": 3008.0,
+  "hops": [
+   1.0,
+   1.0
+  ],
+  "budget_mbps": [
+   73.2,
+   45.4
+  ]
+ },
+ "latency": {
+  "true_x": 329.754,
+  "perceived_x": 329.254,
+  "expected_lag_m": 0.5
+ },
+ "loss_ge": {
+  "loss_rate": 0.2016,
+  "target": 0.2,
+  "mean_burst": 5.0,
+  "target_burst": 5.0
+ },
+ "city_los": {
+  "building_h_median": 17.2,
+  "by_distance": [
+   {
+    "d_m": "0-50",
+    "los_city": 0.6,
+    "los_a2g_urban": 1.0
+   },
+   {
+    "d_m": "50-100",
+    "los_city": 0.484,
+    "los_a2g_urban": 0.99
+   },
+   {
+    "d_m": "100-200",
+    "los_city": 0.399,
+    "los_a2g_urban": 0.821
+   },
+   {
+    "d_m": "200-400",
+    "los_city": 0.28,
+    "los_a2g_urban": 0.291
+   },
+   {
+    "d_m": "400-800",
+    "los_city": 0.187,
+    "los_a2g_urban": 0.09
+   }
+  ]
+ },
+ "session_score": {
+  "session_frac_mean": 0.76,
+  "users_served": 1
+ },
+ "swaps": {
+  "swap_starts_s": [
+   623,
+   652,
+   743,
+   782,
+   880,
+   932,
+   1731,
+   1768,
+   1965,
+   2005,
+   2086,
+   2126
+  ],
+  "max_concurrent_swaps": 2,
+  "slots": 2,
+  "rtb": 18,
+  "swap_wait_s": 156
+ }
+}

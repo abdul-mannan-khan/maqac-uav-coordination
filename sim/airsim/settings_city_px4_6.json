@@ -1,0 +1,481 @@
+{
+ "SettingsVersion": 1.2,
+ "SimMode": "Multirotor",
+ "ClockSpeed": 0.7,
+ "ApiServerPort": 41451,
+ "ViewMode": "NoDisplay",
+ "ExternalCameras": {
+  "mapcam": {
+   "CaptureSettings": [
+    {
+     "ImageType": 0,
+     "Width": 1024,
+     "Height": 1024,
+     "FOV_Degrees": 90
+    },
+    {
+     "ImageType": 1,
+     "Width": 1024,
+     "Height": 1024,
+     "FOV_Degrees": 90
+    },
+    {
+     "ImageType": 5,
+     "Width": 1024,
+     "Height": 1024,
+     "FOV_Degrees": 90
+    }
+   ],
+   "X": 0.0,
+   "Y": 0.0,
+   "Z": -400.0,
+   "Pitch": -90.0,
+   "Roll": 0.0,
+   "Yaw": 0.0
+  },
+  "overview": {
+   "CaptureSettings": [
+    {
+     "ImageType": 0,
+     "Width": 1280,
+     "Height": 720,
+     "FOV_Degrees": 70
+    }
+   ],
+   "X": -650.0,
+   "Y": 0.0,
+   "Z": -450.0,
+   "Pitch": -35.0,
+   "Roll": 0.0,
+   "Yaw": 0.0
+  }
+ },
+ "Vehicles": {
+  "UAV0": {
+   "VehicleType": "PX4Multirotor",
+   "X": 0,
+   "Y": -4,
+   "Z": 0,
+   "Yaw": 0,
+   "UseSerial": false,
+   "LockStep": true,
+   "UseTcp": true,
+   "TcpPort": 4560,
+   "LocalHostIp": "10.142.0.5",
+   "ControlIp": "10.142.0.6",
+   "ControlPortLocal": 14540,
+   "ControlPortRemote": 14580,
+   "Sensors": {
+    "Barometer": {
+     "SensorType": 1,
+     "Enabled": true,
+     "PressureFactorSigma": 0.0001825
+    },
+    "Imu": {
+     "SensorType": 2,
+     "Enabled": true
+    },
+    "Gps": {
+     "SensorType": 3,
+     "Enabled": true
+    },
+    "Magnetometer": {
+     "SensorType": 4,
+     "Enabled": true
+    }
+   },
+   "Parameters": {
+    "NAV_RCL_ACT": 0,
+    "NAV_DLL_ACT": 0,
+    "COM_OBL_ACT": 1,
+    "LPE_LAT": 47.641468,
+    "LPE_LON": -122.140165
+   },
+   "Cameras": {
+    "down": {
+     "CaptureSettings": [
+      {
+       "ImageType": 0,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 1,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 5,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      }
+     ],
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.3,
+     "Pitch": -90.0,
+     "Roll": 0.0,
+     "Yaw": 0.0
+    }
+   }
+  },
+  "UAV1": {
+   "VehicleType": "PX4Multirotor",
+   "X": 0,
+   "Y": 0,
+   "Z": 0,
+   "Yaw": 0,
+   "UseSerial": false,
+   "LockStep": true,
+   "UseTcp": true,
+   "TcpPort": 4561,
+   "LocalHostIp": "10.142.0.5",
+   "ControlIp": "10.142.0.6",
+   "ControlPortLocal": 14541,
+   "ControlPortRemote": 14581,
+   "Sensors": {
+    "Barometer": {
+     "SensorType": 1,
+     "Enabled": true,
+     "PressureFactorSigma": 0.0001825
+    },
+    "Imu": {
+     "SensorType": 2,
+     "Enabled": true
+    },
+    "Gps": {
+     "SensorType": 3,
+     "Enabled": true
+    },
+    "Magnetometer": {
+     "SensorType": 4,
+     "Enabled": true
+    }
+   },
+   "Parameters": {
+    "NAV_RCL_ACT": 0,
+    "NAV_DLL_ACT": 0,
+    "COM_OBL_ACT": 1,
+    "LPE_LAT": 47.641468,
+    "LPE_LON": -122.140165
+   },
+   "Cameras": {
+    "down": {
+     "CaptureSettings": [
+      {
+       "ImageType": 0,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 1,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 5,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      }
+     ],
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.3,
+     "Pitch": -90.0,
+     "Roll": 0.0,
+     "Yaw": 0.0
+    }
+   }
+  },
+  "UAV2": {
+   "VehicleType": "PX4Multirotor",
+   "X": 0,
+   "Y": 4,
+   "Z": 0,
+   "Yaw": 0,
+   "UseSerial": false,
+   "LockStep": true,
+   "UseTcp": true,
+   "TcpPort": 4562,
+   "LocalHostIp": "10.142.0.5",
+   "ControlIp": "10.142.0.6",
+   "ControlPortLocal": 14542,
+   "ControlPortRemote": 14582,
+   "Sensors": {
+    "Barometer": {
+     "SensorType": 1,
+     "Enabled": true,
+     "PressureFactorSigma": 0.0001825
+    },
+    "Imu": {
+     "SensorType": 2,
+     "Enabled": true
+    },
+    "Gps": {
+     "SensorType": 3,
+     "Enabled": true
+    },
+    "Magnetometer": {
+     "SensorType": 4,
+     "Enabled": true
+    }
+   },
+   "Parameters": {
+    "NAV_RCL_ACT": 0,
+    "NAV_DLL_ACT": 0,
+    "COM_OBL_ACT": 1,
+    "LPE_LAT": 47.641468,
+    "LPE_LON": -122.140165
+   },
+   "Cameras": {
+    "down": {
+     "CaptureSettings": [
+      {
+       "ImageType": 0,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 1,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 5,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      }
+     ],
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.3,
+     "Pitch": -90.0,
+     "Roll": 0.0,
+     "Yaw": 0.0
+    }
+   }
+  },
+  "UAV3": {
+   "VehicleType": "PX4Multirotor",
+   "X": 4,
+   "Y": -4,
+   "Z": 0,
+   "Yaw": 0,
+   "UseSerial": false,
+   "LockStep": true,
+   "UseTcp": true,
+   "TcpPort": 4563,
+   "LocalHostIp": "10.142.0.5",
+   "ControlIp": "10.142.0.6",
+   "ControlPortLocal": 14543,
+   "ControlPortRemote": 14583,
+   "Sensors": {
+    "Barometer": {
+     "SensorType": 1,
+     "Enabled": true,
+     "PressureFactorSigma": 0.0001825
+    },
+    "Imu": {
+     "SensorType": 2,
+     "Enabled": true
+    },
+    "Gps": {
+     "SensorType": 3,
+     "Enabled": true
+    },
+    "Magnetometer": {
+     "SensorType": 4,
+     "Enabled": true
+    }
+   },
+   "Parameters": {
+    "NAV_RCL_ACT": 0,
+    "NAV_DLL_ACT": 0,
+    "COM_OBL_ACT": 1,
+    "LPE_LAT": 47.641468,
+    "LPE_LON": -122.140165
+   },
+   "Cameras": {
+    "down": {
+     "CaptureSettings": [
+      {
+       "ImageType": 0,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 1,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 5,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      }
+     ],
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.3,
+     "Pitch": -90.0,
+     "Roll": 0.0,
+     "Yaw": 0.0
+    }
+   }
+  },
+  "UAV4": {
+   "VehicleType": "PX4Multirotor",
+   "X": 4,
+   "Y": 0,
+   "Z": 0,
+   "Yaw": 0,
+   "UseSerial": false,
+   "LockStep": true,
+   "UseTcp": true,
+   "TcpPort": 4564,
+   "LocalHostIp": "10.142.0.5",
+   "ControlIp": "10.142.0.6",
+   "ControlPortLocal": 14544,
+   "ControlPortRemote": 14584,
+   "Sensors": {
+    "Barometer": {
+     "SensorType": 1,
+     "Enabled": true,
+     "PressureFactorSigma": 0.0001825
+    },
+    "Imu": {
+     "SensorType": 2,
+     "Enabled": true
+    },
+    "Gps": {
+     "SensorType": 3,
+     "Enabled": true
+    },
+    "Magnetometer": {
+     "SensorType": 4,
+     "Enabled": true
+    }
+   },
+   "Parameters": {
+    "NAV_RCL_ACT": 0,
+    "NAV_DLL_ACT": 0,
+    "COM_OBL_ACT": 1,
+    "LPE_LAT": 47.641468,
+    "LPE_LON": -122.140165
+   },
+   "Cameras": {
+    "down": {
+     "CaptureSettings": [
+      {
+       "ImageType": 0,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 1,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 5,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      }
+     ],
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.3,
+     "Pitch": -90.0,
+     "Roll": 0.0,
+     "Yaw": 0.0
+    }
+   }
+  },
+  "UAV5": {
+   "VehicleType": "PX4Multirotor",
+   "X": 4,
+   "Y": 4,
+   "Z": 0,
+   "Yaw": 0,
+   "UseSerial": false,
+   "LockStep": true,
+   "UseTcp": true,
+   "TcpPort": 4565,
+   "LocalHostIp": "10.142.0.5",
+   "ControlIp": "10.142.0.6",
+   "ControlPortLocal": 14545,
+   "ControlPortRemote": 14585,
+   "Sensors": {
+    "Barometer": {
+     "SensorType": 1,
+     "Enabled": true,
+     "PressureFactorSigma": 0.0001825
+    },
+    "Imu": {
+     "SensorType": 2,
+     "Enabled": true
+    },
+    "Gps": {
+     "SensorType": 3,
+     "Enabled": true
+    },
+    "Magnetometer": {
+     "SensorType": 4,
+     "Enabled": true
+    }
+   },
+   "Parameters": {
+    "NAV_RCL_ACT": 0,
+    "NAV_DLL_ACT": 0,
+    "COM_OBL_ACT": 1,
+    "LPE_LAT": 47.641468,
+    "LPE_LON": -122.140165
+   },
+   "Cameras": {
+    "down": {
+     "CaptureSettings": [
+      {
+       "ImageType": 0,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 1,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      },
+      {
+       "ImageType": 5,
+       "Width": 640,
+       "Height": 480,
+       "FOV_Degrees": 90.0
+      }
+     ],
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.3,
+     "Pitch": -90.0,
+     "Roll": 0.0,
+     "Yaw": 0.0
+    }
+   }
+  }
+ }
+}

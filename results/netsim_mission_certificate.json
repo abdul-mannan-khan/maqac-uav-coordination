@@ -1,0 +1,39 @@
+{
+ "note": "mission-level split conformal, 80 missions per regime, 40 cal / 40 test, 200 random splits, delta=0.1, maqac_noshare, urban 4 UAVs, T=600 s",
+ "oracle": {
+  "J_mean": 224.3355205278962,
+  "rho_hat": 0.5948449218979036,
+  "realised": 0.4070716774593953,
+  "realised_sd": 0.029055513832539563,
+  "q90": 0.2189740532747097,
+  "certified": 0.37583435571176615,
+  "coverage": 0.9021250000000001
+ },
+ "onboard": {
+  "J_mean": 219.248032479257,
+  "rho_hat": 0.6252228241501958,
+  "realised": 0.2663412518152767,
+  "realised_sd": 0.02373426896651585,
+  "q90": 0.3873351918252725,
+  "certified": 0.23776453058869465,
+  "coverage": 0.903125
+ },
+ "offload": {
+  "J_mean": 223.16157406301272,
+  "rho_hat": 0.5970919004521745,
+  "realised": 0.38180064950426373,
+  "realised_sd": 0.03540906330362351,
+  "q90": 0.25855693796993834,
+  "certified": 0.3385246400478944,
+  "coverage": 0.9041250000000001
+ },
+ "offload_congested": {
+  "J_mean": 222.49969597549406,
+  "rho_hat": 0.596622088743454,
+  "realised": 0.37265429131085226,
+  "realised_sd": 0.032547117884123525,
+  "q90": 0.25664021304324725,
+  "certified": 0.33963171692899125,
+  "coverage": 0.895625
+ }
+}

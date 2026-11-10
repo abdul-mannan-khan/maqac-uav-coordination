@@ -1,0 +1,46 @@
+{
+ "SettingsVersion": 1.2,
+ "SimMode": "Multirotor",
+ "ClockSpeed": 1.0,
+ "ViewMode": "NoDisplay",
+ "ApiServerPort": 41451,
+ "ExternalCameras": {
+  "mapcam": {
+   "CaptureSettings": [
+    {
+     "ImageType": 0,
+     "Width": 1024,
+     "Height": 1024,
+     "FOV_Degrees": 90
+    },
+    {
+     "ImageType": 1,
+     "Width": 1024,
+     "Height": 1024,
+     "FOV_Degrees": 90
+    },
+    {
+     "ImageType": 5,
+     "Width": 1024,
+     "Height": 1024,
+     "FOV_Degrees": 90
+    }
+   ],
+   "X": 0.0,
+   "Y": 0.0,
+   "Z": -400.0,
+   "Pitch": -90.0,
+   "Roll": 0.0,
+   "Yaw": 0.0
+  }
+ },
+ "Vehicles": {
+  "UAV0": {
+   "VehicleType": "SimpleFlight",
+   "X": 0,
+   "Y": -4,
+   "Z": 0,
+   "Yaw": 0
+  }
+ }
+}

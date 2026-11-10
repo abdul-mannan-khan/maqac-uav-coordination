@@ -1,0 +1,94 @@
+{
+ "delta=0.1": {
+  "delta": 0.1,
+  "qhat": 40.0,
+  "coverage": 0.905,
+  "violations": 0,
+  "violations_when_covered": 0,
+  "n_test": 400,
+  "mean_ratio": 0.8032968781448377,
+  "min_ratio": 0.2815816415286415,
+  "mean_bound_ratio": -1.3910472461432153,
+  "m_mean": 2.23
+ },
+ "delta=0.05": {
+  "delta": 0.05,
+  "qhat": 43.0,
+  "coverage": 0.955,
+  "violations": 0,
+  "violations_when_covered": 0,
+  "n_test": 400,
+  "mean_ratio": 0.8032968781448377,
+  "min_ratio": 0.2815816415286415,
+  "mean_bound_ratio": -1.4967863514014663,
+  "m_mean": 2.23
+ },
+ "offload_vs_onboard": {
+  "onboard_small_model": {
+   "qhat": 64.0,
+   "mean_bound_ratio": -2.2495007174977166,
+   "mean_ratio": 0.7791108425236078,
+   "coverage": 0.9466666666666667,
+   "violations": 0
+  },
+  "offload_large_model": {
+   "qhat": 28.0,
+   "mean_bound_ratio": -1.0942332935092793,
+   "mean_ratio": 0.7959077274035845,
+   "coverage": 0.92,
+   "violations": 0
+  }
+ },
+ "conformal_certificate": {
+  "delta=0.1": {
+   "delta": 0.1,
+   "noise": 0.25,
+   "stale_frac": 0.05,
+   "qhat": 0.048901389179367205,
+   "coverage": 0.9966666666666667,
+   "mean_certified_ratio": 0.5269044303366902,
+   "mean_true_ratio": 0.7894076405108332,
+   "p10_certified": 0.37431549793618213
+  },
+  "delta=0.05": {
+   "delta": 0.05,
+   "noise": 0.25,
+   "stale_frac": 0.05,
+   "qhat": 0.06438123619780584,
+   "coverage": 0.9966666666666667,
+   "mean_certified_ratio": 0.5114245833182516,
+   "mean_true_ratio": 0.7894076405108332,
+   "p10_certified": 0.3588356509177435
+  },
+  "onboard_small_model(noise .40, stale .03)": {
+   "delta": 0.1,
+   "noise": 0.4,
+   "stale_frac": 0.03,
+   "qhat": 0.06588542065078751,
+   "coverage": 0.9966666666666667,
+   "mean_certified_ratio": 0.5039994905810659,
+   "mean_true_ratio": 0.7920749362502166,
+   "p10_certified": 0.3739258339113363
+  },
+  "offload_large_model(noise .15, stale .12)": {
+   "delta": 0.1,
+   "noise": 0.15,
+   "stale_frac": 0.12,
+   "qhat": 0.04176972363371634,
+   "coverage": 1.0,
+   "mean_certified_ratio": 0.5605157155319854,
+   "mean_true_ratio": 0.821265267443023,
+   "p10_certified": 0.4243837461051086
+  },
+  "offload_congested(noise .15, stale .30)": {
+   "delta": 0.1,
+   "noise": 0.15,
+   "stale_frac": 0.3,
+   "qhat": 0.05650107498971946,
+   "coverage": 1.0,
+   "mean_certified_ratio": 0.5425710342322397,
+   "mean_true_ratio": 0.8097557615308457,
+   "p10_certified": 0.3970437309093089
+  }
+ }
+}

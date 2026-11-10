@@ -1,0 +1,71 @@
+{
+ "voice": "en_US-lessac-high",
+ "order": [
+  "cover",
+  "problem",
+  "idea",
+  "events",
+  "bound",
+  "certificate",
+  "evaluation",
+  "mainresult",
+  "clip:comparison",
+  "losswins",
+  "flight",
+  "clip:demo",
+  "takeaways"
+ ],
+ "slides": {
+  "cover": "This talk presents MAQAC, a method for coordinating a fleet of drones that carry mobile base stations after a disaster. The work is a revised submission to the journal Vehicular Communications.",
+  "problem": "After an earthquake or a flood, the cellular network is often the first thing to fail, and drones can bring it back. Three things make this hard. First, urgent users matter most. A first responder's session may not survive a long wait, so reaching people sooner is worth more than covering more area. Second, the drones coordinate over their own radio links, where messages are lost or late, and they may have to share one channel. Third, each drone only knows what its own detector sees. So the question is: can the drones coordinate from local information, with a guarantee that holds for the rule they actually run?",
+  "idea": "MAQAC works in rounds of one second. First, each drone shares short service records, saying which users were served and when. Second, it values every possible position from its own detections, those records, and a density prior, weighted by how urgent each user is. Third, it chooses the best footprint, with a soft partition of the area and a rule that keeps drones on the same channel apart. Then it flies there. In MAQAC, all drones choose at the same time, with no messages inside the round. In the variant MAQAC-S, the drones choose in turn, and each announces its choice once.",
+  "events": "The first result is about the objective. We describe each possible visit as a service event: which drone, which place, and the time it arrives. A user's value is its chance of still waiting at the earliest event that reaches it. Because the arrival time belongs to the event, the value no longer depends on the order in which drones choose. So the objective is submodular for any decreasing survival function, also when drones choose at the same time and their footprints overlap, and it equals the score we measure. Twenty thousand random checks found no violation.",
+  "bound": "The second result is a guarantee for every round, for the rule the drones actually run. It depends on three things. M is how many chosen footprints overlap on the same user, and it is measured after the round. Beta is how strongly drones are kept in their own region. And epsilon is the estimation error, which splits into a perception part and a backhaul delay part. In practice, overlaps were rare. In eighty-four to ninety percent of more than nine thousand measured rounds, no user was covered twice. The classical one half bound is only a special case, and we do not claim it.",
+  "certificate": "The third result is a certificate for each mission. Using a method called Learn then Test, we calibrate on past missions how much of the best achievable service a new mission will at least realise. On test missions, only two to three percent fell below the certified level, against an allowed ten percent. The certificate also decides where perception should run. Here, sending the camera frames to a larger model on the ground gave the higher certified share, so the certificate chose to offload.",
+  "evaluation": "We tested MAQAC at four levels. Nine thousand missions in a network level simulator. Ten thousand in a second, link limited model with realistic flight energy and larger areas. Forty-two missions in a city simulator, where every drone is flown by the PX4 flight control software. And thirty missions with a real Pixhawk flight controller in the loop, with all decisions computed on an embedded Jetson computer. The baselines include RAG, a recent distributed method from the IEEE Transactions on Robotics, two interference aware methods, a newer distributed method from IEEE TNSM, and MAPPO, a learned multi-agent policy.",
+  "mainresult": "In the main simulator, MAQAC scores higher than the other distributed methods. Each bar shows how much higher MAQAC's score is. Against RAG, the strongest rival, MAQAC is four to seven percent higher in eight of the fifteen configurations, and level in the other seven. The ties have simple reasons. Two drones rarely compete for the same users, and in the disaster scenario all users sit in a few tight clusters that both methods find. MAQAC is also seven to thirteen percent ahead of the interference aware methods, and six to twenty-three percent ahead of the learned MAPPO policy.",
+  "losswins": "The second model asks where MAQAC-S really pays off. RAG reaches each decision through several rounds of messages. When messages are lost, two drones can miss each other's commitments and go after the same users. MAQAC-S sends only one announcement per drone. With forty percent of messages lost, MAQAC-S scored five to twenty-two percent higher than RAG, in eight of nine configurations on three kilometre areas. When the whole fleet shares one channel, it scored four to nine percent higher. And on a reliable network, it reaches the same score with five to eight times fewer transmissions.",
+  "flight": "Next, real flight control. In the city simulator, every drone was flown by its own PX4 flight stack, and had to climb over towers up to two hundred and thirty-seven metres tall. Real flight changed the score by less than five percent. In forty-two missions, the simulator recorded no collision in flight: no two drones came closer than twenty metres, and none came closer than nineteen metres to a building. In thirty more missions, a real Pixhawk flight controller flew one drone, while a Jetson computer made all the fleet's decisions in seventeen to thirty-three milliseconds per round.",
+  "takeaways": "To sum up. Time-stamped service events give urgency-aware coordination a guarantee that holds when drones choose at the same time. The bound shows its own price. The certificate held on test missions, and chose where perception runs. And one announcement per drone matches a multi-round method on a reliable network, and beats it when messages are lost. The code, the results and these videos are in the project repository. Thank you."
+ },
+ "clips": {
+  "comparison": {
+   "video": "cmp/maqac_comparison.mp4",
+   "parts": [
+    [
+     0.5,
+     "Here is one of those missions, replayed with six methods on exactly the same users. The dots are users waiting for service. They fade as their sessions expire, and turn green once served. The circles are the drones' coverage footprints, and on the right is each method's running score. MAQAC and MAQAC-S spread their drones across the area, and finish with the highest scores. RAG and the interference aware method follow, then the potential game, and the learned MAPPO policy trails behind."
+    ]
+   ]
+  },
+  "demo": {
+   "video": "demo/maqac_demo.mp4",
+   "parts": [
+    [
+     "seg:0",
+     "This demo shows the whole pipeline."
+    ],
+    [
+     "seg:1",
+     "First, one urban mission, replayed with MAQAC on the left and RAG on the right, on the same users. Users fade while they wait, and turn green when they are served. By the end, MAQAC has the higher score."
+    ],
+    [
+     "seg:2a",
+     "Next, six drones in the AirSim city, each flown by its own PX4 flight stack. The map shows the building heights, and the bars show each drone's altitude as it climbs over towers."
+    ],
+    [
+     "seg:3",
+     "Then the hardware in the loop run. A real Pixhawk flies one drone through the same city, while the Jetson computes every decision, in about twenty milliseconds per round."
+    ],
+    [
+     "seg:4a",
+     "Finally, a chase camera follows a PX4 controlled drone across the downtown map."
+    ],
+    [
+     "seg:5",
+     "And these are the results in brief."
+    ]
+   ]
+  }
+ }
+}

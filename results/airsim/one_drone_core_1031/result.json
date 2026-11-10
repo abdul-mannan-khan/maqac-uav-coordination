@@ -1,0 +1,110 @@
+{
+ "method": "maqac",
+ "scenario": "urban",
+ "n_uav": 1,
+ "seed": 20000,
+ "T": 180,
+ "alt": 100.0,
+ "layer": 3.0,
+ "L": 600.0,
+ "origin_ne": [
+  40.0,
+  -10.0
+ ],
+ "n_users": 72,
+ "margin_up": 20.0,
+ "dry_run": false,
+ "px4": {
+  "qos_score": 56.74945254137275,
+  "qos_score_realised": 50.0,
+  "qos_max": 133.0,
+  "users_total": 82,
+  "users_served": 55,
+  "sessions_expected": 38.91664159296691,
+  "mean_wait_s": 59.844375093243634,
+  "emergency_total": 13,
+  "emergency_served": 11,
+  "emergency_score": 13.981973937477418,
+  "emergency_wait_s": 59.45454545454545,
+  "realtime_total": 25,
+  "realtime_served": 13,
+  "realtime_score": 17.022989980175105,
+  "realtime_wait_s": 47.84615384615385,
+  "besteffort_total": 44,
+  "besteffort_served": 31,
+  "besteffort_score": 25.74448862372022,
+  "besteffort_wait_s": 65.01421387510966,
+  "continuity": 0.08024176740308461,
+  "blocked": 0,
+  "interf_outage": 0,
+  "disconnected_uav_s": 0,
+  "rtb": 0,
+  "collisions": 0,
+  "near_misses": 0,
+  "energy_wh": 9.763712170727418,
+  "score_per_wh": 5.812282413600153,
+  "distance_m": 1949.323415028849,
+  "mean_hops": 1.0,
+  "mean_offload_lat_s": null,
+  "mean_attached": 2.4634146341463414,
+  "failed_uavs": 0,
+  "coord_iters": 1.0,
+  "coord_iters_max": 1,
+  "coord_msgs": 0.0,
+  "decide_ms": 0.5589817163127009,
+  "decide_ms_p95": 0.6641209511144551,
+  "record_coverage": 1.0,
+  "record_age_s": 0.0,
+  "method": "maqac",
+  "config": "urban_1uav",
+  "seed": 20000,
+  "n_uav": 1,
+  "scenario": "urban",
+  "perception": "onboard",
+  "episode_time_s": 237.32
+ },
+ "kinematic": {
+  "qos_score": 64.80488057570801,
+  "users_served": 61,
+  "mean_wait_s": 56.481848087687155,
+  "energy_wh": 7.719151074911518,
+  "distance_m": 2469.711331134858,
+  "continuity": 0.05884571859675594,
+  "rtb": 0
+ },
+ "delta_qos_pct": -12.430279884436398,
+ "flight": {
+  "track_err_mean_m": 9.353372627222086,
+  "track_err_p95_m": 24.52638378828283,
+  "track_err_max_m": 30.88474751692118,
+  "min_separation_m": Infinity,
+  "min_clearance_m": 19.80487060546875,
+  "min_clearance_15m_m": 19.345504760742188,
+  "hold_s": [
+   38.0
+  ],
+  "climb_s": [
+   164.0
+  ],
+  "climb_m": [
+   267.5
+  ],
+  "max_up_m": [
+   197.6
+  ],
+  "radio_alt_mean_m": 157.56258051395417,
+  "radio_alt_p95_m": 198.71174163818358,
+  "climb_energy_wh": 1.4860873752170138
+ },
+ "users": {
+  "spawned": 82,
+  "snap_mean_m": 2.483389635147663,
+  "snap_p95_m": 12.835925027165572,
+  "snap_moved_frac": 0.2926829268292683
+ },
+ "sim_s_mission": 179.99999999999514,
+ "wall_s": 293.0,
+ "collisions_airsim": {
+  "UAV0": true
+ }
+}

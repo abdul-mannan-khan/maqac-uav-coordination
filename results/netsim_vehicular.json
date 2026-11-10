@@ -1,0 +1,269 @@
+{
+ "note": "Vehicular users (pre-registered 1 Nov 2026): a share of the users drive on a Manhattan road grid (roads every\n200 m, 8-15 m/s, random turn at each intersection, no stops); the rest are the urban scenario's pedestrians.\nUrban, veh_frac in {0.3, 0.6}, n in {4, 6, 8}, methods maqac, rag, iad, potgame, central, greedy_info, systematic\n(+ he2025 when implemented); 20 paired seeds 20000-20019 -> 840 missions (+120 per added method).\nReported like Table 2: mean J (95 % CI) and paired relative difference with Holm-adjusted paired t-tests per block.\nOutput: results/netsim_vehicular.jsonl (+ .json summary).",
+ "blocks": {
+  "veh0.3_n4": {
+   "J": {
+    "maqac": [
+     212.7,
+     7.0
+    ],
+    "rag": [
+     201.7,
+     6.0
+    ],
+    "iad": [
+     195.9,
+     7.5
+    ],
+    "potgame": [
+     202.9,
+     6.7
+    ],
+    "central": [
+     212.7,
+     8.6
+    ],
+    "greedy_info": [
+     179.5,
+     8.7
+    ],
+    "systematic": [
+     182.1,
+     7.2
+    ]
+   },
+   "vs_rag_pct": 5.5,
+   "vs_rag_p_holm": 0.005550102304942782,
+   "vs_iad_pct": 8.6,
+   "vs_iad_p_holm": 9.052796827919608e-05,
+   "vs_potgame_pct": 4.9,
+   "vs_potgame_p_holm": 0.006998329109345288,
+   "vs_central_pct": 0.0,
+   "vs_central_p_holm": 0.9988826102301687,
+   "vs_greedy_info_pct": 18.5,
+   "vs_greedy_info_p_holm": 4.993451764650385e-09,
+   "vs_systematic_pct": 16.8,
+   "vs_systematic_p_holm": 1.3388880614043619e-06
+  },
+  "veh0.3_n6": {
+   "J": {
+    "maqac": [
+     252.6,
+     6.4
+    ],
+    "rag": [
+     244.9,
+     6.7
+    ],
+    "iad": [
+     232.0,
+     8.3
+    ],
+    "potgame": [
+     236.5,
+     7.7
+    ],
+    "central": [
+     246.8,
+     9.2
+    ],
+    "greedy_info": [
+     224.2,
+     7.2
+    ],
+    "systematic": [
+     213.3,
+     8.7
+    ]
+   },
+   "vs_rag_pct": 3.2,
+   "vs_rag_p_holm": 0.00026289378020733325,
+   "vs_iad_pct": 8.9,
+   "vs_iad_p_holm": 2.2103633344266054e-06,
+   "vs_potgame_pct": 6.8,
+   "vs_potgame_p_holm": 2.0490200501560437e-06,
+   "vs_central_pct": 2.4,
+   "vs_central_p_holm": 0.10239937648788214,
+   "vs_greedy_info_pct": 12.7,
+   "vs_greedy_info_p_holm": 3.0098391795464647e-08,
+   "vs_systematic_pct": 18.4,
+   "vs_systematic_p_holm": 6.760996509892978e-09
+  },
+  "veh0.3_n8": {
+   "J": {
+    "maqac": [
+     268.5,
+     5.8
+    ],
+    "rag": [
+     262.6,
+     6.5
+    ],
+    "iad": [
+     254.5,
+     5.4
+    ],
+    "potgame": [
+     259.0,
+     6.3
+    ],
+    "central": [
+     258.9,
+     8.3
+    ],
+    "greedy_info": [
+     238.6,
+     7.5
+    ],
+    "systematic": [
+     218.3,
+     7.9
+    ]
+   },
+   "vs_rag_pct": 2.3,
+   "vs_rag_p_holm": 0.004271948576952853,
+   "vs_iad_pct": 5.5,
+   "vs_iad_p_holm": 1.0620997219728903e-06,
+   "vs_potgame_pct": 3.7,
+   "vs_potgame_p_holm": 0.0008430803316235493,
+   "vs_central_pct": 3.7,
+   "vs_central_p_holm": 0.006545017036288677,
+   "vs_greedy_info_pct": 12.5,
+   "vs_greedy_info_p_holm": 5.599235190743235e-11,
+   "vs_systematic_pct": 23.0,
+   "vs_systematic_p_holm": 9.69724577542433e-12
+  },
+  "veh0.6_n4": {
+   "J": {
+    "maqac": [
+     206.5,
+     5.7
+    ],
+    "rag": [
+     199.3,
+     4.1
+    ],
+    "iad": [
+     190.6,
+     7.1
+    ],
+    "potgame": [
+     194.4,
+     5.7
+    ],
+    "central": [
+     205.5,
+     7.1
+    ],
+    "greedy_info": [
+     181.7,
+     5.9
+    ],
+    "systematic": [
+     173.7,
+     7.8
+    ]
+   },
+   "vs_rag_pct": 3.6,
+   "vs_rag_p_holm": 0.03338029408164404,
+   "vs_iad_pct": 8.4,
+   "vs_iad_p_holm": 0.0006901284429029872,
+   "vs_potgame_pct": 6.2,
+   "vs_potgame_p_holm": 0.0029328669970232644,
+   "vs_central_pct": 0.5,
+   "vs_central_p_holm": 0.7836948752175807,
+   "vs_greedy_info_pct": 13.7,
+   "vs_greedy_info_p_holm": 3.4435743647926597e-07,
+   "vs_systematic_pct": 18.9,
+   "vs_systematic_p_holm": 3.4435743647926597e-07
+  },
+  "veh0.6_n6": {
+   "J": {
+    "maqac": [
+     247.9,
+     4.9
+    ],
+    "rag": [
+     239.4,
+     5.3
+    ],
+    "iad": [
+     230.6,
+     6.2
+    ],
+    "potgame": [
+     235.9,
+     5.1
+    ],
+    "central": [
+     238.6,
+     7.9
+    ],
+    "greedy_info": [
+     223.0,
+     6.7
+    ],
+    "systematic": [
+     203.7,
+     7.3
+    ]
+   },
+   "vs_rag_pct": 3.5,
+   "vs_rag_p_holm": 0.0001926032901431973,
+   "vs_iad_pct": 7.5,
+   "vs_iad_p_holm": 3.5277325978929228e-06,
+   "vs_potgame_pct": 5.1,
+   "vs_potgame_p_holm": 0.000125780636292722,
+   "vs_central_pct": 3.9,
+   "vs_central_p_holm": 0.0266439724495521,
+   "vs_greedy_info_pct": 11.2,
+   "vs_greedy_info_p_holm": 9.634037342171273e-07,
+   "vs_systematic_pct": 21.7,
+   "vs_systematic_p_holm": 1.7655082936613304e-09
+  },
+  "veh0.6_n8": {
+   "J": {
+    "maqac": [
+     263.2,
+     6.1
+    ],
+    "rag": [
+     255.8,
+     5.2
+    ],
+    "iad": [
+     254.7,
+     6.8
+    ],
+    "potgame": [
+     258.9,
+     7.5
+    ],
+    "central": [
+     248.3,
+     8.8
+    ],
+    "greedy_info": [
+     238.7,
+     8.7
+    ],
+    "systematic": [
+     215.8,
+     8.5
+    ]
+   },
+   "vs_rag_pct": 2.9,
+   "vs_rag_p_holm": 0.009309009723019578,
+   "vs_iad_pct": 3.3,
+   "vs_iad_p_holm": 0.008570856414611505,
+   "vs_potgame_pct": 1.7,
+   "vs_potgame_p_holm": 0.06471235097487744,
+   "vs_central_pct": 6.0,
+   "vs_central_p_holm": 0.0031208654139542966,
+   "vs_greedy_info_pct": 10.3,
+   "vs_greedy_info_p_holm": 7.797651128411082e-07,
+   "vs_systematic_pct": 22.0,
+   "vs_systematic_p_holm": 2.6247745188724485e-10
+  }
+ }
+}

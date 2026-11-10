@@ -1,0 +1,47 @@
+{
+ "groups": {
+  "city|3|maqac|onboard": {
+   "missions": 1,
+   "J": [
+    59.52975820686636,
+    null
+   ],
+   "dJ_vs_kinematic_pct": [
+    -13.14902951094975,
+    null
+   ],
+   "min_sep_m": 51.01,
+   "min_clear_m": Infinity,
+   "near_contact_missions": 0,
+   "near_contact_rate": 0.0,
+   "near_contact_cp95": [
+    0.0,
+    0.975
+   ],
+   "near_events_per_pair_h": 0.0,
+   "track_err_mean_m": [
+    7.662359168253723,
+    null
+   ],
+   "climb_energy_wh": [
+    0.22887556950511725,
+    null
+   ],
+   "pacing_overrun_frac": [
+    NaN,
+    null
+   ],
+   "collisions_airsim": 0
+  }
+ },
+ "paired": {},
+ "repeat_spread_J": null,
+ "near_contact_all": {
+  "missions": 1,
+  "with_near_contact": 0,
+  "cp95": [
+   0.0,
+   0.975
+  ]
+ }
+}

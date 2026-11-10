@@ -1,0 +1,389 @@
+{
+ "note": "Channel sensitivity of the main comparison (pre-registered 1 Nov 2026).\n\nQuestion: do the single-channel result (+55 % vs RAG at K = 1) and the value of the co-channel exclusion rule survive a\nharsher channel than the main grid's (fixed per-link shadowing, no fading)?\nVariants: 'fade'  = shadowing evolving with link displacement (decorrelation distance 50 m) + per-round block fading\n                    (Rician K = 10 dB on LOS links, Rayleigh on NLOS);\n          'worst' = 'fade' + every interfering link LOS (worst-case interference).\nUrban, n in {4, 6, 8}, K in {1, 3}, methods maqac, maqac_nocc (no exclusion), rag, iad, potgame; 20 paired seeds\n(20000-20019, the grid's first 20 test seeds) -> 2 x 3 x 2 x 5 x 20 = 1,200 missions.\nReported: mean J with 95 % CI, paired relative difference MAQAC vs each method with Holm-adjusted paired t-test per\n(variant, K, n) block. Output: results/netsim_channel_sensitivity.jsonl (+ .json summary).",
+ "blocks": {
+  "fade_K1_n4": {
+   "J": {
+    "maqac": [
+     224.9,
+     4.9
+    ],
+    "maqac_nocc": [
+     212.7,
+     6.2
+    ],
+    "rag": [
+     205.4,
+     7.5
+    ],
+    "iad": [
+     210.3,
+     7.4
+    ],
+    "potgame": [
+     215.2,
+     5.7
+    ]
+   },
+   "vs_maqac_nocc_pct": 5.7,
+   "vs_maqac_nocc_p_holm": 0.004320863275767474,
+   "vs_rag_pct": 9.5,
+   "vs_rag_p_holm": 7.554710759025745e-05,
+   "vs_iad_pct": 7.0,
+   "vs_iad_p_holm": 0.0016256712350625196,
+   "vs_potgame_pct": 4.5,
+   "vs_potgame_p_holm": 0.004320863275767474
+  },
+  "fade_K1_n6": {
+   "J": {
+    "maqac": [
+     255.2,
+     5.6
+    ],
+    "maqac_nocc": [
+     230.1,
+     12.2
+    ],
+    "rag": [
+     226.4,
+     10.1
+    ],
+    "iad": [
+     233.8,
+     7.2
+    ],
+    "potgame": [
+     228.3,
+     6.8
+    ]
+   },
+   "vs_maqac_nocc_pct": 10.9,
+   "vs_maqac_nocc_p_holm": 0.0004459236981366632,
+   "vs_rag_pct": 12.7,
+   "vs_rag_p_holm": 4.291961740407164e-05,
+   "vs_iad_pct": 9.2,
+   "vs_iad_p_holm": 4.291961740407164e-05,
+   "vs_potgame_pct": 11.8,
+   "vs_potgame_p_holm": 3.1538248437949783e-07
+  },
+  "fade_K1_n8": {
+   "J": {
+    "maqac": [
+     270.6,
+     5.8
+    ],
+    "maqac_nocc": [
+     224.8,
+     19.5
+    ],
+    "rag": [
+     235.5,
+     8.6
+    ],
+    "iad": [
+     243.8,
+     5.8
+    ],
+    "potgame": [
+     227.5,
+     5.1
+    ]
+   },
+   "vs_maqac_nocc_pct": 20.4,
+   "vs_maqac_nocc_p_holm": 0.00034596884892212394,
+   "vs_rag_pct": 14.9,
+   "vs_rag_p_holm": 3.992635033573738e-06,
+   "vs_iad_pct": 11.0,
+   "vs_iad_p_holm": 7.892280739941271e-08,
+   "vs_potgame_pct": 19.0,
+   "vs_potgame_p_holm": 1.9020832965413125e-11
+  },
+  "fade_K3_n4": {
+   "J": {
+    "maqac": [
+     239.3,
+     6.6
+    ],
+    "maqac_nocc": [
+     236.4,
+     6.6
+    ],
+    "rag": [
+     224.9,
+     7.5
+    ],
+    "iad": [
+     215.4,
+     7.3
+    ],
+    "potgame": [
+     219.5,
+     8.3
+    ]
+   },
+   "vs_maqac_nocc_pct": 1.2,
+   "vs_maqac_nocc_p_holm": 0.238031211237169,
+   "vs_rag_pct": 6.4,
+   "vs_rag_p_holm": 0.001021885276514803,
+   "vs_iad_pct": 11.1,
+   "vs_iad_p_holm": 1.8785675539872906e-07,
+   "vs_potgame_pct": 9.0,
+   "vs_potgame_p_holm": 2.9644582191160057e-06
+  },
+  "fade_K3_n6": {
+   "J": {
+    "maqac": [
+     280.0,
+     6.9
+    ],
+    "maqac_nocc": [
+     275.9,
+     7.7
+    ],
+    "rag": [
+     267.4,
+     8.0
+    ],
+    "iad": [
+     249.4,
+     8.5
+    ],
+    "potgame": [
+     252.7,
+     7.0
+    ]
+   },
+   "vs_maqac_nocc_pct": 1.5,
+   "vs_maqac_nocc_p_holm": 0.06379665674034203,
+   "vs_rag_pct": 4.7,
+   "vs_rag_p_holm": 0.00019819301721199083,
+   "vs_iad_pct": 12.3,
+   "vs_iad_p_holm": 5.545185501381072e-09,
+   "vs_potgame_pct": 10.8,
+   "vs_potgame_p_holm": 2.0163223426130058e-10
+  },
+  "fade_K3_n8": {
+   "J": {
+    "maqac": [
+     296.0,
+     6.8
+    ],
+    "maqac_nocc": [
+     294.4,
+     5.7
+    ],
+    "rag": [
+     286.3,
+     6.7
+    ],
+    "iad": [
+     267.3,
+     7.6
+    ],
+    "potgame": [
+     272.8,
+     6.8
+    ]
+   },
+   "vs_maqac_nocc_pct": 0.5,
+   "vs_maqac_nocc_p_holm": 0.43938284947926554,
+   "vs_rag_pct": 3.4,
+   "vs_rag_p_holm": 0.000436530591083426,
+   "vs_iad_pct": 10.7,
+   "vs_iad_p_holm": 1.0172274607859577e-09,
+   "vs_potgame_pct": 8.5,
+   "vs_potgame_p_holm": 7.730064913465286e-09
+  },
+  "worst_K1_n4": {
+   "J": {
+    "maqac": [
+     203.7,
+     6.3
+    ],
+    "maqac_nocc": [
+     193.7,
+     6.4
+    ],
+    "rag": [
+     182.2,
+     5.8
+    ],
+    "iad": [
+     195.1,
+     5.3
+    ],
+    "potgame": [
+     204.8,
+     5.5
+    ]
+   },
+   "vs_maqac_nocc_pct": 5.2,
+   "vs_maqac_nocc_p_holm": 0.02444088395121903,
+   "vs_rag_pct": 11.8,
+   "vs_rag_p_holm": 0.00011671699273964251,
+   "vs_iad_pct": 4.4,
+   "vs_iad_p_holm": 0.026983018666298753,
+   "vs_potgame_pct": -0.5,
+   "vs_potgame_p_holm": 0.7493959590618012
+  },
+  "worst_K1_n6": {
+   "J": {
+    "maqac": [
+     222.3,
+     4.3
+    ],
+    "maqac_nocc": [
+     180.9,
+     10.7
+    ],
+    "rag": [
+     175.1,
+     11.5
+    ],
+    "iad": [
+     205.2,
+     6.4
+    ],
+    "potgame": [
+     204.0,
+     5.3
+    ]
+   },
+   "vs_maqac_nocc_pct": 22.9,
+   "vs_maqac_nocc_p_holm": 2.3337135103199157e-06,
+   "vs_rag_pct": 26.9,
+   "vs_rag_p_holm": 3.0301937777760884e-07,
+   "vs_iad_pct": 8.3,
+   "vs_iad_p_holm": 0.00030389313782953014,
+   "vs_potgame_pct": 8.9,
+   "vs_potgame_p_holm": 3.651631564670637e-05
+  },
+  "worst_K1_n8": {
+   "J": {
+    "maqac": [
+     218.1,
+     4.1
+    ],
+    "maqac_nocc": [
+     158.1,
+     16.9
+    ],
+    "rag": [
+     166.5,
+     11.6
+    ],
+    "iad": [
+     203.7,
+     4.1
+    ],
+    "potgame": [
+     198.1,
+     5.6
+    ]
+   },
+   "vs_maqac_nocc_pct": 38.0,
+   "vs_maqac_nocc_p_holm": 1.2427353920713577e-06,
+   "vs_rag_pct": 31.0,
+   "vs_rag_p_holm": 9.302270557141234e-08,
+   "vs_iad_pct": 7.1,
+   "vs_iad_p_holm": 9.771755791049737e-06,
+   "vs_potgame_pct": 10.1,
+   "vs_potgame_p_holm": 7.3245351834707345e-06
+  },
+  "worst_K3_n4": {
+   "J": {
+    "maqac": [
+     237.1,
+     6.8
+    ],
+    "maqac_nocc": [
+     232.1,
+     6.1
+    ],
+    "rag": [
+     226.7,
+     6.0
+    ],
+    "iad": [
+     216.6,
+     8.3
+    ],
+    "potgame": [
+     219.0,
+     8.7
+    ]
+   },
+   "vs_maqac_nocc_pct": 2.2,
+   "vs_maqac_nocc_p_holm": 0.006148621162450377,
+   "vs_rag_pct": 4.6,
+   "vs_rag_p_holm": 0.00041346499225931746,
+   "vs_iad_pct": 9.5,
+   "vs_iad_p_holm": 8.143312134151722e-07,
+   "vs_potgame_pct": 8.3,
+   "vs_potgame_p_holm": 7.484708880226221e-05
+  },
+  "worst_K3_n6": {
+   "J": {
+    "maqac": [
+     276.4,
+     5.5
+    ],
+    "maqac_nocc": [
+     272.6,
+     6.4
+    ],
+    "rag": [
+     262.1,
+     7.3
+    ],
+    "iad": [
+     247.7,
+     6.5
+    ],
+    "potgame": [
+     249.3,
+     6.4
+    ]
+   },
+   "vs_maqac_nocc_pct": 1.4,
+   "vs_maqac_nocc_p_holm": 0.14797496731590343,
+   "vs_rag_pct": 5.4,
+   "vs_rag_p_holm": 7.0379503455593865e-06,
+   "vs_iad_pct": 11.6,
+   "vs_iad_p_holm": 2.8055082106125257e-12,
+   "vs_potgame_pct": 10.9,
+   "vs_potgame_p_holm": 2.6485025975440583e-10
+  },
+  "worst_K3_n8": {
+   "J": {
+    "maqac": [
+     289.5,
+     7.3
+    ],
+    "maqac_nocc": [
+     283.7,
+     6.7
+    ],
+    "rag": [
+     277.8,
+     5.6
+    ],
+    "iad": [
+     261.4,
+     7.5
+    ],
+    "potgame": [
+     266.6,
+     6.5
+    ]
+   },
+   "vs_maqac_nocc_pct": 2.1,
+   "vs_maqac_nocc_p_holm": 0.030087768481784887,
+   "vs_rag_pct": 4.2,
+   "vs_rag_p_holm": 0.0022395012771272518,
+   "vs_iad_pct": 10.7,
+   "vs_iad_p_holm": 6.83396648784206e-08,
+   "vs_potgame_pct": 8.6,
+   "vs_potgame_p_holm": 6.299319985108338e-07
+  }
+ }
+}

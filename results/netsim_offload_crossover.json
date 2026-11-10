@@ -1,0 +1,327 @@
+{
+ "note": "Certified offload crossover and held-out calibration (Sec. 7.7), pre-registered 1 Nov 2026.\n\nPart A, crossover: where does offloading perception stop paying, judged by the certificate of Cor. 10?\n  MAQAC, urban, 4 UAVs, T = 600 s, 80 missions per configuration (seeds 6000-6079, disjoint from all other studies).\n  Backhaul regimes: bandwidth bh_bw_mhz in {40, 10, 4, 2} x background load bg_load in {0, 0.9} (8 regimes).\n  Perception: 'onboard' (pd 0.80), 'onboard_good' (pd 0.90, sigma 3 m, class acc. 0.85, 0.3 FP; a better on-board\n  detector) and 'offload' (frames over the backhaul). 3 x 8 x 80 = 1,920 missions.\n  Per regime and mode: Learn-then-Test margin at eta = 0.1, delta/2 = 0.05 on 40 calibration missions, evaluated on the\n  other 40, over 200 random splits; the certified fraction is rho_hat - q_hat. Cor. 10 chooses the mode with the larger\n  certified fraction (offload vs the on-board detector of the same row).\nPart B, held-out calibration: calibrate on the 80 urban missions of the existing certificate study\n  (results/netsim_mission_certificate.pkl, seeds 5000-5079) and test on suburban and disaster missions\n  (80 each per perception mode, seeds 7000-7079): miss rate of the urban-calibrated margin on the new scenario, with a\n  Clopper-Pearson 95 % interval, against the allowed eta = 0.1. 2 x 3 x 80 = 480 missions.\nOutput: results/netsim_offload_crossover.pkl (per mission) and .json (summary).",
+ "A": {
+  "bw40_load0": {
+   "onboard": {
+    "J": 224.62723070749743,
+    "rho_hat": 0.6212255757986164,
+    "R": 0.268726520878191,
+    "certified": 0.22000522782556542,
+    "miss": 0.02875,
+    "frac_splits_miss_gt_eta": 0.055,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 225.88273236323417,
+    "rho_hat": 0.6004809793326091,
+    "R": 0.3577265666413647,
+    "certified": 0.2943016687289288,
+    "miss": 0.023499999999999997,
+    "frac_splits_miss_gt_eta": 0.025,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 227.41537356764405,
+    "rho_hat": 0.5961455985330077,
+    "R": 0.3782177675092847,
+    "certified": 0.321276230063403,
+    "miss": 0.0245,
+    "frac_splits_miss_gt_eta": 0.02,
+    "lat_s": 0.1863471548902615
+   },
+   "choice_vs_onboard": "offload",
+   "choice_vs_onboard_good": "offload"
+  },
+  "bw40_load0.9": {
+   "onboard": {
+    "J": 224.6272307074975,
+    "rho_hat": 0.6212255757986164,
+    "R": 0.268726520878191,
+    "certified": 0.21948533662326597,
+    "miss": 0.02625,
+    "frac_splits_miss_gt_eta": 0.035,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 225.88267406926448,
+    "rho_hat": 0.6004809793326091,
+    "R": 0.35772656664136476,
+    "certified": 0.295121137359705,
+    "miss": 0.026000000000000002,
+    "frac_splits_miss_gt_eta": 0.035,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 225.9533341674648,
+    "rho_hat": 0.598471108445401,
+    "R": 0.378686440560514,
+    "certified": 0.32708823820560895,
+    "miss": 0.027125,
+    "frac_splits_miss_gt_eta": 0.04,
+    "lat_s": 1.060839130504307
+   },
+   "choice_vs_onboard": "offload",
+   "choice_vs_onboard_good": "offload"
+  },
+  "bw10_load0": {
+   "onboard": {
+    "J": 224.62723070749743,
+    "rho_hat": 0.6212255757986164,
+    "R": 0.268726520878191,
+    "certified": 0.21964715957981362,
+    "miss": 0.027875000000000004,
+    "frac_splits_miss_gt_eta": 0.04,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 225.8827323632342,
+    "rho_hat": 0.6004809793326091,
+    "R": 0.35772656664136476,
+    "certified": 0.29439125120171644,
+    "miss": 0.024625000000000005,
+    "frac_splits_miss_gt_eta": 0.02,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 225.2118890003665,
+    "rho_hat": 0.5978773002983405,
+    "R": 0.3833080606304093,
+    "certified": 0.3264598381839123,
+    "miss": 0.024625000000000005,
+    "frac_splits_miss_gt_eta": 0.005,
+    "lat_s": 0.2473028031219286
+   },
+   "choice_vs_onboard": "offload",
+   "choice_vs_onboard_good": "offload"
+  },
+  "bw10_load0.9": {
+   "onboard": {
+    "J": 225.33832945496738,
+    "rho_hat": 0.6212562378966344,
+    "R": 0.2693917410344216,
+    "certified": 0.2275863693123533,
+    "miss": 0.024,
+    "frac_splits_miss_gt_eta": 0.025,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 225.58098690195774,
+    "rho_hat": 0.6014474697549286,
+    "R": 0.3593324155171477,
+    "certified": 0.2950375242518639,
+    "miss": 0.023625000000000004,
+    "frac_splits_miss_gt_eta": 0.005,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 175.93725739512064,
+    "rho_hat": 0.5855876660168202,
+    "R": 0.2750029139447793,
+    "certified": 0.20448187694078235,
+    "miss": 0.027750000000000004,
+    "frac_splits_miss_gt_eta": 0.035,
+    "lat_s": 21.90227938334151
+   },
+   "choice_vs_onboard": "onboard",
+   "choice_vs_onboard_good": "onboard_good"
+  },
+  "bw4_load0": {
+   "onboard": {
+    "J": 224.62723070749743,
+    "rho_hat": 0.6212255757986164,
+    "R": 0.268726520878191,
+    "certified": 0.2196950760929455,
+    "miss": 0.026625,
+    "frac_splits_miss_gt_eta": 0.025,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 225.8827323632342,
+    "rho_hat": 0.6004809793326091,
+    "R": 0.35772656664136476,
+    "certified": 0.2958411398860804,
+    "miss": 0.02725,
+    "frac_splits_miss_gt_eta": 0.03,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 226.551778902374,
+    "rho_hat": 0.5972001971157116,
+    "R": 0.3795299051558987,
+    "certified": 0.32973413815835967,
+    "miss": 0.024125,
+    "frac_splits_miss_gt_eta": 0.025,
+    "lat_s": 0.36550441293171315
+   },
+   "choice_vs_onboard": "offload",
+   "choice_vs_onboard_good": "offload"
+  },
+  "bw4_load0.9": {
+   "onboard": {
+    "J": 218.95685559214462,
+    "rho_hat": 0.6181226967122181,
+    "R": 0.2679409142033959,
+    "certified": 0.21845554356749536,
+    "miss": 0.02675,
+    "frac_splits_miss_gt_eta": 0.03,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 221.94015090358053,
+    "rho_hat": 0.6010924187495938,
+    "R": 0.36269249606922893,
+    "certified": 0.29792186561819656,
+    "miss": 0.026875,
+    "frac_splits_miss_gt_eta": 0.025,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 11.771686041374988,
+    "rho_hat": 0.5540909950040854,
+    "R": 0.26247320802937485,
+    "certified": 0.207526457435126,
+    "miss": 0.02625,
+    "frac_splits_miss_gt_eta": 0.035,
+    "lat_s": 25.882821823537416
+   },
+   "choice_vs_onboard": "onboard",
+   "choice_vs_onboard_good": "onboard_good"
+  },
+  "bw2_load0": {
+   "onboard": {
+    "J": 224.62723070749743,
+    "rho_hat": 0.6212255757986164,
+    "R": 0.268726520878191,
+    "certified": 0.21939690859928457,
+    "miss": 0.0255,
+    "frac_splits_miss_gt_eta": 0.035,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 225.88267406926443,
+    "rho_hat": 0.6004809793326091,
+    "R": 0.35772656664136476,
+    "certified": 0.2948200313469373,
+    "miss": 0.02475,
+    "frac_splits_miss_gt_eta": 0.005,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 225.6022961123055,
+    "rho_hat": 0.5968459297534061,
+    "R": 0.37549200207573075,
+    "certified": 0.32096846777880755,
+    "miss": 0.021875,
+    "frac_splits_miss_gt_eta": 0.01,
+    "lat_s": 0.9136254327567765
+   },
+   "choice_vs_onboard": "offload",
+   "choice_vs_onboard_good": "offload"
+  },
+  "bw2_load0.9": {
+   "onboard": {
+    "J": 194.08678875726727,
+    "rho_hat": 0.6082171674746241,
+    "R": 0.23554029500480075,
+    "certified": 0.1473574862531248,
+    "miss": 0.0235,
+    "frac_splits_miss_gt_eta": 0.025,
+    "lat_s": null
+   },
+   "onboard_good": {
+    "J": 197.0853567028424,
+    "rho_hat": 0.593179906903081,
+    "R": 0.33654105254248357,
+    "certified": 0.27364831265870715,
+    "miss": 0.027125,
+    "frac_splits_miss_gt_eta": 0.045,
+    "lat_s": null
+   },
+   "offload": {
+    "J": 0.0,
+    "rho_hat": 0.5489537634804529,
+    "R": 0.24786720328525425,
+    "certified": 0.18874924673931454,
+    "miss": 0.022375,
+    "frac_splits_miss_gt_eta": 0.03,
+    "lat_s": 43.69934772654758
+   },
+   "choice_vs_onboard": "offload",
+   "choice_vs_onboard_good": "onboard_good"
+  }
+ },
+ "B": {
+  "suburban_oracle": {
+   "q_urban": 0.2292276213678739,
+   "miss": 0.0125,
+   "miss_cp95": [
+    0.00031642252763270626,
+    0.0676877844639224
+   ],
+   "n": 80,
+   "certified": 0.3419993727808607,
+   "R": 0.38831359052145753,
+   "J": 200.96990701560017
+  },
+  "disaster_oracle": {
+   "q_urban": 0.2292276213678739,
+   "miss": 0.05,
+   "miss_cp95": [
+    0.013789393976461804,
+    0.12309873644315295
+   ],
+   "n": 80,
+   "certified": 0.39207038004258943,
+   "R": 0.47395857463463836,
+   "J": 286.5957990258814
+  },
+  "suburban_onboard": {
+   "q_urban": 0.3954949155151347,
+   "miss": 0.0625,
+   "miss_cp95": [
+    0.02060307230201024,
+    0.139857075297639
+   ],
+   "n": 80,
+   "certified": 0.1964667863133404,
+   "R": 0.23867488952456814,
+   "J": 194.84341154970872
+  },
+  "disaster_onboard": {
+   "q_urban": 0.3954949155151347,
+   "miss": 0.0,
+   "miss_cp95": [
+    0.0,
+    0.045064035067692285
+   ],
+   "n": 80,
+   "certified": 0.23539269828432258,
+   "R": 0.3718656545092298,
+   "J": 283.12427797276575
+  },
+  "suburban_offload": {
+   "q_urban": 0.25418980877633285,
+   "miss": 0.05,
+   "miss_cp95": [
+    0.013789393976461804,
+    0.12309873644315295
+   ],
+   "n": 80,
+   "certified": 0.32124130066104567,
+   "R": 0.3606367540698714,
+   "J": 199.44529535128342
+  },
+  "disaster_offload": {
+   "q_urban": 0.25418980877633285,
+   "miss": 0.0375,
+   "miss_cp95": [
+    0.0078011872657166945,
+    0.1057019850165086
+   ],
+   "n": 80,
+   "certified": 0.3654186036761674,
+   "R": 0.45596078512791366,
+   "J": 284.4775984005081
+  }
+ }
+}
