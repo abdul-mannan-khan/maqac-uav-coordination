@@ -1,0 +1,14 @@
+{
+  "title": "MAQAC: code, per-mission results and videos for certified coordination of UAV aerial base stations",
+  "upload_type": "software",
+  "description": "Simulator, MAQAC and all baseline coordination methods, AirSim/PX4 bridge, hardware-in-the-loop scripts, per-mission results and video demonstrations for the article \"Certified Coordination of UAV Aerial Base Stations under Imperfect Perception and Backhaul Delay\" (submitted to Vehicular Communications). See README.md.",
+  "creators": [
+    {"name": "Khan, Abdul-Manan", "affiliation": "University of West London"},
+    {"name": "Nazir, Rabia", "affiliation": "University of Engineering and Technology Lahore"},
+    {"name": "Bijalwan, Vishwanath", "affiliation": "Amity University Punjab"},
+    {"name": "Vellaiyan, Venkatesan", "affiliation": "BITS Pilani Dubai Campus"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["UAV base stations", "multi-agent coordination", "submodular optimization", "backhaul", "conformal prediction", "PX4", "AirSim"]
+}
