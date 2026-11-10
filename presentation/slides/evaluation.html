@@ -1,0 +1,31 @@
+<section id="evaluation" data-transition="fade" style="background:#F7F5EF;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;color:#B4570F;letter-spacing:3px;text-transform:uppercase;font-weight:600">Evaluation</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1">Four levels, from network model to flight controller</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border:1px solid #E3DFD3;border-radius:16px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;color:#B4570F;line-height:1">9,180</p>
+<h3 style="font-size:32px;font-weight:600;line-height:1.2">Network-level simulator</h3>
+<p style="font-size:24px;color:#3F4A5C;line-height:1.4">3GPP air-to-ground channel, SINR admission, 64 users per UAV, lossy multi-hop backhaul</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border:1px solid #E3DFD3;border-radius:16px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;color:#B4570F;line-height:1">10,080</p>
+<h3 style="font-size:32px;font-weight:600;line-height:1.2">Link-limited model</h3>
+<p style="font-size:24px;color:#3F4A5C;line-height:1.4">Session-long service, 6&#160;kg flight and energy, 3&#160;km areas; message loss and one channel</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border:1px solid #E3DFD3;border-radius:16px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;color:#B4570F;line-height:1">42</p>
+<h3 style="font-size:32px;font-weight:600;line-height:1.2">AirSim + PX4</h3>
+<p style="font-size:24px;color:#3F4A5C;line-height:1.4">Downtown city, each UAV flown by its own PX4 flight stack</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border:1px solid #E3DFD3;border-radius:16px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;color:#B4570F;line-height:1">30</p>
+<h3 style="font-size:32px;font-weight:600;line-height:1.2">Hardware in the loop</h3>
+<p style="font-size:24px;color:#3F4A5C;line-height:1.4">PX4 on a Pixhawk 6C; decisions on a Jetson Orin Nano</p>
+</div>
+</div>
+<p style="font-size:30px;line-height:1.45;color:#3F4A5C">Baselines: RAG (IEEE T-RO 2025), two interference-aware deployments, He et al. (IEEE TNSM 2025), MAPPO with 5 seeds × 3,000 iterations and uncoordinated methods. Paired seeds, Holm-corrected tests.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7180">Missions per level; link-limited = 4,320 comparison + 5,760 pre-registered stress missions</p>
+<aside>Every level answers a different question: the simulator compares methods at scale, the link-limited model tests how much the result depends on modelling choices, AirSim with PX4 checks that real flight control does not change the conclusions, and the hardware-in-the-loop runs check real-time feasibility on embedded hardware.</aside>
+</section>

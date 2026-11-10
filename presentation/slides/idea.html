@@ -1,0 +1,39 @@
+<section id="idea" data-transition="fade" style="background:#F7F5EF;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;color:#B4570F;letter-spacing:3px;text-transform:uppercase;font-weight:600">The method</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1">Every second, one exchange of records, then every UAV decides</h2>
+</div>
+<div style="display:flex;align-items:center;gap:20px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#14213D;color:#F7F5EF;padding:36px;border-radius:16px">
+<h3 style="font-size:34px;font-weight:600">1 · Share</h3>
+<p style="font-size:26px;color:#C9D3E3;line-height:1.35">Flood service records: who was served, when</p>
+</div>
+<x-shape kind="arrow-right" style="background:#D9772B;width:56px;height:32px"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#14213D;color:#F7F5EF;padding:36px;border-radius:16px">
+<h3 style="font-size:34px;font-weight:600">2 · Value</h3>
+<p style="font-size:26px;color:#C9D3E3;line-height:1.35">Detections + records + density prior, weighted by priority and survival</p>
+</div>
+<x-shape kind="arrow-right" style="background:#D9772B;width:56px;height:32px"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#14213D;color:#F7F5EF;padding:36px;border-radius:16px">
+<h3 style="font-size:34px;font-weight:600">3 · Choose</h3>
+<p style="font-size:26px;color:#C9D3E3;line-height:1.35">Best footprint, soft partition, co-channel exclusion</p>
+</div>
+<x-shape kind="arrow-right" style="background:#D9772B;width:56px;height:32px"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#14213D;color:#F7F5EF;padding:36px;border-radius:16px">
+<h3 style="font-size:34px;font-weight:600">4 · Fly</h3>
+<p style="font-size:26px;color:#C9D3E3;line-height:1.35">Move, admit users by SINR, rate and capacity</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px;border-left:6px solid #D9772B;padding:8px 0px 8px 32px">
+<h3 style="font-size:36px;font-weight:600">MAQAC</h3>
+<p style="font-size:28px;color:#3F4A5C;line-height:1.4">All UAVs choose at the same time: no message inside the round.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;border-left:6px solid #2B6CB0;padding:8px 0px 8px 32px">
+<h3 style="font-size:36px;font-weight:600">MAQAC-S</h3>
+<p style="font-size:28px;color:#3F4A5C;line-height:1.4">UAVs choose in turn; each announces its choice once.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7180">Algorithm 1 and Section 4 of the paper</p>
+<aside>The loop runs once per second. Record sharing is the component that matters most: removing it cost 26 to 33 percent of the score in the ablation. The co-channel exclusion keeps UAVs on the same channel at least the reuse distance apart, derived from the link budget, without extra messages. MAQAC-S is the sequential variant used in the link-limited study.</aside>
+</section>

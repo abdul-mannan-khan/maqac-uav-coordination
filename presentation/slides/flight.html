@@ -1,0 +1,18 @@
+<section id="flight" data-transition="fade" style="background:#F7F5EF;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;color:#B4570F;letter-spacing:3px;text-transform:uppercase;font-weight:600">Closed loop · AirSim CityEnviron, PX4, Pixhawk 6C</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1">Real flight control changes little</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<img src="/_blob/44543df12aba8a12a4667627518428be" alt="Six PX4-flown UAVs over the surveyed height map of AirSim CityEnviron, with altitude bars" style="width:808px;height:455px;object-fit:contain;border-radius:12px;background:#0F1420">
+<p style="font-size:26px;color:#3F4A5C;line-height:1.4"><b>42 SITL missions</b>, 3 and 6 UAVs: score within 5% of the kinematic model; closest UAVs 20.4&#160;m, buildings 19.3&#160;m; 0 contacts or near-contacts (95% bound 0.084)</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px">
+<img src="/_blob/bd7d850faed2df401fac2ecdfcf27b8a" alt="Hardware-in-the-loop mission replayed in AirSim: chase view of the Pixhawk-flown UAV over the city, with its track, altitude and the fleet decision time" style="width:808px;height:455px;object-fit:contain;border-radius:12px;background:#0F1420">
+<p style="font-size:26px;color:#3F4A5C;line-height:1.4"><b>30 HIL missions</b>: decisions in 17–33&#160;ms per round on a Jetson (RAG 31–55&#160;ms), no failsafe; in the city, score +1.8–2.7% vs kinematic</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7180">Section 6.10. The small 600&#160;m area tests flight and safety, not the ranking: MAQAC and MAQAC-S were within 0.7% of RAG there.</p>
+<aside>In the first set-up each UAV in AirSim had its own PX4 software-in-the-loop instance. In the hardware-in-the-loop runs one UAV was flown by PX4 on a real Pixhawk 6C while the Jetson Orin Nano computed all fleet decisions; in the last 15 missions AirSim supplied the physics and sensors for the Pixhawk. No outdoor flight was done.</aside>
+</section>

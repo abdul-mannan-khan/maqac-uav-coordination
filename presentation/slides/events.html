@@ -1,0 +1,29 @@
+<section id="events" data-transition="fade" style="background:#F7F5EF;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;color:#B4570F;letter-spacing:3px;text-transform:uppercase;font-weight:600">Result 1 · Theorem 3</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1">Value without a service order</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:28px">
+<p style="font-size:32px;line-height:1.45;color:#3F4A5C">A <b>service event</b> e = (UAV i, cell c, arrival time τ) carries its own arrival time. A user’s value is its survival at the earliest event that covers it:</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:44px;background:#FFFFFF;border:1px solid #E3DFD3;border-radius:16px;padding:36px;text-align:center">f(X) = Σⱼ wⱼ · max Sⱼ(τₑ)</p>
+<p style="font-size:26px;color:#6A7180;line-height:1.4">max over the events in X that cover user j; w = priority, S = session survival</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;gap:24px;align-items:start">
+<x-icon name="Check" style="color:#2B6CB0;width:48px;height:48px"></x-icon>
+<p style="font-size:32px;line-height:1.4">Monotone submodular for <b>any</b> non-increasing survival function</p>
+</div>
+<div style="display:flex;gap:24px;align-items:start">
+<x-icon name="Check" style="color:#2B6CB0;width:48px;height:48px"></x-icon>
+<p style="font-size:32px;line-height:1.4">No fixed service order: holds when UAVs choose at the same time and footprints overlap</p>
+</div>
+<div style="display:flex;gap:24px;align-items:start">
+<x-icon name="Check" style="color:#2B6CB0;width:48px;height:48px"></x-icon>
+<p style="font-size:32px;line-height:1.4">Equal in expectation to the score we measure</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7180">Checked in 20,000 random trials with arbitrary order and overlap: no violation (Supplementary Table S2)</p>
+<aside>The submodularity argument itself is standard: f is a weighted coverage function. The contribution is the modelling step. Order-dependent formulations need a centralized search over sequences; here the arrival time is part of the element, so adding one UAV's event cannot change another's value.</aside>
+</section>

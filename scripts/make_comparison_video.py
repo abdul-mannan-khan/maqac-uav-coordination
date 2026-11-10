@@ -4,7 +4,8 @@ seed 20000) flown by six methods on the same users, side by side, with each meth
 
 Methods: MAQAC, MAQAC-S, RAG (Xu, Garimella & Tzoumas, IEEE T-RO 2025), interference-aware deployment (IAD, after Lai
 et al. 2023), potential game (after Furuta et al. 2024) and MAPPO (one of its five trained policies, seed 0, best
-validation checkpoint; weights exported to results/demo/mappo_6_s0_actor.npz). Re-simulated with the network-level
+validation checkpoint of the 3,000-iteration v4 runs, iteration 2,919; weights exported to
+results/demo/mappo_6_s0_actor_v4.npz; the v3 export mappo_6_s0_actor.npz is kept). Re-simulated with the network-level
 simulator; the final scores equal the grid's for this mission (results/netsim_grid_fix.jsonl).
 
     python3 scripts/make_comparison_video.py --out demo/ [--quick]
@@ -48,7 +49,7 @@ def simulate(method, seed=20000, n=6):
     flags = None
     if method == 'mappo':
         import mappo                                                   # registers METHODS['mappo']
-        z = np.load(os.path.join(ROOT, 'results', 'demo', 'mappo_6_s0_actor.npz'))
+        z = np.load(os.path.join(ROOT, 'results', 'demo', 'mappo_6_s0_actor_v4.npz'))
         Wt = [z[f'arr_{i}'] for i in range(len(z.files))]
         flags = dict(policy=mappo.np_actor(Wt, greedy=True))
     cfg = replace(NetConfig(), scenario='urban', n_uav=n, name='main_urban_6')

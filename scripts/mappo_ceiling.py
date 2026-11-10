@@ -1,4 +1,4 @@
-"""Ceiling estimate for MAPPO v4 (added 10 Nov 2026, user request): fit each seed's validation curve J(k), k >= 500,
+"""Ceiling estimate for MAPPO v4 (added 10 Nov 2026): fit each seed's validation curve J(k), k >= 500,
 with two saturating models, (a) J = A - B*exp(-k/T) and (b) J = A - B*k^(-c), and report the asymptote A relative to
 the seed's best validation score. Offline analysis of results/mappo_v4/*_curve.jsonl -> results/mappo_v4_ceiling.json.
 An extrapolation, not a measurement. Both models fit equally well (RMSE ~2 at noise level; neither predicts

@@ -8,8 +8,10 @@ Segments (each an mp4 in --out/seg, then joined to --out/maqac_demo.mp4):
     when first served; the running score is the paper's QoS-weighted score J
   2 AirSim/PX4: six UAVs, each flown by PX4 SITL, over the surveyed CityEnviron height map (logged positions of
     results/airsim/refly_campaign/runs/ko_city_n6_maqac_seq_onboard_20000, re-flown 7 Nov 2026)
-  3 hardware in the loop: the Pixhawk-flown UAV in the city HIL (results/hil_airsim_city/maqac_seq_s20000): track
-    and altitude while climbing over towers
+  3 hardware in the loop: replay of the logged city HIL mission (results/hil_airsim_city/maqac_seq_s20000) in AirSim
+    with a chase camera, next to the map, altitude and decision-time panels (results/hil_video/maqac_hil_airsim_replay.mp4,
+    made by sim/hil/replay_hil_airsim.py, 10 Nov 2026), played at 2x (10x real time); falls back to the map-only
+    panel if that file is missing
   4 AirSim chase camera of a PX4 UAV in CityEnviron (results/airsim/one_drone_core_1031/chase.mp4)
   5 closing card with the paper's results
 Numbers on the cards are copied from the manuscript (Sections 6.3, 6.8 and 6.10).
@@ -257,6 +259,18 @@ def seg_hil(path, quick):
     w_.close()
 
 
+def seg_hil_replay(path, quick):
+    """The AirSim replay of the city HIL mission, at 2x and in the demo's format; False if the video is missing."""
+    src = os.path.join(ROOT, 'results', 'hil_video', 'maqac_hil_airsim_replay.mp4')
+    if not os.path.exists(src):
+        return False
+    dur = ['-t', '4'] if quick else []
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', src, *dur, '-vf',
+                    f'setpts=0.5*PTS,fps={FPS},scale=1280:720:flags=lanczos,format=yuv420p', '-an', '-c:v', 'libx264',
+                    '-crf', '20', path], check=True)
+    return True
+
+
 def seg_chase(path, quick):
     src = os.path.join(ROOT, 'results', 'airsim', 'one_drone_core_1031', 'chase.mp4')
     t = ['-t', '1'] if quick else []
@@ -286,22 +300,23 @@ def main():
         print('replay', info['replay'], flush=True)
     if '2' in only:
         card(P('2a'), 'Real flight control in a city', ['42 missions in AirSim CityEnviron, one PX4 flight stack per UAV',
-             'Flown score within 4% of the kinematic model', 'No two UAVs closer than 11.9 m; none closer than 19 m to a building'],
+             'Flight with PX4 changed the score by less than 5%', 'No two UAVs closer than 20.4 m; none closer than 19.3 m to a building'],
              3, a.quick)
         seg_airsim(P(2), a.quick)
     if '3' in only:
-        seg_hil(P(3), a.quick)
+        if not seg_hil_replay(P(3), a.quick):
+            seg_hil(P(3), a.quick)
     if '4' in only:
         card(P('4a'), 'AirSim chase camera', ['A PX4-flown UAV crossing the CityEnviron downtown map (first test flight, 31 Oct 2026)'],
              2, a.quick)
         seg_chase(P(4), a.quick)
     if '5' in only:
-        card(P(5), 'Results', ['Main grid (9,180 missions): 4-7% higher score than RAG in 8 of 15 settings',
-                               'Ahead of interference-aware (7-13%), potential-game and MAPPO (6-23%) deployments',
-                               'At 40% message loss MAQAC-S beats RAG by 5-22% (8 of 9 settings, 3 km areas)',
-                               'With one shared channel: +4-9%; and 5-8x fewer messages than RAG',
+        card(P(5), 'Results', ['Main grid (9,180 missions): 4-7% above RAG in urban and suburban fleets of 4-10 UAVs',
+                               'Ahead of interference-aware (7-13%), potential-game (7-10%) and MAPPO (8-13% urban, suburban)',
+                               'At 40% message loss MAQAC-S beats RAG by 3-22% on every 3 km setting',
+                               'With one shared channel: up to 9% ahead; 5-8x fewer coordination messages than RAG',
                                'Pixhawk in the loop: 30 missions, decisions in 17-33 ms per round, no failsafe',
-                               'Code and data: see the paper\'s Data Availability statement'], 7, a.quick)
+                               'Code, data, videos: github.com/abdul-mannan-khan/maqac-uav-coordination'], 7, a.quick)
     order = [k for k in ['0', '1', '2a', '2', '3', '4a', '4', '5'] if os.path.exists(P(k))]
     lst = os.path.join(seg, 'list.txt')
     with open(lst, 'w') as fh:

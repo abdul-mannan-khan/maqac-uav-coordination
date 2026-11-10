@@ -1,0 +1,108 @@
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 4, "seed": 20002, "error": null, "qos_score": 460.41544843971786, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 4, "seed": 20000, "error": null, "qos_score": 437.32154524268446, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 4, "seed": 20002, "error": null, "qos_score": 420.2715963895385, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 4, "seed": 20000, "error": null, "qos_score": 575.6011687955898, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 4, "seed": 20002, "error": null, "qos_score": 553.9928899820306, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 4, "seed": 20002, "error": null, "qos_score": 417.6783945053986, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 4, "seed": 20001, "error": null, "qos_score": 483.7289290375178, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 4, "seed": 20001, "error": null, "qos_score": 484.8265519347473, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 4, "seed": 20001, "error": null, "qos_score": 427.5842117863424, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 4, "seed": 20000, "error": null, "qos_score": 508.8337096829338, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 4, "seed": 20002, "error": null, "qos_score": 554.019983065737, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 4, "seed": 20002, "error": null, "qos_score": 460.3029243184976, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 4, "seed": 20000, "error": null, "qos_score": 437.1047800901853, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 4, "seed": 20001, "error": null, "qos_score": 588.3160742408836, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 4, "seed": 20001, "error": null, "qos_score": 588.0096796273345, "direct": 5126}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 4, "seed": 20000, "error": null, "qos_score": 509.7029541430028, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 4, "seed": 20000, "error": null, "qos_score": 574.6213275346229, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 6, "seed": 20000, "error": null, "qos_score": 590.3638072961936, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 6, "seed": 20002, "error": null, "qos_score": 564.269444099966, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 6, "seed": 20001, "error": null, "qos_score": 591.9127145018525, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 6, "seed": 20000, "error": null, "qos_score": 520.2120310704254, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 4, "seed": 20001, "error": null, "qos_score": 425.54735006179294, "direct": 5126}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 8, "seed": 20002, "error": null, "qos_score": 563.5747388884649, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 6, "seed": 20002, "error": null, "qos_score": 478.9042975806619, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 6, "seed": 20000, "error": null, "qos_score": 520.3701713120776, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 6, "seed": 20000, "error": null, "qos_score": 447.01158328354575, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 6, "seed": 20001, "error": null, "qos_score": 499.35436027742907, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 6, "seed": 20002, "error": null, "qos_score": 478.8952856172125, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 6, "seed": 20001, "error": null, "qos_score": 499.25760923197055, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 6, "seed": 20000, "error": null, "qos_score": 447.02650610071925, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 6, "seed": 20000, "error": null, "qos_score": 590.4253515939818, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 6, "seed": 20001, "error": null, "qos_score": 591.9230504707721, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 6, "seed": 20002, "error": null, "qos_score": 430.6560926013301, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 8, "seed": 20002, "error": null, "qos_score": 563.530000668464, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 6, "seed": 20002, "error": null, "qos_score": 430.88944801317393, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 8, "seed": 20002, "error": null, "qos_score": 434.44327793501964, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 6, "seed": 20002, "error": null, "qos_score": 564.410511364328, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 6, "seed": 20001, "error": null, "qos_score": 436.5343619396933, "direct": 12715}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 8, "seed": 20002, "error": null, "qos_score": 481.95714429017323, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 6, "seed": 20001, "error": null, "qos_score": 436.3622114243666, "direct": 12715}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 8, "seed": 20001, "error": null, "qos_score": 598.4708763946795, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 8, "seed": 20001, "error": null, "qos_score": 502.72622710604634, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 8, "seed": 20002, "error": null, "qos_score": 434.38076236901054, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 8, "seed": 20001, "error": null, "qos_score": 437.12167792507154, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 8, "seed": 20002, "error": null, "qos_score": 482.1182996399737, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 8, "seed": 20001, "error": null, "qos_score": 502.8753341713959, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 8, "seed": 20000, "error": null, "qos_score": 590.1543893908142, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "urban", "n": 8, "seed": 20000, "error": null, "qos_score": 519.5527322456019, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 8, "seed": 20001, "error": null, "qos_score": 439.0277395526, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "urban", "n": 8, "seed": 20000, "error": null, "qos_score": 519.6052534499777, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "disaster", "n": 8, "seed": 20000, "error": null, "qos_score": 592.1013821554072, "direct": 23548}
+{"cond": "loss40", "W": 1000.0, "scenario": "suburban", "n": 8, "seed": 20000, "error": null, "qos_score": 447.6064624574593, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "suburban", "n": 8, "seed": 20000, "error": null, "qos_score": 446.7146613929456, "direct": 23548}
+{"cond": "none", "W": 1000.0, "scenario": "disaster", "n": 8, "seed": 20001, "error": null, "qos_score": 598.3714741403645, "direct": 23548}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 4, "seed": 20002, "error": null, "qos_score": 2227.6109864553796, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 4, "seed": 20001, "error": null, "qos_score": 1530.3400235048534, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 4, "seed": 20001, "error": null, "qos_score": 1662.8600552774801, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 4, "seed": 20001, "error": null, "qos_score": 2234.9067973374295, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 4, "seed": 20000, "error": null, "qos_score": 1532.7826850787421, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 4, "seed": 20001, "error": null, "qos_score": 1506.807453051617, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 4, "seed": 20002, "error": null, "qos_score": 1791.952070897862, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 4, "seed": 20000, "error": null, "qos_score": 1719.3859705438792, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 4, "seed": 20000, "error": null, "qos_score": 2161.6379313620764, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 4, "seed": 20000, "error": null, "qos_score": 1731.7833717422031, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 4, "seed": 20001, "error": null, "qos_score": 2185.734645603515, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 4, "seed": 20001, "error": null, "qos_score": 1674.792221049092, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 4, "seed": 20002, "error": null, "qos_score": 1508.69926806034, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 4, "seed": 20000, "error": null, "qos_score": 1558.17750433037, "direct": 5126}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 4, "seed": 20002, "error": null, "qos_score": 1491.6853589380744, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 4, "seed": 20000, "error": null, "qos_score": 2075.945910714325, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 4, "seed": 20002, "error": null, "qos_score": 1756.5912843547105, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 4, "seed": 20002, "error": null, "qos_score": 2209.2349369868757, "direct": 5126}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 6, "seed": 20000, "error": null, "qos_score": 2487.962150731415, "direct": 12659, "relay": 56, "relay_hops": 112}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 6, "seed": 20002, "error": null, "qos_score": 2727.1371738213056, "direct": 12715}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 6, "seed": 20002, "error": null, "qos_score": 2185.7778608417384, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 6, "seed": 20002, "error": null, "qos_score": 2209.4886819985873, "direct": 12715}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 6, "seed": 20000, "error": null, "qos_score": 2455.5317304233404, "direct": 12715}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 6, "seed": 20002, "error": null, "qos_score": 1967.7356692135927, "direct": 12588, "relay": 127, "relay_hops": 254}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 6, "seed": 20002, "error": null, "qos_score": 2595.9239924202184, "direct": 12715}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 6, "seed": 20000, "error": null, "qos_score": 1982.4724986098868, "direct": 12714, "relay": 1, "relay_hops": 2}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 6, "seed": 20001, "error": null, "qos_score": 2714.110076192367, "direct": 12715}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 6, "seed": 20000, "error": null, "qos_score": 2232.533645261461, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 6, "seed": 20000, "error": null, "qos_score": 1995.8832614608116, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 6, "seed": 20001, "error": null, "qos_score": 2626.23173732071, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 6, "seed": 20002, "error": null, "qos_score": 1967.76738501461, "direct": 12703, "relay": 12, "relay_hops": 24}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 6, "seed": 20001, "error": null, "qos_score": 2152.0395498816583, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 6, "seed": 20001, "error": null, "qos_score": 2195.471278561089, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 6, "seed": 20001, "error": null, "qos_score": 2043.0540591930362, "direct": 12715}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 6, "seed": 20000, "error": null, "qos_score": 2192.354203194084, "direct": 12715}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 6, "seed": 20001, "error": null, "qos_score": 2024.5395222913726, "direct": 12670, "relay": 45, "relay_hops": 90}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 8, "seed": 20001, "error": null, "qos_score": 3220.3485804303136, "direct": 23548}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 8, "seed": 20002, "error": null, "qos_score": 3139.96059936028, "direct": 23548}
+{"cond": "loss40", "W": 3000.0, "scenario": "disaster", "n": 8, "seed": 20000, "error": null, "qos_score": 2972.600226812221, "direct": 23548}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 8, "seed": 20000, "error": null, "qos_score": 2600.6725077944775, "direct": 23548}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 8, "seed": 20001, "error": null, "qos_score": 3081.0866771342726, "direct": 23438, "relay": 110, "relay_hops": 220}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 8, "seed": 20000, "error": null, "qos_score": 3065.721220556952, "direct": 23507, "relay": 41, "relay_hops": 82}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 8, "seed": 20001, "error": null, "qos_score": 2625.8397259337266, "direct": 23548}
+{"cond": "none", "W": 3000.0, "scenario": "disaster", "n": 8, "seed": 20002, "error": null, "qos_score": 3031.178237377219, "direct": 23548}
+{"cond": "loss40", "W": 3000.0, "scenario": "urban", "n": 8, "seed": 20002, "error": null, "qos_score": 2587.8623386084873, "direct": 23548}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 8, "seed": 20001, "error": null, "qos_score": 2608.3542043393645, "direct": 23548}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 8, "seed": 20000, "error": null, "qos_score": 2293.9621574143894, "direct": 23508, "relay": 40, "relay_hops": 80}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 8, "seed": 20001, "error": null, "qos_score": 2366.8048197871285, "direct": 23514, "relay": 34, "relay_hops": 68}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 8, "seed": 20002, "error": null, "qos_score": 2588.8784419238755, "direct": 23509, "relay": 39, "relay_hops": 78}
+{"cond": "loss40", "W": 3000.0, "scenario": "suburban", "n": 8, "seed": 20002, "error": null, "qos_score": 2373.9640520119287, "direct": 23393, "relay": 155, "relay_hops": 310}
+{"cond": "none", "W": 3000.0, "scenario": "urban", "n": 8, "seed": 20000, "error": null, "qos_score": 2570.958335291296, "direct": 23548}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 8, "seed": 20001, "error": null, "qos_score": 2363.1222760142236, "direct": 23536, "relay": 12, "relay_hops": 24}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 8, "seed": 20002, "error": null, "qos_score": 2376.880632070979, "direct": 23332, "relay": 216, "relay_hops": 432}
+{"cond": "none", "W": 3000.0, "scenario": "suburban", "n": 8, "seed": 20000, "error": null, "qos_score": 2304.0837406371224, "direct": 23548}
