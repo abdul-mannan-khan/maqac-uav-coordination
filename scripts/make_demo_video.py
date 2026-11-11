@@ -283,7 +283,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', default='demo')
     ap.add_argument('--quick', action='store_true')
-    ap.add_argument('--only', default='0,1,2,3,4,5')
+    ap.add_argument('--only', default='0,1,2,3,5')   # 4 (shaky 31 Oct chase clip) dropped 11 Nov; seg 3 has a stable chase view
     a = ap.parse_args()
     seg = os.path.join(a.out, 'seg'); os.makedirs(seg, exist_ok=True)
     only = set(a.only.split(','))

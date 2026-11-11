@@ -62,10 +62,6 @@
      "Then a hardware in the loop mission, replayed in the AirSim city from its flight log. A real Pixhawk flew this drone, while the Jetson computed every fleet decision, in about twenty milliseconds per round."
     ],
     [
-     "seg:4a",
-     "Finally, a chase camera follows a PX4 controlled drone across the downtown map."
-    ],
-    [
      "seg:5",
      "And these are the results in brief."
     ]
